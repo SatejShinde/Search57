@@ -58,6 +58,19 @@ from ats_scrapers.scrapers import (
 import ats_scrapers.scrapers.meta as _meta_module
 _meta_module._GRAPHQL_SETTLE_MS = 20_000
 
+# Google's scraper sends User-Agent: "Mozilla/5.0" for its main listing
+# fetch -- bare, no OS/browser details, a textbook bot signature. Verified
+# 2026-08: fetching the exact same listing URL with a complete, realistic
+# UA string returned full real content (3,600+ live postings, correct
+# HTML structure); the scraper's own bare UA is the most likely reason it
+# returns 0 with no error. default_headers on the class is the same dict
+# object as this module-level one, so mutating it here takes effect.
+import ats_scrapers.scrapers.google as _google_module
+_google_module._HEADERS["User-Agent"] = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
 # --------------------------------------------------------------------------
 # Company config
 # --------------------------------------------------------------------------
