@@ -47,6 +47,17 @@ from ats_scrapers.scrapers import (
     WorkdayScraper,
 )
 
+# Meta's scraper listens for background network calls after loading the
+# page rather than calling an API directly, and only waits 8s by default
+# for them to fire. Confirmed 2026-08: Meta silently returned 0 results
+# in CI (no error -- the browser loaded fine, it just didn't catch
+# anything in that window) while Tesla, which uses the same browser
+# mechanism, succeeded with 357 results in the same run. Stretching the
+# window is a cheap, low-risk experiment for a shared CI runner being
+# slower than a residential machine. Not guaranteed to fix it.
+import ats_scrapers.scrapers.meta as _meta_module
+_meta_module._GRAPHQL_SETTLE_MS = 20_000
+
 # --------------------------------------------------------------------------
 # Company config
 # --------------------------------------------------------------------------
