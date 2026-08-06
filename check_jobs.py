@@ -162,6 +162,23 @@ def send_telegram(token: str, chat_id: str, text: str) -> None:
         print(f"  [telegram error] {resp.status_code}: {resp.text[:200]}", file=sys.stderr)
 
 
+def canonical_url(platform: str, job: Any) -> str:
+    """Some platforms' raw APIs occasionally return an internal or
+    malformed URL instead of the public listing link. Amazon confirmed
+    2026-08: its `urlNextStep` field sometimes returns an internal
+    apply-flow URL (account.amazon.com/jobs/{id}/apply) that doesn't
+    resolve, instead of the public listing. The reliably-working format,
+    verified against real postings, is the plain ID-based public URL --
+    rebuild it from the job ID rather than trust the raw field. Extend
+    this dict if other platforms show the same issue.
+    """
+    overrides = {
+        "amazon": lambda j: f"https://www.amazon.jobs/en/jobs/{j.ats_id}",
+    }
+    fix = overrides.get(platform)
+    return fix(job) if fix else job.url
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--tier", choices=["fast", "slow"], required=True)
@@ -194,7 +211,8 @@ def main() -> None:
         for job in relevant:
             if job.ats_id in new_ids:
                 total_new += 1
-                msg = f"\U0001f195 <b>{name}</b>: {job.title}\n{job.location or ''}\n{job.url}"
+                url = canonical_url(company["platform"], job)
+                msg = f"\U0001f195 <b>{name}</b>: {job.title}\n{job.location or ''}\n{url}"
                 send_telegram(token, chat_id, msg)
 
         state[name] = sorted(current_ids)
