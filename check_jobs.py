@@ -10,7 +10,6 @@ state_<tier>.json in the repo root. The GitHub Actions workflow commits that
 file back after every run, so state persists across runs even though each
 run starts on a fresh machine.
 
-Tiers exist because company catalogs are wildly different sizes:
   - "fast": small-catalog targets (dozens to low hundreds of open roles
     company-wide), so a full scan every ~10 min is cheap and this is where
     being first actually matters -- these postings aren't watched by every
