@@ -1,0 +1,2 @@
+ats-scrapers[scrapers]
+requests
