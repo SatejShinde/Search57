@@ -49,22 +49,26 @@ from ats_scrapers.scrapers import (
 
 # Meta's scraper listens for background network calls after loading the
 # page rather than calling an API directly, and only waits 8s by default
-# for them to fire. Confirmed 2026-08: Meta silently returned 0 results
-# in CI (no error -- the browser loaded fine, it just didn't catch
-# anything in that window) while Tesla, which uses the same browser
-# mechanism, succeeded with 357 results in the same run. Stretching the
-# window is a cheap, low-risk experiment for a shared CI runner being
-# slower than a residential machine. Not guaranteed to fix it.
+# for them to fire. Tried stretching this to 20s on the theory that a
+# shared CI runner might be slower than a residential machine to fire the
+# call. Confirmed 2026-08: did NOT fix it -- still returns 0 with the
+# longer window, so the cause isn't timing. Left in since it's harmless,
+# but don't treat this as a working fix. Likely needs either page
+# interaction the scraper doesn't perform, or Meta's bot detection
+# catching cloakbrowser specifically -- neither fixable from here.
 import ats_scrapers.scrapers.meta as _meta_module
 _meta_module._GRAPHQL_SETTLE_MS = 20_000
 
 # Google's scraper sends User-Agent: "Mozilla/5.0" for its main listing
-# fetch -- bare, no OS/browser details, a textbook bot signature. Verified
-# 2026-08: fetching the exact same listing URL with a complete, realistic
-# UA string returned full real content (3,600+ live postings, correct
-# HTML structure); the scraper's own bare UA is the most likely reason it
-# returns 0 with no error. default_headers on the class is the same dict
-# object as this module-level one, so mutating it here takes effect.
+# fetch -- bare, no OS/browser details. Tried a full realistic UA string
+# on the theory that Google was serving a stripped-down shell to obvious
+# bot traffic. Confirmed 2026-08: did NOT fix it -- still returns 0.
+# Verified separately that the live page itself returns full real content
+# to a normal fetch, so it's not blocked outright; more likely the gap is
+# TLS/connection-level fingerprinting (a real browser's handshake looks
+# different from a scripted HTTP client even with identical headers),
+# which a header change can't fix. Left in since it's harmless, but this
+# is a known, accepted gap, not a working fix.
 import ats_scrapers.scrapers.google as _google_module
 _google_module._HEADERS["User-Agent"] = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -135,6 +139,48 @@ COMPANIES: list[dict[str, Any]] = [
 # "intern" from matching inside "international". Tune this list as needed --
 # e.g. add "new grad" once you want that signal too.
 KEYWORDS = re.compile(r"\b(intern|internship|co-?op)\b", re.IGNORECASE)
+
+# US-only filter. These scrapers pull company-wide listings from platforms
+# that mix US and international postings freely (NVIDIA, Amazon, Siemens,
+# etc. all have offices worldwide) -- this excludes anything not clearly
+# US-based. Positive match (require a US signal) rather than a country
+# blocklist, since US job listings consistently include a state name or
+# abbreviation across every platform seen so far (Eightfold, Workday,
+# Oracle, Greenhouse, first-party scrapers alike) -- a blocklist would need
+# to enumerate every non-US country and could still miss one; this only
+# needs to recognize the ~51 things that mean "US."
+_US_STATES = {
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID",
+    "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS",
+    "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK",
+    "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
+    "WI", "WY", "DC",
+}
+_US_STATE_PATTERN = re.compile(r"\b(" + "|".join(_US_STATES) + r")\b")
+_US_COUNTRY_PATTERN = re.compile(r"\b(USA|U\.S\.A?\.?|United States)\b", re.IGNORECASE)
+
+
+# Not a full country blocklist (deliberately avoided -- would need to
+# enumerate every non-US country and could still miss one). Only used to
+# catch the specific "Remote - India" pattern, where "Remote" alone would
+# otherwise wrongly pass as a US signal. Covers the countries these
+# specific tracked companies are known to have offices in.
+_NON_US_HINTS = re.compile(
+    r"\b(INDIA|CANADA|GERMANY|CHINA|JAPAN|SINGAPORE|IRELAND|POLAND|MEXICO|"
+    r"BRAZIL|ISRAEL|FRANCE|NETHERLANDS|SWITZERLAND|AUSTRALIA|UK|UNITED KINGDOM)\b"
+)
+
+
+def is_us_location(location: str | None) -> bool:
+    if not location:
+        return False  # unknown location -- exclude rather than guess
+    text = location.upper()
+    if "REMOTE" in text and not _NON_US_HINTS.search(text):
+        # Every tracked company is US-headquartered; a bare "Remote" with
+        # no state is far more likely US-remote than international-remote
+        # -- unless another country is explicitly named alongside it.
+        return True
+    return bool(_US_COUNTRY_PATTERN.search(text) or _US_STATE_PATTERN.search(text))
 
 PLATFORM_BUILDERS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "amazon": lambda c: AmazonScraper("amazon", include_descriptions=False),
@@ -228,7 +274,10 @@ def main() -> None:
             print(f"  [{name}] fetch failed: {exc}", file=sys.stderr)
             continue
 
-        relevant = [j for j in jobs if KEYWORDS.search(j.title or "")]
+        relevant = [
+            j for j in jobs
+            if KEYWORDS.search(j.title or "") and is_us_location(j.location)
+        ]
         current_ids = {j.ats_id for j in relevant}
         new_ids = current_ids - seen
 
@@ -240,7 +289,10 @@ def main() -> None:
                 send_telegram(token, chat_id, msg)
 
         state[name] = sorted(current_ids)
-        print(f"  [{name}] {len(relevant)} intern/co-op postings, {len(new_ids)} new")
+        print(
+            f"  [{name}] {len(jobs)} total postings company-wide, "
+            f"{len(relevant)} intern/co-op+US, {len(new_ids)} new"
+        )
 
     save_state(state_path, state)
     print(f"Done. {total_new} new postings sent to Telegram.")
