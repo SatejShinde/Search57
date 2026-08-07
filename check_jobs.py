@@ -45,6 +45,7 @@ from ats_scrapers.scrapers import (
     SmartRecruitersScraper,
     TeslaScraper,
     WorkdayScraper,
+    iCIMSScraper,
 )
 
 # Meta's scraper listens for background network calls after loading the
@@ -129,6 +130,12 @@ COMPANIES: list[dict[str, Any]] = [
         "job_url_host": "https://jobs.careers.microsoft.com",
     },
     {"name": "Amazon", "tier": "slow", "platform": "amazon"},
+    # AMD: confirmed 2026-08 via the "Returning User Login" link on its
+    # careers page pointing to careers-amd.icims.com -- runs on iCIMS.
+    # Placed in slow tier by the same logic as Microsoft: a semiconductor
+    # giant of comparable scale, not an explicit #1-priority exception
+    # like NVIDIA. Move to "fast" if that assumption's wrong.
+    {"name": "AMD", "tier": "slow", "platform": "icims", "slug": "amd"},
     {"name": "Apple", "tier": "slow", "platform": "apple"},
     {"name": "Google", "tier": "slow", "platform": "google"},
     {"name": "Meta", "tier": "slow", "platform": "meta"},
@@ -204,6 +211,7 @@ PLATFORM_BUILDERS: dict[str, Callable[[dict[str, Any]], Any]] = {
     ),
     "smartrecruiters": lambda c: SmartRecruitersScraper(c["slug"], include_descriptions=False),
     "greenhouse": lambda c: GreenhouseScraper(c["slug"], include_descriptions=False),
+    "icims": lambda c: iCIMSScraper(c["slug"], include_descriptions=False),
 }
 
 
