@@ -163,8 +163,30 @@ _US_STATES = {
     "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV",
     "WI", "WY", "DC",
 }
-_US_STATE_PATTERN = re.compile(r"\b(" + "|".join(_US_STATES) + r")\b")
+
+# These US state codes are ALSO valid ISO country codes for other nations
+# these companies have offices in -- IN=India, IL=Israel, CO=Colombia,
+# DE=Germany, GA=Georgia(country), PA=Panama. A location like "Bangalore,
+# IN" would otherwise read as Indiana. Confirmed 2026-08: exactly this
+# bug let India/Israel/Colombia postings through.
+_AMBIGUOUS_CODES = {"IN", "IL", "CO", "DE", "GA", "PA"}
+_UNAMBIGUOUS_STATES = _US_STATES - _AMBIGUOUS_CODES
+
+_US_STATE_PATTERN = re.compile(r"\b(" + "|".join(_UNAMBIGUOUS_STATES) + r")\b")
+_AMBIGUOUS_CODE_PATTERN = re.compile(r"\b(" + "|".join(_AMBIGUOUS_CODES) + r")\b")
 _US_COUNTRY_PATTERN = re.compile(r"\b(USA|U\.S\.A?\.?|United States)\b", re.IGNORECASE)
+
+# Major non-US cities that would realistically appear alongside one of the
+# ambiguous codes above if it's actually the foreign ISO code, not the US
+# state. Not exhaustive by design (same reasoning as _NON_US_HINTS below --
+# a full list is unbounded) -- covers the cities these specific companies
+# are known to have offices in.
+_AMBIGUOUS_CODE_FOREIGN_CITIES = re.compile(
+    r"\b(BANGALORE|BENGALURU|HYDERABAD|PUNE|MUMBAI|DELHI|NOIDA|GURGAON|"
+    r"GURUGRAM|CHENNAI|KOLKATA|TEL AVIV|HERZLIYA|JERUSALEM|HAIFA|NETANYA|"
+    r"BOGOTA|BOGOTÁ|MEDELLIN|MEDELLÍN|CALI|BERLIN|MUNICH|MÜNCHEN|FRANKFURT|"
+    r"HAMBURG|STUTTGART|TBILISI|PANAMA CITY)\b"
+)
 
 
 # Not a full country blocklist (deliberately avoided -- would need to
@@ -187,7 +209,13 @@ def is_us_location(location: str | None) -> bool:
         # no state is far more likely US-remote than international-remote
         # -- unless another country is explicitly named alongside it.
         return True
-    return bool(_US_COUNTRY_PATTERN.search(text) or _US_STATE_PATTERN.search(text))
+    if _US_COUNTRY_PATTERN.search(text) or _US_STATE_PATTERN.search(text):
+        return True
+    if _AMBIGUOUS_CODE_PATTERN.search(text) and not _AMBIGUOUS_CODE_FOREIGN_CITIES.search(text):
+        # e.g. "Indianapolis, IN" -- ambiguous code, no foreign city
+        # alongside it, give it the benefit of the doubt as the US state.
+        return True
+    return False
 
 PLATFORM_BUILDERS: dict[str, Callable[[dict[str, Any]], Any]] = {
     "amazon": lambda c: AmazonScraper("amazon", include_descriptions=False),
