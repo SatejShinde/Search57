@@ -34,6 +34,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009321",
     "hdjq.fa.us2.oraclecloud.com:26009323",
     "hdjq.fa.us2.oraclecloud.com:26009324",
+    "hdjq.fa.us2.oraclecloud.com:26009368",
     "hdjq.fa.us2.oraclecloud.com:26009402",
     "hdjq.fa.us2.oraclecloud.com:26009410",
     "hdjq.fa.us2.oraclecloud.com:26009411",
@@ -137,7 +138,8 @@
     "3093241",
     "3095341",
     "3095681",
-    "3095686"
+    "3095686",
+    "3095731"
   ],
   "Rockwell Automation": [
     "R26-5010",
