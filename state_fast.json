@@ -38,7 +38,6 @@
     "hdjq.fa.us2.oraclecloud.com:26009402",
     "hdjq.fa.us2.oraclecloud.com:26009410",
     "hdjq.fa.us2.oraclecloud.com:26009411",
-    "hdjq.fa.us2.oraclecloud.com:26009441",
     "hdjq.fa.us2.oraclecloud.com:26009442",
     "hdjq.fa.us2.oraclecloud.com:26009443",
     "hdjq.fa.us2.oraclecloud.com:26009454",
@@ -71,6 +70,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009736",
     "hdjq.fa.us2.oraclecloud.com:26009739",
     "hdjq.fa.us2.oraclecloud.com:26009762",
+    "hdjq.fa.us2.oraclecloud.com:26009952",
     "hdjq.fa.us2.oraclecloud.com:26010117",
     "hdjq.fa.us2.oraclecloud.com:26010118",
     "hdjq.fa.us2.oraclecloud.com:26010119",
@@ -119,6 +119,7 @@
     "R3573-26",
     "R3690-26",
     "R3714-26",
+    "R3851-26",
     "R847-26"
   ],
   "NVIDIA": [
@@ -136,7 +137,6 @@
     "3092697",
     "3093026",
     "3093241",
-    "3095341",
     "3095681",
     "3095686",
     "3095731"
@@ -201,7 +201,11 @@
     "edbz.fa.us2.oraclecloud.com:25017628",
     "edbz.fa.us2.oraclecloud.com:25017629",
     "edbz.fa.us2.oraclecloud.com:25017630",
-    "edbz.fa.us2.oraclecloud.com:25017705"
+    "edbz.fa.us2.oraclecloud.com:25017705",
+    "edbz.fa.us2.oraclecloud.com:25017814",
+    "edbz.fa.us2.oraclecloud.com:25017815",
+    "edbz.fa.us2.oraclecloud.com:25017820",
+    "edbz.fa.us2.oraclecloud.com:25017827"
   ],
   "Western Digital": [
     "744000134646208",
