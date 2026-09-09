@@ -158,6 +158,7 @@
   ],
   "Silicon Labs": [],
   "Texas Instruments": [
+    "edbz.fa.us2.oraclecloud.com:25015813",
     "edbz.fa.us2.oraclecloud.com:25016766",
     "edbz.fa.us2.oraclecloud.com:25016776",
     "edbz.fa.us2.oraclecloud.com:25016777",
@@ -207,7 +208,8 @@
     "edbz.fa.us2.oraclecloud.com:25017814",
     "edbz.fa.us2.oraclecloud.com:25017815",
     "edbz.fa.us2.oraclecloud.com:25017820",
-    "edbz.fa.us2.oraclecloud.com:25017827"
+    "edbz.fa.us2.oraclecloud.com:25017827",
+    "edbz.fa.us2.oraclecloud.com:25017846"
   ],
   "Western Digital": [
     "744000134646208",
