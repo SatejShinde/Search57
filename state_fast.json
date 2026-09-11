@@ -30,6 +30,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009194",
     "hdjq.fa.us2.oraclecloud.com:26009196",
     "hdjq.fa.us2.oraclecloud.com:26009200",
+    "hdjq.fa.us2.oraclecloud.com:26009263",
     "hdjq.fa.us2.oraclecloud.com:26009264",
     "hdjq.fa.us2.oraclecloud.com:26009321",
     "hdjq.fa.us2.oraclecloud.com:26009323",
@@ -73,6 +74,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009934",
     "hdjq.fa.us2.oraclecloud.com:26009952",
     "hdjq.fa.us2.oraclecloud.com:26010058",
+    "hdjq.fa.us2.oraclecloud.com:26010099",
     "hdjq.fa.us2.oraclecloud.com:26010117",
     "hdjq.fa.us2.oraclecloud.com:26010118",
     "hdjq.fa.us2.oraclecloud.com:26010119",
@@ -85,7 +87,10 @@
     "hdjq.fa.us2.oraclecloud.com:26010587",
     "hdjq.fa.us2.oraclecloud.com:26010624",
     "hdjq.fa.us2.oraclecloud.com:26010738",
-    "hdjq.fa.us2.oraclecloud.com:26010799"
+    "hdjq.fa.us2.oraclecloud.com:26010785",
+    "hdjq.fa.us2.oraclecloud.com:26010799",
+    "hdjq.fa.us2.oraclecloud.com:26010800",
+    "hdjq.fa.us2.oraclecloud.com:26010801"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -223,7 +228,6 @@
     "edbz.fa.us2.oraclecloud.com:25017827",
     "edbz.fa.us2.oraclecloud.com:25017846",
     "edbz.fa.us2.oraclecloud.com:25017890",
-    "edbz.fa.us2.oraclecloud.com:25017914",
     "edbz.fa.us2.oraclecloud.com:25017917"
   ],
   "Western Digital": [
