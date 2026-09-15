@@ -15,6 +15,7 @@
     "hdjq.fa.us2.oraclecloud.com:26007982",
     "hdjq.fa.us2.oraclecloud.com:26008043",
     "hdjq.fa.us2.oraclecloud.com:26008130",
+    "hdjq.fa.us2.oraclecloud.com:26008230",
     "hdjq.fa.us2.oraclecloud.com:26008258",
     "hdjq.fa.us2.oraclecloud.com:26008442",
     "hdjq.fa.us2.oraclecloud.com:26008443",
@@ -94,7 +95,8 @@
     "hdjq.fa.us2.oraclecloud.com:26010799",
     "hdjq.fa.us2.oraclecloud.com:26010800",
     "hdjq.fa.us2.oraclecloud.com:26010801",
-    "hdjq.fa.us2.oraclecloud.com:26010830"
+    "hdjq.fa.us2.oraclecloud.com:26010830",
+    "hdjq.fa.us2.oraclecloud.com:26010928"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -144,6 +146,7 @@
     "JR2022295",
     "JR2024171",
     "JR2024174",
+    "JR2025025",
     "JR2025406",
     "JR2025511"
   ],
@@ -160,7 +163,9 @@
     "3095731",
     "3096484",
     "3096485",
-    "3096486"
+    "3096486",
+    "3096662",
+    "3096664"
   ],
   "Rockwell Automation": [
     "R26-5010",
@@ -179,7 +184,6 @@
   "Texas Instruments": [
     "edbz.fa.us2.oraclecloud.com:25013813",
     "edbz.fa.us2.oraclecloud.com:25015813",
-    "edbz.fa.us2.oraclecloud.com:25017437",
     "edbz.fa.us2.oraclecloud.com:25017439",
     "edbz.fa.us2.oraclecloud.com:25017474",
     "edbz.fa.us2.oraclecloud.com:25017476",
