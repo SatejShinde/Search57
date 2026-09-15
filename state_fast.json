@@ -1,10 +1,9 @@
 {
   "Analog Devices": [
-    "R265306",
     "R265577",
-    "R265579",
     "R266123",
-    "R266133"
+    "R266133",
+    "R266141"
   ],
   "Axon": [],
   "Broadcom": [],
@@ -131,7 +130,6 @@
     "R2124-25",
     "R3077-26",
     "R3208-26",
-    "R3371-26",
     "R3569-26",
     "R3573-26",
     "R3690-26",
@@ -146,7 +144,8 @@
     "JR2022295",
     "JR2024171",
     "JR2024174",
-    "JR2025245"
+    "JR2025406",
+    "JR2025511"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -236,6 +235,7 @@
     "edbz.fa.us2.oraclecloud.com:25017846",
     "edbz.fa.us2.oraclecloud.com:25017890",
     "edbz.fa.us2.oraclecloud.com:25017917",
+    "edbz.fa.us2.oraclecloud.com:25017921",
     "edbz.fa.us2.oraclecloud.com:25017932",
     "edbz.fa.us2.oraclecloud.com:25017947",
     "edbz.fa.us2.oraclecloud.com:25017948",
