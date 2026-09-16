@@ -88,6 +88,7 @@
     "hdjq.fa.us2.oraclecloud.com:26010174",
     "hdjq.fa.us2.oraclecloud.com:26010175",
     "hdjq.fa.us2.oraclecloud.com:26010384",
+    "hdjq.fa.us2.oraclecloud.com:26010453",
     "hdjq.fa.us2.oraclecloud.com:26010587",
     "hdjq.fa.us2.oraclecloud.com:26010624",
     "hdjq.fa.us2.oraclecloud.com:26010738",
@@ -96,7 +97,10 @@
     "hdjq.fa.us2.oraclecloud.com:26010800",
     "hdjq.fa.us2.oraclecloud.com:26010801",
     "hdjq.fa.us2.oraclecloud.com:26010830",
-    "hdjq.fa.us2.oraclecloud.com:26010928"
+    "hdjq.fa.us2.oraclecloud.com:26010928",
+    "hdjq.fa.us2.oraclecloud.com:26010996",
+    "hdjq.fa.us2.oraclecloud.com:26011001",
+    "hdjq.fa.us2.oraclecloud.com:26011003"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -175,7 +179,8 @@
     "R26-5039",
     "R26-5042",
     "R26-5069",
-    "R26-5374"
+    "R26-5374",
+    "R26-6971"
   ],
   "STMicroelectronics": [
     "12604",
