@@ -146,6 +146,7 @@
     "JR2022295",
     "JR2024171",
     "JR2024174",
+    "JR2024997",
     "JR2025025",
     "JR2025406",
     "JR2025511",
@@ -178,7 +179,6 @@
   ],
   "STMicroelectronics": [
     "12604",
-    "12605",
     "12875"
   ],
   "Silicon Labs": [],
@@ -246,7 +246,8 @@
     "edbz.fa.us2.oraclecloud.com:25017948",
     "edbz.fa.us2.oraclecloud.com:25017949",
     "edbz.fa.us2.oraclecloud.com:25017978",
-    "edbz.fa.us2.oraclecloud.com:25017994"
+    "edbz.fa.us2.oraclecloud.com:25017994",
+    "edbz.fa.us2.oraclecloud.com:25018000"
   ],
   "Western Digital": [
     "744000134646208",
