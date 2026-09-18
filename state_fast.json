@@ -132,6 +132,8 @@
     "ibqbjb.fa.ocs.oraclecloud.com:156199",
     "ibqbjb.fa.ocs.oraclecloud.com:156751",
     "ibqbjb.fa.ocs.oraclecloud.com:157903",
+    "ibqbjb.fa.ocs.oraclecloud.com:157973",
+    "ibqbjb.fa.ocs.oraclecloud.com:157978",
     "ibqbjb.fa.ocs.oraclecloud.com:158088"
   ],
   "Intel": [],
@@ -176,8 +178,11 @@
     "3096486",
     "3096662",
     "3096664",
+    "3096793",
     "3096797",
     "3096801",
+    "3096813",
+    "3096815",
     "3096817"
   ],
   "Rockwell Automation": [
@@ -186,8 +191,7 @@
     "R26-5039",
     "R26-5042",
     "R26-5069",
-    "R26-5374",
-    "R26-6971"
+    "R26-5374"
   ],
   "STMicroelectronics": [
     "12604",
