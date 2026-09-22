@@ -33,6 +33,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009196",
     "hdjq.fa.us2.oraclecloud.com:26009200",
     "hdjq.fa.us2.oraclecloud.com:26009263",
+    "hdjq.fa.us2.oraclecloud.com:26009266",
     "hdjq.fa.us2.oraclecloud.com:26009321",
     "hdjq.fa.us2.oraclecloud.com:26009323",
     "hdjq.fa.us2.oraclecloud.com:26009324",
@@ -99,7 +100,8 @@
     "hdjq.fa.us2.oraclecloud.com:26010928",
     "hdjq.fa.us2.oraclecloud.com:26010996",
     "hdjq.fa.us2.oraclecloud.com:26011001",
-    "hdjq.fa.us2.oraclecloud.com:26011003"
+    "hdjq.fa.us2.oraclecloud.com:26011003",
+    "hdjq.fa.us2.oraclecloud.com:26011295"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -162,6 +164,7 @@
     "JR2025406",
     "JR2025511",
     "JR2025647",
+    "JR2025784",
     "JR2025893"
   ],
   "NXP": [],
