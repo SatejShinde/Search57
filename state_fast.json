@@ -34,6 +34,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009195",
     "hdjq.fa.us2.oraclecloud.com:26009196",
     "hdjq.fa.us2.oraclecloud.com:26009200",
+    "hdjq.fa.us2.oraclecloud.com:26009261",
     "hdjq.fa.us2.oraclecloud.com:26009263",
     "hdjq.fa.us2.oraclecloud.com:26009266",
     "hdjq.fa.us2.oraclecloud.com:26009321",
@@ -143,7 +144,6 @@
   "Microchip": [
     "R2124-25",
     "R3077-26",
-    "R3208-26",
     "R3569-26",
     "R3700-26",
     "R3714-26",
@@ -152,21 +152,20 @@
   "NVIDIA": [
     "JR2010488",
     "JR2012398",
-    "JR2016035",
     "JR2017522",
     "JR2024171",
     "JR2024174",
     "JR2024997",
-    "JR2025025",
     "JR2025098",
-    "JR2025103",
     "JR2025395",
     "JR2025405",
     "JR2025406",
     "JR2025511",
     "JR2025647",
     "JR2025784",
-    "JR2025893"
+    "JR2025893",
+    "JR2026004",
+    "JR2026471"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -212,11 +211,9 @@
     "3097052"
   ],
   "Rockwell Automation": [
-    "R26-5010",
     "R26-5032",
     "R26-5039",
     "R26-5042",
-    "R26-5069",
     "R26-5374"
   ],
   "STMicroelectronics": [
@@ -285,7 +282,6 @@
     "edbz.fa.us2.oraclecloud.com:25017890",
     "edbz.fa.us2.oraclecloud.com:25017917",
     "edbz.fa.us2.oraclecloud.com:25017921",
-    "edbz.fa.us2.oraclecloud.com:25017932",
     "edbz.fa.us2.oraclecloud.com:25017947",
     "edbz.fa.us2.oraclecloud.com:25017948",
     "edbz.fa.us2.oraclecloud.com:25017949",
