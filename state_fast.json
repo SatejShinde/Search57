@@ -75,6 +75,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009762",
     "hdjq.fa.us2.oraclecloud.com:26009838",
     "hdjq.fa.us2.oraclecloud.com:26009934",
+    "hdjq.fa.us2.oraclecloud.com:26009944",
     "hdjq.fa.us2.oraclecloud.com:26009952",
     "hdjq.fa.us2.oraclecloud.com:26010048",
     "hdjq.fa.us2.oraclecloud.com:26010051",
@@ -144,7 +145,6 @@
     "R3077-26",
     "R3208-26",
     "R3569-26",
-    "R3690-26",
     "R3700-26",
     "R3714-26",
     "R847-26"
@@ -154,7 +154,6 @@
     "JR2012398",
     "JR2016035",
     "JR2017522",
-    "JR2022295",
     "JR2024171",
     "JR2024174",
     "JR2024997",
@@ -209,7 +208,8 @@
     "3096849",
     "3096851",
     "3096852",
-    "3096864"
+    "3096864",
+    "3097052"
   ],
   "Rockwell Automation": [
     "R26-5010",
