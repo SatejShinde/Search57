@@ -91,6 +91,7 @@
     "hdjq.fa.us2.oraclecloud.com:26010174",
     "hdjq.fa.us2.oraclecloud.com:26010175",
     "hdjq.fa.us2.oraclecloud.com:26010384",
+    "hdjq.fa.us2.oraclecloud.com:26010448",
     "hdjq.fa.us2.oraclecloud.com:26010452",
     "hdjq.fa.us2.oraclecloud.com:26010453",
     "hdjq.fa.us2.oraclecloud.com:26010587",
@@ -210,7 +211,8 @@
     "3096849",
     "3096851",
     "3096852",
-    "3096864"
+    "3096864",
+    "3097052"
   ],
   "Rockwell Automation": [
     "R26-5032",
