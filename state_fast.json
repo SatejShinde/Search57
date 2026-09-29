@@ -134,18 +134,21 @@
     "ibqbjb.fa.ocs.oraclecloud.com:155593",
     "ibqbjb.fa.ocs.oraclecloud.com:155594",
     "ibqbjb.fa.ocs.oraclecloud.com:156199",
+    "ibqbjb.fa.ocs.oraclecloud.com:156496",
     "ibqbjb.fa.ocs.oraclecloud.com:156751",
     "ibqbjb.fa.ocs.oraclecloud.com:157903",
     "ibqbjb.fa.ocs.oraclecloud.com:157973",
     "ibqbjb.fa.ocs.oraclecloud.com:157978",
-    "ibqbjb.fa.ocs.oraclecloud.com:158088"
+    "ibqbjb.fa.ocs.oraclecloud.com:158088",
+    "ibqbjb.fa.ocs.oraclecloud.com:158957",
+    "ibqbjb.fa.ocs.oraclecloud.com:158958",
+    "ibqbjb.fa.ocs.oraclecloud.com:158959"
   ],
   "Intel": [],
   "Microchip": [
     "R2124-25",
     "R3077-26",
     "R3569-26",
-    "R3700-26",
     "R3714-26",
     "R847-26"
   ],
@@ -223,7 +226,10 @@
     "R26-7257"
   ],
   "STMicroelectronics": [
-    "12875"
+    "12875",
+    "13289",
+    "14345",
+    "14346"
   ],
   "Silicon Labs": [],
   "Texas Instruments": [
