@@ -133,7 +133,6 @@
     "ibqbjb.fa.ocs.oraclecloud.com:156199",
     "ibqbjb.fa.ocs.oraclecloud.com:156496",
     "ibqbjb.fa.ocs.oraclecloud.com:156751",
-    "ibqbjb.fa.ocs.oraclecloud.com:157903",
     "ibqbjb.fa.ocs.oraclecloud.com:157973",
     "ibqbjb.fa.ocs.oraclecloud.com:157978",
     "ibqbjb.fa.ocs.oraclecloud.com:158088",
@@ -174,7 +173,8 @@
     "JR2026499",
     "JR2026584",
     "JR2026704",
-    "JR2026708"
+    "JR2026708",
+    "JR2026940"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -229,6 +229,7 @@
     "R26-5039",
     "R26-5042",
     "R26-5374",
+    "R26-6971",
     "R26-7261"
   ],
   "STMicroelectronics": [
@@ -238,8 +239,10 @@
   ],
   "Silicon Labs": [],
   "Texas Instruments": [
+    "edbz.fa.us2.oraclecloud.com:25013674",
     "edbz.fa.us2.oraclecloud.com:25015796",
     "edbz.fa.us2.oraclecloud.com:25015813",
+    "edbz.fa.us2.oraclecloud.com:25015924",
     "edbz.fa.us2.oraclecloud.com:25016392",
     "edbz.fa.us2.oraclecloud.com:25017474",
     "edbz.fa.us2.oraclecloud.com:25017476",
