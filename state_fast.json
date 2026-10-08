@@ -25,7 +25,6 @@
     "hdjq.fa.us2.oraclecloud.com:26008762",
     "hdjq.fa.us2.oraclecloud.com:26008783",
     "hdjq.fa.us2.oraclecloud.com:26009034",
-    "hdjq.fa.us2.oraclecloud.com:26009195",
     "hdjq.fa.us2.oraclecloud.com:26009196",
     "hdjq.fa.us2.oraclecloud.com:26009200",
     "hdjq.fa.us2.oraclecloud.com:26009261",
@@ -63,7 +62,6 @@
     "hdjq.fa.us2.oraclecloud.com:26009676",
     "hdjq.fa.us2.oraclecloud.com:26009677",
     "hdjq.fa.us2.oraclecloud.com:26009683",
-    "hdjq.fa.us2.oraclecloud.com:26009685",
     "hdjq.fa.us2.oraclecloud.com:26009735",
     "hdjq.fa.us2.oraclecloud.com:26009736",
     "hdjq.fa.us2.oraclecloud.com:26009739",
@@ -230,7 +228,8 @@
     "R26-5042",
     "R26-5374",
     "R26-6971",
-    "R26-7261"
+    "R26-7261",
+    "R26-7270"
   ],
   "STMicroelectronics": [
     "13289",
