@@ -14,6 +14,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009261",
     "hdjq.fa.us2.oraclecloud.com:26009263",
     "hdjq.fa.us2.oraclecloud.com:26009266",
+    "hdjq.fa.us2.oraclecloud.com:26009269",
     "hdjq.fa.us2.oraclecloud.com:26009321",
     "hdjq.fa.us2.oraclecloud.com:26009323",
     "hdjq.fa.us2.oraclecloud.com:26009324",
@@ -54,6 +55,7 @@
     "hdjq.fa.us2.oraclecloud.com:26009838",
     "hdjq.fa.us2.oraclecloud.com:26009944",
     "hdjq.fa.us2.oraclecloud.com:26009952",
+    "hdjq.fa.us2.oraclecloud.com:26009955",
     "hdjq.fa.us2.oraclecloud.com:26010041",
     "hdjq.fa.us2.oraclecloud.com:26010048",
     "hdjq.fa.us2.oraclecloud.com:26010051",
@@ -63,6 +65,7 @@
     "hdjq.fa.us2.oraclecloud.com:26010118",
     "hdjq.fa.us2.oraclecloud.com:26010119",
     "hdjq.fa.us2.oraclecloud.com:26010135",
+    "hdjq.fa.us2.oraclecloud.com:26010151",
     "hdjq.fa.us2.oraclecloud.com:26010168",
     "hdjq.fa.us2.oraclecloud.com:26010384",
     "hdjq.fa.us2.oraclecloud.com:26010452",
@@ -79,7 +82,8 @@
     "hdjq.fa.us2.oraclecloud.com:26010996",
     "hdjq.fa.us2.oraclecloud.com:26011001",
     "hdjq.fa.us2.oraclecloud.com:26011003",
-    "hdjq.fa.us2.oraclecloud.com:26011295"
+    "hdjq.fa.us2.oraclecloud.com:26011295",
+    "hdjq.fa.us2.oraclecloud.com:26012241"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -175,7 +179,6 @@
     "3095752",
     "3095754",
     "3095755",
-    "3095758",
     "3095760",
     "3095762",
     "3096415",
@@ -207,6 +210,7 @@
     "R26-5039",
     "R26-5374",
     "R26-6971",
+    "R26-7211",
     "R26-7261",
     "R26-7270"
   ],
@@ -217,6 +221,7 @@
   ],
   "Silicon Labs": [],
   "Texas Instruments": [
+    "edbz.fa.us2.oraclecloud.com:25012948",
     "edbz.fa.us2.oraclecloud.com:25013674",
     "edbz.fa.us2.oraclecloud.com:25015796",
     "edbz.fa.us2.oraclecloud.com:25015813",
