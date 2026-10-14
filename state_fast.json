@@ -137,11 +137,14 @@
     "R847-26"
   ],
   "NVIDIA": [
+    "JR2012398",
+    "JR2016035",
     "JR2024171",
     "JR2024174",
     "JR2024997",
     "JR2025025",
     "JR2025098",
+    "JR2025103",
     "JR2025379",
     "JR2025395",
     "JR2025405",
@@ -233,7 +236,6 @@
     "edbz.fa.us2.oraclecloud.com:25015796",
     "edbz.fa.us2.oraclecloud.com:25015813",
     "edbz.fa.us2.oraclecloud.com:25015924",
-    "edbz.fa.us2.oraclecloud.com:25016378",
     "edbz.fa.us2.oraclecloud.com:25017474",
     "edbz.fa.us2.oraclecloud.com:25017476",
     "edbz.fa.us2.oraclecloud.com:25017478",
