@@ -34,7 +34,6 @@
     "hdjq.fa.us2.oraclecloud.com:26009486",
     "hdjq.fa.us2.oraclecloud.com:26009488",
     "hdjq.fa.us2.oraclecloud.com:26009494",
-    "hdjq.fa.us2.oraclecloud.com:26009499",
     "hdjq.fa.us2.oraclecloud.com:26009500",
     "hdjq.fa.us2.oraclecloud.com:26009501",
     "hdjq.fa.us2.oraclecloud.com:26009610",
@@ -236,6 +235,8 @@
   "Texas Instruments": [
     "edbz.fa.us2.oraclecloud.com:25013623",
     "edbz.fa.us2.oraclecloud.com:25013674",
+    "edbz.fa.us2.oraclecloud.com:25014046",
+    "edbz.fa.us2.oraclecloud.com:25014116",
     "edbz.fa.us2.oraclecloud.com:25015796",
     "edbz.fa.us2.oraclecloud.com:25015813",
     "edbz.fa.us2.oraclecloud.com:25015924",
@@ -297,7 +298,8 @@
     "edbz.fa.us2.oraclecloud.com:25017994",
     "edbz.fa.us2.oraclecloud.com:25018000",
     "edbz.fa.us2.oraclecloud.com:25018724",
-    "edbz.fa.us2.oraclecloud.com:25018753"
+    "edbz.fa.us2.oraclecloud.com:25018753",
+    "edbz.fa.us2.oraclecloud.com:25018769"
   ],
   "Western Digital": [
     "744000134646509",
