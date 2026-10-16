@@ -15,6 +15,7 @@
     "hdjq.fa.us2.oraclecloud.com:26008761",
     "hdjq.fa.us2.oraclecloud.com:26008762",
     "hdjq.fa.us2.oraclecloud.com:26009196",
+    "hdjq.fa.us2.oraclecloud.com:26009200",
     "hdjq.fa.us2.oraclecloud.com:26009261",
     "hdjq.fa.us2.oraclecloud.com:26009263",
     "hdjq.fa.us2.oraclecloud.com:26009266",
@@ -213,7 +214,8 @@
     "3097245",
     "3097249",
     "3097357",
-    "3097368"
+    "3097368",
+    "3098270"
   ],
   "Rockwell Automation": [
     "R26-5032",
@@ -226,7 +228,8 @@
     "R26-7261",
     "R26-7270",
     "R26-7553",
-    "R26-7706"
+    "R26-7706",
+    "R26-7922"
   ],
   "STMicroelectronics": [
     "13289",
