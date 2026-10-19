@@ -88,6 +88,7 @@
     "hdjq.fa.us2.oraclecloud.com:26011001",
     "hdjq.fa.us2.oraclecloud.com:26011003",
     "hdjq.fa.us2.oraclecloud.com:26011295",
+    "hdjq.fa.us2.oraclecloud.com:26012073",
     "hdjq.fa.us2.oraclecloud.com:26012074",
     "hdjq.fa.us2.oraclecloud.com:26012241"
   ],
@@ -125,7 +126,8 @@
     "ibqbjb.fa.ocs.oraclecloud.com:158088",
     "ibqbjb.fa.ocs.oraclecloud.com:158957",
     "ibqbjb.fa.ocs.oraclecloud.com:158958",
-    "ibqbjb.fa.ocs.oraclecloud.com:158959"
+    "ibqbjb.fa.ocs.oraclecloud.com:158959",
+    "ibqbjb.fa.ocs.oraclecloud.com:160296"
   ],
   "Intel": [],
   "Microchip": [
@@ -170,7 +172,8 @@
     "JR2027429",
     "JR2027561",
     "JR2027829",
-    "JR2027840"
+    "JR2027840",
+    "JR2027982"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -201,6 +204,9 @@
     "3096486",
     "3096662",
     "3096664",
+    "3096797",
+    "3096801",
+    "3096813",
     "3096815",
     "3096817",
     "3096847",
@@ -214,7 +220,9 @@
     "3097249",
     "3097357",
     "3097368",
-    "3098270"
+    "3098270",
+    "3098299",
+    "3098303"
   ],
   "Rockwell Automation": [
     "R26-5032",
