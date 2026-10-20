@@ -4,7 +4,10 @@
     "R266123",
     "R266133",
     "R266141",
-    "R266691"
+    "R266691",
+    "R267094",
+    "R267095",
+    "R267128"
   ],
   "Axon": [],
   "Broadcom": [],
@@ -227,9 +230,11 @@
   "Rockwell Automation": [
     "R26-5032",
     "R26-5039",
+    "R26-5043",
     "R26-5374",
     "R26-6638",
     "R26-6891",
+    "R26-6892",
     "R26-7068",
     "R26-7211",
     "R26-7261",
@@ -311,7 +316,8 @@
     "edbz.fa.us2.oraclecloud.com:25018000",
     "edbz.fa.us2.oraclecloud.com:25018724",
     "edbz.fa.us2.oraclecloud.com:25018753",
-    "edbz.fa.us2.oraclecloud.com:25018769"
+    "edbz.fa.us2.oraclecloud.com:25018769",
+    "edbz.fa.us2.oraclecloud.com:25019103"
   ],
   "Western Digital": [
     "744000134646509",
