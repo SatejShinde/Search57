@@ -22,7 +22,6 @@
     "hdjq.fa.us2.oraclecloud.com:26009261",
     "hdjq.fa.us2.oraclecloud.com:26009263",
     "hdjq.fa.us2.oraclecloud.com:26009266",
-    "hdjq.fa.us2.oraclecloud.com:26009269",
     "hdjq.fa.us2.oraclecloud.com:26009321",
     "hdjq.fa.us2.oraclecloud.com:26009323",
     "hdjq.fa.us2.oraclecloud.com:26009324",
@@ -163,7 +162,9 @@
     "JR2025905",
     "JR2025907",
     "JR2026004",
+    "JR2026471",
     "JR2026499",
+    "JR2026530",
     "JR2026584",
     "JR2026704",
     "JR2026707",
@@ -176,7 +177,8 @@
     "JR2027829",
     "JR2027840",
     "JR2027868",
-    "JR2027982"
+    "JR2027982",
+    "JR2028027"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -222,7 +224,6 @@
     "3097245",
     "3097249",
     "3097357",
-    "3097368",
     "3098270",
     "3098299",
     "3098303"
