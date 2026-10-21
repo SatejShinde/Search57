@@ -15,6 +15,7 @@
   "Emerson Electric": [
     "hdjq.fa.us2.oraclecloud.com:26008043",
     "hdjq.fa.us2.oraclecloud.com:26008230",
+    "hdjq.fa.us2.oraclecloud.com:26008442",
     "hdjq.fa.us2.oraclecloud.com:26008445",
     "hdjq.fa.us2.oraclecloud.com:26008761",
     "hdjq.fa.us2.oraclecloud.com:26008762",
@@ -93,7 +94,8 @@
     "hdjq.fa.us2.oraclecloud.com:26011295",
     "hdjq.fa.us2.oraclecloud.com:26012073",
     "hdjq.fa.us2.oraclecloud.com:26012074",
-    "hdjq.fa.us2.oraclecloud.com:26012241"
+    "hdjq.fa.us2.oraclecloud.com:26012241",
+    "hdjq.fa.us2.oraclecloud.com:26012734"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -138,6 +140,7 @@
     "R3077-26",
     "R3569-26",
     "R3714-26",
+    "R3851-26",
     "R847-26"
   ],
   "NVIDIA": [
@@ -232,7 +235,6 @@
   ],
   "Rockwell Automation": [
     "R26-5032",
-    "R26-5039",
     "R26-5043",
     "R26-5374",
     "R26-6638",
@@ -297,7 +299,6 @@
     "edbz.fa.us2.oraclecloud.com:25017589",
     "edbz.fa.us2.oraclecloud.com:25017590",
     "edbz.fa.us2.oraclecloud.com:25017591",
-    "edbz.fa.us2.oraclecloud.com:25017625",
     "edbz.fa.us2.oraclecloud.com:25017626",
     "edbz.fa.us2.oraclecloud.com:25017627",
     "edbz.fa.us2.oraclecloud.com:25017628",
@@ -320,7 +321,8 @@
     "edbz.fa.us2.oraclecloud.com:25018724",
     "edbz.fa.us2.oraclecloud.com:25018753",
     "edbz.fa.us2.oraclecloud.com:25018769",
-    "edbz.fa.us2.oraclecloud.com:25019103"
+    "edbz.fa.us2.oraclecloud.com:25019103",
+    "edbz.fa.us2.oraclecloud.com:25019143"
   ],
   "Western Digital": [
     "744000134646509",
