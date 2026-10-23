@@ -89,7 +89,8 @@
     "ibqbjb.fa.ocs.oraclecloud.com:158958",
     "ibqbjb.fa.ocs.oraclecloud.com:158959",
     "ibqbjb.fa.ocs.oraclecloud.com:160296",
-    "ibqbjb.fa.ocs.oraclecloud.com:160536"
+    "ibqbjb.fa.ocs.oraclecloud.com:160536",
+    "ibqbjb.fa.ocs.oraclecloud.com:161021"
   ],
   "Intel": [],
   "Microchip": [
@@ -98,6 +99,7 @@
     "R3569-26",
     "R3714-26",
     "R3851-26",
+    "R4473-26",
     "R847-26"
   ],
   "NVIDIA": [
@@ -133,6 +135,7 @@
     "JR2026839",
     "JR2026940",
     "JR2026949",
+    "JR2026962",
     "JR2027089",
     "JR2027305",
     "JR2027429",
@@ -176,6 +179,7 @@
     "3096801",
     "3096813",
     "3096815",
+    "3096817",
     "3096847",
     "3096849",
     "3096851",
