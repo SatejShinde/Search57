@@ -140,11 +140,11 @@
     "JR2027429",
     "JR2027561",
     "JR2027829",
-    "JR2027840",
     "JR2027868",
     "JR2027982",
     "JR2028027",
-    "JR2028209"
+    "JR2028209",
+    "JR2028642"
   ],
   "NXP": [],
   "Qualcomm": [
@@ -284,6 +284,7 @@
     "edbz.fa.us2.oraclecloud.com:25017978",
     "edbz.fa.us2.oraclecloud.com:25017994",
     "edbz.fa.us2.oraclecloud.com:25018000",
+    "edbz.fa.us2.oraclecloud.com:25018682",
     "edbz.fa.us2.oraclecloud.com:25018724",
     "edbz.fa.us2.oraclecloud.com:25018753",
     "edbz.fa.us2.oraclecloud.com:25018769",
