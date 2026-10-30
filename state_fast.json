@@ -19,8 +19,6 @@
   "Emerson Electric": [
     "hdjq.fa.us2.oraclecloud.com:26008043",
     "hdjq.fa.us2.oraclecloud.com:26008230",
-    "hdjq.fa.us2.oraclecloud.com:26008442",
-    "hdjq.fa.us2.oraclecloud.com:26009034",
     "hdjq.fa.us2.oraclecloud.com:26009196",
     "hdjq.fa.us2.oraclecloud.com:26009261",
     "hdjq.fa.us2.oraclecloud.com:26009263",
@@ -188,8 +186,8 @@
     "3096797",
     "3096801",
     "3096815",
+    "3096817",
     "3096847",
-    "3096849",
     "3096851",
     "3096852",
     "3096864",
@@ -201,6 +199,7 @@
     "3097368",
     "3098270",
     "3098299",
+    "3098303",
     "3098413",
     "3098415",
     "3098439",
@@ -215,7 +214,6 @@
     "3098828"
   ],
   "Rockwell Automation": [
-    "R26-5032",
     "R26-5043",
     "R26-5374",
     "R26-6638",
