@@ -1,0 +1,127 @@
+name: Startup prospect daily digest
+
+on:
+  # cron-job.org calls GitHub's workflow_dispatch REST endpoint once daily.
+  # No native schedule: the external scheduler owns the Pacific-time schedule.
+  workflow_dispatch:
+    inputs:
+      send:
+        description: Send the digest to Telegram (otherwise preview only)
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: startup-watch-daily
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    if: vars.STARTUP_WATCH_ENABLED == 'true' || inputs.send != true
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+        working-directory: startup-watch
+    env:
+      STATE_BRANCH: startup-watch-state
+      STATE_WORKTREE: ${{ runner.temp }}/startup-watch-state
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run tests
+        run: node --test
+
+      - name: Restore independent delivery state
+        id: restore
+        run: |
+          set -euo pipefail
+          mkdir -p .runtime/output
+          git -C "$GITHUB_WORKSPACE" config user.name 'startup-watch-bot'
+          git -C "$GITHUB_WORKSPACE" config user.email 'actions@users.noreply.github.com'
+          # Exit 2 specifically means a successful query with no matching ref.
+          # Authentication/network failures must never bootstrap empty state.
+          set +e
+          remote_ref=$(git -C "$GITHUB_WORKSPACE" ls-remote --exit-code --heads origin "refs/heads/$STATE_BRANCH")
+          remote_status=$?
+          set -e
+          case "$remote_status" in
+            0)
+              expected_sha=$(printf '%s\n' "$remote_ref" | cut -f1)
+              git -C "$GITHUB_WORKSPACE" fetch --no-tags origin "refs/heads/$STATE_BRANCH"
+              fetched_sha=$(git -C "$GITHUB_WORKSPACE" rev-parse FETCH_HEAD)
+              if [[ "$fetched_sha" != "$expected_sha" ]]; then
+                echo 'State changed during restoration; retry this run.' >&2
+                exit 1
+              fi
+              git -C "$GITHUB_WORKSPACE" worktree add --detach "$STATE_WORKTREE" "$fetched_sha"
+              test -f "$STATE_WORKTREE/state.json"
+              cp "$STATE_WORKTREE/state.json" .runtime/state.json
+              ;;
+            2)
+              expected_sha=''
+              empty_tree=$(git -C "$GITHUB_WORKSPACE" mktree </dev/null)
+              initial_commit=$(printf 'Initialize startup digest state\n' | git -C "$GITHUB_WORKSPACE" commit-tree "$empty_tree")
+              git -C "$GITHUB_WORKSPACE" worktree add --detach "$STATE_WORKTREE" "$initial_commit"
+              # Let the CLI initialize its own state schema on first use.
+              ;;
+            *)
+              echo 'Cannot query remote state; refusing to send with unknown delivery history.' >&2
+              exit "$remote_status"
+              ;;
+          esac
+          printf 'expected_sha=%s\n' "$expected_sha" >> "$GITHUB_OUTPUT"
+          echo 'ready=true' >> "$GITHUB_OUTPUT"
+
+      - name: Build or send daily digest
+        env:
+          MIDU_API_KEY: ${{ secrets.MIDU_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEND_DIGEST: ${{ inputs.send == true }}
+        run: |
+          set -euo pipefail
+          args=(--config config.json --state .runtime/state.json --output .runtime/output)
+          if [[ "$SEND_DIGEST" == 'true' ]]; then args+=(--send); fi
+          node run.mjs "${args[@]}"
+
+      - name: Persist delivery checkpoints, including partial sends
+        if: always() && steps.restore.outputs.ready == 'true'
+        env:
+          EXPECTED_SHA: ${{ steps.restore.outputs.expected_sha }}
+        run: |
+          set -euo pipefail
+          if [[ ! -f .runtime/state.json ]]; then
+            echo 'No state file was created; nothing to persist.'
+            exit 0
+          fi
+          # Reject a corrupt checkpoint before committing it.
+          node -e 'JSON.parse(require("node:fs").readFileSync(".runtime/state.json", "utf8"))'
+          cp .runtime/state.json "$STATE_WORKTREE/state.json"
+          git -C "$STATE_WORKTREE" add -- state.json
+          if git -C "$STATE_WORKTREE" diff --cached --quiet; then exit 0; fi
+          git -C "$STATE_WORKTREE" commit -m 'state: startup daily digest checkpoints'
+          # An empty expected SHA means the branch must still not exist.
+          # The lease refuses concurrent state changes instead of overwriting them.
+          git -C "$GITHUB_WORKSPACE" push \
+            "--force-with-lease=refs/heads/$STATE_BRANCH:$EXPECTED_SHA" \
+            origin "$(git -C "$STATE_WORKTREE" rev-parse HEAD):refs/heads/$STATE_BRANCH"
+
+      - name: Retain digest preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: startup-digest-${{ github.run_id }}-${{ github.run_attempt }}
+          path: startup-watch/.runtime/output/
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 14

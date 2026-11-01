@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+.local/
+.runtime/
+data/
+output/
+state.json
+node_modules/

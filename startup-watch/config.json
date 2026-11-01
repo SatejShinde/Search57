@@ -1,0 +1,78 @@
+{
+  "lookbackDays": 30,
+  "maxProspectsPerDay": 10,
+  "maxNewWebsiteChecksPerDay": 5,
+  "maxRequests": 120,
+  "hardwareKeywords": [
+    "hardware", "embedded", "firmware", "FPGA", "ASIC", "RTL", "VLSI",
+    "semiconductor", "silicon", "electronics", "electrical engineering",
+    "PCB", "circuit", "physical design", "design verification",
+    "validation engineer", "computer architecture", "robotics hardware",
+    "power electronics", "signal integrity", "RF engineer", "photonics",
+    "microcontroller", "PLC", "industrial automation", "controls engineering",
+    "controls engineer", "instrumentation", "data acquisition", "hardware test",
+    "electronics test", "sensor integration", "energy harvesting", "low power"
+  ],
+  "prospectKeywords": [
+    "hardware", "semiconductor", "chip", "silicon", "electronics", "embedded",
+    "firmware", "FPGA", "ASIC", "robotics", "robot", "sensor", "photonics",
+    "lidar", "power electronics", "battery", "satellite", "instrumentation",
+    "industrial automation", "IoT", "connected devices", "wearable",
+    "energy harvesting", "low power", "environmental monitoring",
+    "medical device", "quantum computing", "制造", "硬件", "芯片", "半导体",
+    "机器人", "传感器", "光子", "电池"
+  ],
+  "matchProfile": {
+    "categories": [
+      {
+        "id": "embedded",
+        "label": "Embedded firmware and sensor interfaces",
+        "keywords": ["embedded", "firmware", "ESP32", "microcontroller", "C++", "I2C", "UART", "1-Wire", "MQTT"],
+        "evidence": "C/C++ and ESP32 sensor telemetry; I2C, UART, 1-Wire and MQTT integration",
+        "weight": 5
+      },
+      {
+        "id": "sensors-test",
+        "label": "Sensors and electronics testing",
+        "keywords": ["sensor", "sensors", "PCB", "PCBA", "electronics", "calibration", "hardware test", "hardware validation", "signal debugging"],
+        "evidence": "Sensor calibration, electronics testing and debugging, and hardware/software integration",
+        "weight": 5
+      },
+      {
+        "id": "controls",
+        "label": "Industrial automation and controls",
+        "keywords": ["PLC", "ladder logic", "HMI", "DOPSoft", "Modbus", "Ethernet/IP", "industrial automation", "controls engineer", "controls engineering"],
+        "evidence": "PLC/HMI internships with control-panel testing, safety interlocks, Modbus and field-device troubleshooting",
+        "weight": 4
+      },
+      {
+        "id": "instrumentation",
+        "label": "Instrumentation and data acquisition",
+        "keywords": ["instrumentation", "data acquisition", "DAQ", "MATLAB", "ADC", "ADALM2000", "libm2k", "App Designer"],
+        "evidence": "MATLAB/App Designer, ADALM2000/libm2k acquisition, calibration and regression analysis",
+        "weight": 4
+      },
+      {
+        "id": "low-power-research",
+        "label": "Low-power circuits and energy harvesting",
+        "keywords": ["low power", "low-power", "energy harvesting", "energy-harvesting", "OrCAD", "circuit modeling", "ADP5091", "BQ25504", "power management"],
+        "evidence": "Current research and study in equivalent-circuit modeling and energy-harvesting IC architectures; completed silicon design is not established",
+        "weight": 2
+      }
+    ],
+    "exploratory": [
+      {
+        "label": "FPGA, ASIC, RTL and physical design",
+        "keywords": ["FPGA", "ASIC", "RTL", "Verilog", "SystemVerilog", "UVM", "VLSI", "physical design", "tapeout"],
+        "missingEvidence": "Resume does not demonstrate FPGA/HDL/UVM/RTL implementation, tapeout or physical-design experience; review prerequisites"
+      }
+    ]
+  },
+  "companies": [
+    {
+      "name": "Rugged Robotics",
+      "careersUrl": "https://job-boards.greenhouse.io/ruggedrobotics",
+      "boards": [{ "type": "greenhouse", "slug": "ruggedrobotics" }]
+    }
+  ]
+}

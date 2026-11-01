@@ -1,0 +1,13 @@
+{
+  "name": "startup-internship-watch",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily funding prospects and hardware internship alerts for summer 2027",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node run.mjs --demo --output .local/demo",
+    "preview": "node run.mjs --config config.json --state .local/state.json --output .local/preview"
+  }
+}
