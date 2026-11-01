@@ -31,7 +31,6 @@ jobs:
         working-directory: startup-watch
     env:
       STATE_BRANCH: startup-watch-state
-      STATE_WORKTREE: ${{ runner.temp }}/startup-watch-state
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -43,6 +42,8 @@ jobs:
 
       - name: Restore independent delivery state
         id: restore
+        env:
+          STATE_WORKTREE: ${{ runner.temp }}/startup-watch-state
         run: |
           set -euo pipefail
           mkdir -p .runtime/output
@@ -98,6 +99,7 @@ jobs:
         if: always() && steps.restore.outputs.ready == 'true'
         env:
           EXPECTED_SHA: ${{ steps.restore.outputs.expected_sha }}
+          STATE_WORKTREE: ${{ runner.temp }}/startup-watch-state
         run: |
           set -euo pipefail
           if [[ ! -f .runtime/state.json ]]; then
