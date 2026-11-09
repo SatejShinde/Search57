@@ -1,0 +1,34 @@
+{
+  "s57_53566ee3aef7278a57e585ad36ee5972": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Cloud Solution Architecture INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062098",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041287"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Cloud Solution Architecture INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062098",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041287",
+      "location": "DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
