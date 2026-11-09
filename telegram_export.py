@@ -174,7 +174,7 @@ def legacy_record(text):
                 ats_id=ats_id, requisition_id="", url=url)
 
 
-def inspect_export(path, selected=None):
+def inspect_export(path, selected=None, include_canary=False):
     transfers = {}; legacy = {}; errors = []
     for message in iter_messages(path):
         text = message_text(message)
@@ -184,6 +184,8 @@ def inspect_export(path, selected=None):
                 if decoded is None:
                     raise ValueError("Incomplete Search57 frame")
                 meta, body = decoded
+                if meta.get("canary") and not include_canary:
+                    continue
             except (ValueError, KeyError, TypeError) as exc:
                 errors.append(str(message.get("id", "?")) + ": " + str(exc)); continue
             transfer_key = (meta["key"], meta["sha256"])
@@ -236,6 +238,8 @@ def inspect_export(path, selected=None):
                    delivery_status="complete" if complete else "incomplete", parts_expected=total,
                    parts_received=len(present), message_ids=";".join(sorted(set(t["messages"]))),
                    note=meta.get("note", ""), application_decision="unchecked")
+        if meta.get("canary"):
+            row["note"] = "CANARY TEST; " + row["note"]
         if t["conflict"]:
             row["note"] += "; conflicting duplicate chunks/headers"
         if selected == key and complete:
@@ -330,12 +334,14 @@ def main():
     parser.add_argument("--key")
     parser.add_argument("--applications", type=Path)
     parser.add_argument("--skip-applied", action="store_true")
+    parser.add_argument("--include-canary", action="store_true",
+                        help="Explicitly include isolated CANARY TEST messages; normally ignored")
     args = parser.parse_args()
     if args.command == "show" and not args.key:
         parser.error("show requires --key")
     if args.skip_applied and not args.applications:
         parser.error("--skip-applied requires --applications")
-    rows, errors = inspect_export(args.export, args.key)
+    rows, errors = inspect_export(args.export, args.key, args.include_canary)
     if args.applications:
         check_applications(rows, args.applications)
     if args.skip_applied:

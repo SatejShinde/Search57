@@ -33,7 +33,8 @@ def job_key(record):
     company = re.sub(r"\W+", "", record.get("company", "").casefold())
     req = str(record.get("requisition_id") or record.get("ats_id") or "").split("@")[0]
     identity = req.casefold() or normalized_url(record["url"])
-    return "s57_" + digest(f"{company}|{record.get('platform', 'unknown')}|{identity}")[:32]
+    scope = f"canary:{record['canary_id']}|" if record.get("canary") else ""
+    return "s57_" + digest(f"{scope}{company}|{record.get('platform', 'unknown')}|{identity}")[:32]
 
 
 def frame(meta, text=""):
@@ -42,7 +43,8 @@ def frame(meta, text=""):
                 f"Description: {meta['status']} · {meta['parts']} part(s)\n"
                 if meta.get("kind") == "job" else
                 f"Description {meta.get('part', 0)}/{meta['parts']} · {meta['key']}\n")
-    wire = MARKER + readable + "[Record]\n" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + BODY + text + END
+    label = "CANARY TEST — isolated delivery check\n" if meta.get("canary") else ""
+    wire = MARKER + label + readable + "[Record]\n" + json.dumps(meta, ensure_ascii=False, separators=(",", ":")) + BODY + text + END
     if units(wire) > LIMIT:
         raise ValueError("Search57 message exceeds Telegram limit; nothing truncated")
     return wire
@@ -74,6 +76,8 @@ def messages(record, description, status, note=""):
     description = description or ""
     sha = digest(description)
     common = dict(v=1, key=job_key(record), sha256=sha)
+    if record.get("canary"):
+        common.update(canary=True, canary_id=record["canary_id"])
     meta = {**common, **record, "kind": "job", "status": status, "note": note,
             "parts": 1 if description else 0, "part": 1 if description else 0}
     # A short description and all posting metadata fit in one readable record.

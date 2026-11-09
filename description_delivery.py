@@ -36,7 +36,7 @@ class DeliveryError(Exception):
     pass
 
 
-def send_plain(token, chat_id, text, *, deadline=None, post=None, sleep=time.sleep):
+def send_plain(token, chat_id, text, *, deadline=None, post=None, sleep=time.sleep, receipt=None):
     """Retries are bounded; timeout ambiguity may duplicate a wire identity, never
     imply success. No tokens, URLs containing tokens, or response bodies logged.
     """
@@ -59,6 +59,8 @@ def send_plain(token, chat_id, text, *, deadline=None, post=None, sleep=time.sle
             except ValueError:
                 body = {}
             if response.ok and body.get("ok") is True and body.get("result", {}).get("message_id"):
+                if receipt:
+                    receipt(body["result"]["message_id"], body["result"].get("text"))
                 return body["result"]["message_id"]
             code = body.get("error_code", response.status_code)
             if code == 429:

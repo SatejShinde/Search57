@@ -30,6 +30,7 @@ jobs:
     concurrency:
       group: watch-jobs-${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
       cancel-in-progress: false
+      queue: max
     env:
       TIER: ${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
     steps:
