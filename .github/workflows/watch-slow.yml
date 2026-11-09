@@ -45,11 +45,12 @@ jobs:
 
       - name: Commit updated state
         if: always()
-        run: |
-          git config user.name "job-watcher-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add state_slow.json
-          if [[ -f pending_slow.json ]]; then git add pending_slow.json; fi
-          git diff --staged --quiet || git commit -m "state: slow tier update"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+        run: python persist_watcher_state.py --tier slow
+      - name: Retain pending metadata for failed-push recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pending-recovery-slow-${{ github.run_id }}
+          path: pending_slow.json
+          retention-days: 1
+          if-no-files-found: ignore

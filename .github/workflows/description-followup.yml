@@ -58,15 +58,12 @@ jobs:
         run: python description_delivery.py --tier "$TIER" --send
       - name: Persist partial delivery checkpoints
         if: always()
-        run: |
-          set -euo pipefail
-          file="pending_${TIER}.json"
-          if [[ ! -f "$file" ]]; then exit 0; fi
-          python -c 'import json,sys; json.load(open(sys.argv[1]))' "$file"
-          git config user.name 'job-watcher-bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add -- "$file"
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "state: ${TIER} description delivery checkpoints"
-          git pull --rebase origin main
-          git push origin HEAD:main
+        run: python persist_watcher_state.py --tier "$TIER" --followup
+      - name: Retain pending metadata for failed-push recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pending-recovery-${{ env.TIER }}-${{ github.run_id }}
+          path: pending_${{ env.TIER }}.json
+          retention-days: 1
+          if-no-files-found: ignore

@@ -1,5 +1,9 @@
 # Telegram description delivery — staged, disabled by default
 
+The controlled real canary has now passed. See [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md)
+for its four confirmed messages, SHA256/checkpoint evidence, safe merge sequence,
+and remaining Desktop-export check. Production activation is still pending.
+
 Telegram is the persistent description store. No description archive branch,
 permanent description database, new filtering, or historical backfill is added.
 The new feature is gated by `SEARCH57_DESCRIPTIONS_ENABLED=true`. This work does
@@ -111,6 +115,10 @@ patterns recover IDs where possible; unknown/ambiguous identities remain
 separate. Company-scoped requisitions collapse location/cross-ATS variants. The most recent complete available revision is preferred; incomplete additional transfers remain flagged in the notes.
 Applied matches can be excluded; uncertain application matches remain `review`.
 Do not send the full export to a language model.
+
+Isolated `CANARY TEST` records are excluded by default. Use `--include-canary`
+explicitly for the canary export verification. Canary job keys are scoped by
+run ID so they cannot complete a production transfer.
 
 ## Activation and recovery — setup remains pending
 

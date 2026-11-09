@@ -1,5 +1,9 @@
 # No-send dry run — 2026-11-09
 
+Historical pre-canary results. The subsequent real Telegram canary succeeded;
+see [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md) for current evidence and
+the remaining Desktop-export verification. Production remains disabled.
+
 Result: **PASS for local mocked/integration checks and limited live retrieval.**
 Production activation remains pending. No Telegram sends, repository-variable
 updates, workflow dispatches, schedule changes, or resume generation occurred.
