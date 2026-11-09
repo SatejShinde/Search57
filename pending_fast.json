@@ -1,1 +1,582 @@
-{}
+{
+  "s57_3c8593ed9a645c82279d8bc0c0687041": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3090676",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3090676",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b4277451f7a641c0319f40c582b93cd7": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern - Manufacturing & Logistics Engineering",
+      "location": "Phra Nakhon Si Ayutthaya,, BangPa-in, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000159773909",
+      "requisition_id": "REF34920J",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000159773909"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern - Manufacturing & Logistics Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000159773909",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000159773909",
+      "location": "Phra Nakhon Si Ayutthaya,, BangPa-in, th",
+      "requisition_id": "REF34920J"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_78c086120c97b65d2bcd5aa992cbe93a": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000158891154",
+      "requisition_id": "REF33834Q",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891154"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000158891154",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891154",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33834Q"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_61d9c00f79e1207adef40427c9f15df9": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000158891279",
+      "requisition_id": "REF33829Y",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891279"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000158891279",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891279",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33829Y"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_43364bd43deb1e628652c865afb2ba2a": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000158891099",
+      "requisition_id": "REF33832N",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891099"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000158891099",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158891099",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33832N"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_1be63d406e9276ac3ee3d74d50f21386": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000158890989",
+      "requisition_id": "REF33833B",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158890989"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000158890989",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158890989",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33833B"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_5f4a183d00b082faa0ed18364b5198cc": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000158890939",
+      "requisition_id": "REF33831D",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158890939"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern – Manufacturing Engineer (Studying Bachelor or Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000158890939",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000158890939",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33831D"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_9a4d0d4aeda0418e9497619b2d7e7acc": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Spring Co-op - Recording Electronics Data Analytics & Optimization",
+      "location": "Rochester, MN, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000155109379",
+      "requisition_id": "REF34246V",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000155109379"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Spring Co-op - Recording Electronics Data Analytics & Optimization",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000155109379",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000155109379",
+      "location": "Rochester, MN, us",
+      "requisition_id": "REF34246V"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_488b56ac099c1da1800ab44e919e2e9f": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Winter 2027 Intern/Co-op Development Engineer ",
+      "location": "Rochester, MN, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000152261929",
+      "requisition_id": "REF34385P",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000152261929"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Winter 2027 Intern/Co-op Development Engineer ",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000152261929",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000152261929",
+      "location": "Rochester, MN, us",
+      "requisition_id": "REF34385P"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_fe10ecdf35ffc336bd9bcf9f3c66da4b": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern - Technologist, Hardware Development Engineering (Studying Ph.D Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000149229769",
+      "requisition_id": "REF34534B",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149229769"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern - Technologist, Hardware Development Engineering (Studying Ph.D Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000149229769",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149229769",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF34534B"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_14f2615fcde89bf22e1c7919b4671cd7": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Spring 2027 Co-Op - Channel Integration",
+      "location": "Rochester, MN, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000149105974",
+      "requisition_id": "REF34270Z",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149105974"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Spring 2027 Co-Op - Channel Integration",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000149105974",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149105974",
+      "location": "Rochester, MN, us",
+      "requisition_id": "REF34270Z"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b22e4b182152eb45a8fe2262952080ea": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer/Fall 2027 Co-Op: Channel Integration",
+      "location": "Rochester, MN, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000149106240",
+      "requisition_id": "REF34269J",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149106240"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer/Fall 2027 Co-Op: Channel Integration",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000149106240",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000149106240",
+      "location": "Rochester, MN, us",
+      "requisition_id": "REF34269J"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_bd50fc8f504ad9e304fe091229deae4b": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Sales & Marketing",
+      "location": "Irvine, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000148618930",
+      "requisition_id": "REF33856A",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148618930"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Sales & Marketing",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000148618930",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148618930",
+      "location": "Irvine, CA, us",
+      "requisition_id": "REF33856A"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_69474bc80ed05644d834638fe6150483": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Human Resources",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000148347691",
+      "requisition_id": "REF34448C",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148347691"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Human Resources",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000148347691",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148347691",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF34448C"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_60e1724f33010932256798d73f229970": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Financial Analyst - Undergraduate & MBA",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000148348049",
+      "requisition_id": "REF34447H",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148348049"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Financial Analyst - Undergraduate & MBA",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000148348049",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000148348049",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF34447H"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_fb75eec808817511c6370eb4daf1af99": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Software Engineering",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000143171017",
+      "requisition_id": "REF33901P",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000143171017"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Software Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000143171017",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000143171017",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF33901P"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_45cf80a452e791b9e3152e575267f060": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Hardware Engineering",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000140949875",
+      "requisition_id": "REF34107R",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000140949875"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Hardware Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000140949875",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000140949875",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF34107R"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_c7ef6951409df2bc176da8700a8055e6": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Fall 2026 PhD Intern - Hardware Development Engineering",
+      "location": "Fremont, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000138191379",
+      "requisition_id": "REF33877D",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000138191379"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Fall 2026 PhD Intern - Hardware Development Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000138191379",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000138191379",
+      "location": "Fremont, CA, us",
+      "requisition_id": "REF33877D"
+    },
+    "alert_sent": false,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6ffac3ced0c485b98aff78257c82b552": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern - Automation Development Engineer (Studying Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000136959345",
+      "requisition_id": "REF33799L",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000136959345"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern - Automation Development Engineer (Studying Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000136959345",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000136959345",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33799L"
+    },
+    "alert_sent": false,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_8050afe4e8bc44f6e98354ca79d302e4": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern - Automation Development Engineer (Studying Master's Degree)",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000136954658",
+      "requisition_id": "REF33800X",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000136954658"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Intern - Automation Development Engineer (Studying Master's Degree)",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000136954658",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000136954658",
+      "location": "BangPa-in, PHRA NAKHON SI AYUTTHAYA, th",
+      "requisition_id": "REF33800X"
+    },
+    "alert_sent": false,
+    "acks": {},
+    "attempts": 0
+  }
+}
