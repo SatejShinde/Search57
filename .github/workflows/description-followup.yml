@@ -1,0 +1,71 @@
+name: Telegram description follow-up
+
+on:
+  workflow_run:
+    workflows: [watch-jobs-fast, watch-jobs-slow]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      tier:
+        type: choice
+        options: [fast, slow]
+        required: true
+      send:
+        type: boolean
+        default: false
+        description: Send pending descriptions (requires feature variable)
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  followup:
+    if: vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && (github.event_name == 'workflow_run' || inputs.send == true)
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    # The SAME lock as the originating watcher protects seen state + pending
+    # state. Checkout happens after lock acquisition, never stale at queue time.
+    concurrency:
+      group: watch-jobs-${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
+      cancel-in-progress: false
+    env:
+      TIER: ${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Recover transient listing payload (targeted retrieval if expired)
+        if: github.event_name == 'workflow_run'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: description-listings-${{ env.TIER }}
+          path: .runtime
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Bounded delivery
+        env:
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python description_delivery.py --tier "$TIER" --send
+      - name: Persist partial delivery checkpoints
+        if: always()
+        run: |
+          set -euo pipefail
+          file="pending_${TIER}.json"
+          if [[ ! -f "$file" ]]; then exit 0; fi
+          python -c 'import json,sys; json.load(open(sys.argv[1]))' "$file"
+          git config user.name 'job-watcher-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -- "$file"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "state: ${TIER} description delivery checkpoints"
+          git pull --rebase origin main
+          git push origin HEAD:main

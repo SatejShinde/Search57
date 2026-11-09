@@ -5,6 +5,7 @@ import { createClient } from './network.mjs';
 import { DEFAULT_KEYWORDS, emptyState, validateState, nameKey, publicLink, normalizeRound, ingestRounds, classifyJob, chooseItems, buildChunks, key } from './core.mjs';
 import { fetchMidu, discoverBoards, fetchBoard } from './sources.mjs';
 import { validateProfile, profileMatch } from './profile.mjs';
+import { descriptionEntry } from './descriptions.mjs';
 
 export const DEFAULT_CONFIG = { lookbackDays: 30, maxProspectsPerDay: 10, maxNewWebsiteChecksPerDay: 5, maxRequests: 120, hardwareKeywords: DEFAULT_KEYWORDS, prospectKeywords: [...DEFAULT_KEYWORDS, 'robotics', 'chip', 'autonomy'], companies: [] };
 export function configWithDefaults(input = {}) {
@@ -32,7 +33,7 @@ export async function readState(file) {
   catch (err) { if (err.code === 'ENOENT') return emptyState(); throw err; }
 }
 
-export async function collect({ config, state, client, env, now }) {
+export async function collect({ config, state, client, env, now, descriptionListings }) {
   const errors = []; const warnings = [];
   const to = now.slice(0,10); const from = new Date(new Date(`${to}T00:00:00Z`).valueOf() - config.lookbackDays * 86400000).toISOString().slice(0,10);
   try { ingestRounds(state, await fetchMidu(client, env.MIDU_API_KEY, { from, to, keywords: config.prospectKeywords }), now); }
@@ -58,6 +59,7 @@ export async function collect({ config, state, client, env, now }) {
         for (const job of Object.values(state.jobs)) if (job.companyKey === company.key && job.boardKey === boardKey) job.active = false;
         for (const row of rows) {
           const matched = classifyJob(row,config.hardwareKeywords,config.matchProfile); if (!matched) continue;
+          if (descriptionListings) descriptionListings[row.id] = row.description;
           state.jobs[row.id] = { ...matched, active: true, firstSeenAt: state.jobs[row.id]?.firstSeenAt || now, lastCheckedAt: now };
         }
         board.lastCheckedAt = now;
@@ -85,16 +87,18 @@ export function demoState(profile = null) {
   return state;
 }
 
-export async function deliverChunks({ chunks, state, save, send }) {
+export async function deliverChunks({ chunks, state, save, send, onDelivered = () => {} }) {
   const sent = new Set(state.sentChunks || []);
   for (const chunk of chunks) {
     if (!sent.has(chunk.key)) {
       await send(chunk.body); // Never automatically retry an ambiguous send timeout.
       state.sentChunks.push(chunk.key); sent.add(chunk.key);
       if (chunk.final && !state.delivered.includes(chunk.itemId)) state.delivered.push(chunk.itemId);
+      if (chunk.final) onDelivered(chunk.itemId);
       await save(state); // Checkpoint after EACH successful Telegram response.
     } else if (chunk.final && !state.delivered.includes(chunk.itemId)) {
       state.delivered.push(chunk.itemId); await save(state);
+      onDelivered(chunk.itemId); await save(state);
     }
   }
 }
@@ -110,7 +114,8 @@ export async function run({ config: inputConfig = {}, statePath, outputDir, demo
   const config = configWithDefaults(inputConfig);
   const state = demo ? demoState(config.matchProfile) : await readState(statePath);
   const net = client || createClient({ maxRequests: config.maxRequests });
-  const status = demo ? { errors: [], warnings: [], websiteChecks: 0 } : await collect({ config, state, client: net, env, now });
+  const descriptionListings = env.SEARCH57_DESCRIPTIONS_ENABLED === 'true' ? {} : null;
+  const status = demo ? { errors: [], warnings: [], websiteChecks: 0 } : await collect({ config, state, client: net, env, now, descriptionListings });
   const items = chooseItems(state,config.maxProspectsPerDay);
   const chunks = buildChunks(items,demo);
   const preview = [...(demo ? ['SYNTHETIC DEMO — no live data, no network, no delivery.'] : []), ...status.errors.map(e => `SOURCE ERROR: ${e}`), ...status.warnings.map(e => `PARTIAL SOURCE WARNING: ${e}`), ...chunks.map(c => c.body)].join('\n\n');
@@ -123,10 +128,23 @@ export async function run({ config: inputConfig = {}, statePath, outputDir, demo
     // maxRequests governs source scanning. Delivery has its own bounded budget, so
     // a partially exhausted scan cannot trap the saved queue in an endless retry.
     const deliveryClient = client || createClient({ maxRequests: Math.max(1,chunks.length) });
+    const pendingByItem = {};
+    if (descriptionListings) {
+      state.descriptionPending ||= {};
+      const cache = {};
+      for (const item of items.filter(i=>i.kind === 'open internship')) {
+        const [key,entry] = descriptionEntry(item);
+        state.descriptionPending[key] ||= entry;
+        pendingByItem[item.id] = key;
+        if (descriptionListings[item.id]) cache[key] = descriptionListings[item.id];
+      }
+      await atomicSave(path.join(path.dirname(statePath),'description-listings.json'),cache);
+    }
     // A successful scan is useful even if the very first Telegram request fails.
     // Saving the queue never marks an item delivered; acknowledgements do that.
     await save(statePath,state);
-    await deliverChunks({ chunks, state, save: value => save(statePath,value), send: body => sendTelegram(deliveryClient,env,body) });
+    await deliverChunks({ chunks, state, save: value => save(statePath,value), send: body => sendTelegram(deliveryClient,env,body),
+      onDelivered: itemId => { const key=pendingByItem[itemId]; if (key) state.descriptionPending[key].alert_sent=true; } });
     // Also persist successful empty polls, discovered boards and the unsent backlog.
     await save(statePath,state);
   }

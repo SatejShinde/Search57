@@ -29,13 +29,26 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
         run: python check_jobs.py --tier slow
 
+      - name: Hand off transient listing descriptions
+        if: always() && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: description-listings-slow
+          path: .runtime/listings_slow.json
+          include-hidden-files: true
+          retention-days: 1
+          if-no-files-found: ignore
+
       - name: Commit updated state
+        if: always()
         run: |
           git config user.name "job-watcher-bot"
           git config user.email "actions@users.noreply.github.com"
           git add state_slow.json
+          if [[ -f pending_slow.json ]]; then git add pending_slow.json; fi
           git diff --staged --quiet || git commit -m "state: slow tier update"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
