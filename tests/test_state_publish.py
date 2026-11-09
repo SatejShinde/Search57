@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import Mock
 
-from persist_watcher_state import publish
+from persist_watcher_state import publish, authorize_action
 
 
 class PublishTests(unittest.TestCase):
@@ -59,6 +59,11 @@ class PublishTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError,"Index not clean"):
             publish("fast",run=run)
         self.assertFalse(any(c[0]=="commit" for c in calls))
+
+    def test_cli_refuses_local_and_feature_branch_production_pushes(self):
+        for env in ({},{"GITHUB_ACTIONS":"true","GITHUB_REF":"refs/heads/codex/telegram-job-descriptions"}):
+            with self.assertRaises(RuntimeError): authorize_action(env)
+        authorize_action({"GITHUB_ACTIONS":"true","GITHUB_REF":"refs/heads/main"})
 
     def test_real_git_stale_slow_checkout_preserves_new_fast_state(self):
         def command(*args,cwd=None):

@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 import subprocess
 import time
@@ -15,6 +16,11 @@ import time
 def git(*args):
     return subprocess.run(["git", *args], capture_output=True, text=True,
                           encoding="utf-8", errors="replace", timeout=30)
+
+
+def authorize_action(env):
+    if env.get("GITHUB_ACTIONS") != "true" or env.get("GITHUB_REF") != "refs/heads/main":
+        raise RuntimeError("Checkpoint CLI only permits main-branch GitHub Actions runs")
 
 
 def publish(tier, *, followup=False, run=git, sleep=time.sleep):
@@ -60,6 +66,7 @@ def main():
     parser.add_argument("--tier", choices=["fast", "slow"], required=True)
     parser.add_argument("--followup", action="store_true")
     args = parser.parse_args()
+    authorize_action(os.environ)
     publish(args.tier, followup=args.followup)
 
 

@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   followup:
-    if: vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && (github.event_name == 'workflow_run' || inputs.send == true)
+    if: github.ref == 'refs/heads/main' && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && (github.event_name == 'workflow_run' || inputs.send == true)
     runs-on: ubuntu-latest
     timeout-minutes: 8
     # The SAME lock as the originating watcher protects seen state + pending

@@ -54,8 +54,8 @@ keys cannot complete or replace a production description transfer.
 | First activation | Existing seen states remain authoritative. Only new notifications are queued; no historical backfill. Startup digest retains its existing independent delivery history. |
 | Follow-up trigger | `workflow_run` only for existing fast/slow watchers on main; manual tier/send recovery remains available after merge. Canary runs on the review branch cannot trigger production follow-up. |
 | Permissions | Original watchers/follow-up need contents write; follow-up needs actions read for transient artifacts. Canary uses contents read only, with secrets confined to its send step. No new secrets. |
-| Same-tier concurrency | Scan/follow-up share their tier lock. `queue: max` prevents a follow-up from replacing a pending scan; queue capacity remains finite (100 pending runs). |
-| Cross-tier state pushes | New allowlisted publisher fetches/rebases and retries non-force pushes at most three times. A genuine conflict aborts conservatively; remote state is never overwritten. Tested with a temporary local Git remote containing stale fast/slow checkouts. |
+| Same-tier concurrency | Scan/follow-up share their tier lock and check out current main **after** lock acquisition. `queue: max` prevents a follow-up from replacing a pending scan; queue capacity remains finite (100 pending runs). |
+| Cross-tier state pushes | New allowlisted publisher fetches/rebases and retries non-force pushes at most three times. Its CLI refuses local/feature-branch publication; normal scan jobs only run on main. A genuine conflict aborts conservatively; remote state is never overwritten. Tested with a temporary local Git remote containing stale fast/slow checkouts. |
 | Checkpoint recovery | Each confirmed wire is checkpointed. Failed pushes retain one-day **metadata-only** recovery artifacts. Do not overwrite newer remote queues from an artifact without reconciling acknowledgements. |
 | Time budgets | 12 jobs / 240 seconds per follow-up; one detail subprocess max 25 seconds; sender retries honor remaining deadline. An 8-minute workflow allows install/persist overhead. Startup worker remains inside its existing 20-minute digest job. |
 | Backlog | Unfinished jobs rotate by last attempt and stay pending; no arbitrary body/queue truncation. One-day listing artifact expiry falls back to one-job retrieval. Monitor queue age and workflow failures. |
@@ -75,7 +75,7 @@ No force-push to main, merge into main, or production variable change occurred.
 Live watcher commits can advance main again; repeat this check immediately before
 merge rather than copying stale state files from an old feature snapshot.
 
-- **44 Python tests passed** after synchronization, including canary guards,
+- **45 Python tests passed** after synchronization, including canary guards,
   multipart API-echo verification, read-only protected-state checks, parser
   canary exclusion, bounded push retries/conflicts and a real local Git race test.
 - **22 Node tests passed**, preserving startup selectors and original alert text.
