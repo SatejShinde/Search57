@@ -1,1 +1,89 @@
-{}
+{
+  "s57_3c8593ed9a645c82279d8bc0c0687041": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3090676",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3090676",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_d12addc7482ef1279e20cfd31e3a64e6": {
+    "record": {
+      "company": "Analog Devices",
+      "title": "Machine Learning for Computational Sensing Research Intern",
+      "location": "US, MA, Boston",
+      "platform": "workday",
+      "ats_id": "R268371",
+      "requisition_id": "R268371",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371"
+    },
+    "company": {
+      "name": "Analog Devices",
+      "tier": "fast",
+      "platform": "workday",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External"
+    },
+    "job": {
+      "title": "Machine Learning for Computational Sensing Research Intern",
+      "company": "Analog Devices",
+      "ats_type": "workday",
+      "ats_id": "R268371",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371",
+      "location": "US, MA, Boston",
+      "requisition_id": "R268371"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_7c46e292a5c391c3f37db03f466473d1": {
+    "record": {
+      "company": "Microchip",
+      "title": "Intern - Device Engineer",
+      "location": "CA - San Jose - Fortune Dr (Micrel HDQ)",
+      "platform": "workday",
+      "ats_id": "R4398-26",
+      "requisition_id": "R4398-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---Fortune-Dr-Micrel-HDQ/Intern---Device-Engineer_R4398-26"
+    },
+    "company": {
+      "name": "Microchip",
+      "tier": "fast",
+      "platform": "workday",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external"
+    },
+    "job": {
+      "title": "Intern - Device Engineer",
+      "company": "Microchip",
+      "ats_type": "workday",
+      "ats_id": "R4398-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---Fortune-Dr-Micrel-HDQ/Intern---Device-Engineer_R4398-26",
+      "location": "CA - San Jose - Fortune Dr (Micrel HDQ)",
+      "requisition_id": "R4398-26"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
