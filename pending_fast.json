@@ -1,0 +1,31 @@
+{
+  "s57_e3d280c0feb50614f940c2a776e557ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera Design Engineering Internship - Canada (12 or 16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098737",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829439"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Camera Design Engineering Internship - Canada (12 or 16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098737",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829439",
+      "location": "Vancouver, BC, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
