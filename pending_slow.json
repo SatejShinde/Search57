@@ -1,1 +1,66 @@
-{}
+{
+  "s57_f16293f7c12c19822eba5340a085595e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Construction Project Management INTERN",
+      "location": "Santiago de Querétaro, Qro., MX",
+      "platform": "eightfold",
+      "ats_id": "200065933",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557055359"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Construction Project Management INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200065933",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557055359",
+      "location": "Santiago de Querétaro, Qro., MX",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_c2e20388437a44a4248bab9384b3aaf0": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Commercial Sales INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062103",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Commercial Sales INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062103",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299",
+      "location": "DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
