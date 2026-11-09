@@ -1,1 +1,147 @@
-{}
+{
+  "s57_c505c2850bf8fffc4ac64cfd306c6f8e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Programming Systems - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025379",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633489"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Programming Systems - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025379",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633489",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_515917a82d40b024088089eda459aaa4": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099136",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722001120"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099136",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722001120",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_88c144daca3fab91b9b5e88411754ab8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099139",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722003454"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099139",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722003454",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_500c0afcf1b0d4189b387725402632ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099142",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_10515281ceac95f88ed62c3720394816": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098788",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+      "location": "Guyancourt, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
