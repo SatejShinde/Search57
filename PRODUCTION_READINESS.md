@@ -1,7 +1,6 @@
 # Controlled canary and production readiness — 2026-11-09
 
-**Status: real canary passed; branch prepared for review. No merge or production
-activation has been performed. Desktop-export verification remains pending.**
+**Deployment update (2026-11-09): merged to main as `27cc70b7537c1b6cd3091e22d4115e1131006b3f` and production activated at 09:24:16 UTC with explicit user approval. The variable was read back as `true`. Desktop-export verification remains outstanding and nonblocking: the available local export ends on November 7, before the canary. The sections below preserve the pre-deployment review record.**
 
 ## Live evidence
 

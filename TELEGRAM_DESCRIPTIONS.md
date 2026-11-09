@@ -2,12 +2,13 @@
 
 The controlled real canary has now passed. See [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md)
 for its four confirmed messages, SHA256/checkpoint evidence, safe merge sequence,
-and remaining Desktop-export check. Production activation is still pending.
+and remaining Desktop-export check. Production was enabled on 2026-11-09 after
+explicit user approval; the current variable was verified as `true`.
 
 Telegram is the persistent description store. No description archive branch,
 permanent description database, new filtering, or historical backfill is added.
-The new feature is gated by `SEARCH57_DESCRIPTIONS_ENABLED=true`. This work does
-not set that variable, change any cron expression, or send any Telegram messages.
+The feature is gated by `SEARCH57_DESCRIPTIONS_ENABLED=true`. Activation required
+no cron-expression, cron-job.org, dispatch-URL or request-body changes.
 
 ## Flow and bounded work
 
