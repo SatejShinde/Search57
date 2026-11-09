@@ -11,13 +11,17 @@ permissions:
 concurrency:
   group: watch-jobs-slow
   cancel-in-progress: false
+  queue: max
 
 jobs:
   check:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -29,13 +33,27 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
         run: python check_jobs.py --tier slow
 
+      - name: Hand off transient listing descriptions
+        if: always() && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: description-listings-slow
+          path: .runtime/listings_slow.json
+          include-hidden-files: true
+          retention-days: 1
+          if-no-files-found: ignore
+
       - name: Commit updated state
-        run: |
-          git config user.name "job-watcher-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add state_slow.json
-          git diff --staged --quiet || git commit -m "state: slow tier update"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+        if: always()
+        run: python persist_watcher_state.py --tier slow
+      - name: Retain pending metadata for failed-push recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pending-recovery-slow-${{ github.run_id }}
+          path: pending_slow.json
+          retention-days: 1
+          if-no-files-found: ignore

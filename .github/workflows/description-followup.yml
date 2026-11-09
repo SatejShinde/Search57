@@ -1,0 +1,69 @@
+name: Telegram description follow-up
+
+on:
+  workflow_run:
+    workflows: [watch-jobs-fast, watch-jobs-slow]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      tier:
+        type: choice
+        options: [fast, slow]
+        required: true
+      send:
+        type: boolean
+        default: false
+        description: Send pending descriptions (requires feature variable)
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  followup:
+    if: github.ref == 'refs/heads/main' && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && (github.event_name == 'workflow_run' || inputs.send == true)
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    # The SAME lock as the originating watcher protects seen state + pending
+    # state. Checkout happens after lock acquisition, never stale at queue time.
+    concurrency:
+      group: watch-jobs-${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
+      cancel-in-progress: false
+      queue: max
+    env:
+      TIER: ${{ inputs.tier || (github.event.workflow_run.name == 'watch-jobs-fast' && 'fast' || 'slow') }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Recover transient listing payload (targeted retrieval if expired)
+        if: github.event_name == 'workflow_run'
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: description-listings-${{ env.TIER }}
+          path: .runtime
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Bounded delivery
+        env:
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python description_delivery.py --tier "$TIER" --send
+      - name: Persist partial delivery checkpoints
+        if: always()
+        run: python persist_watcher_state.py --tier "$TIER" --followup
+      - name: Retain pending metadata for failed-push recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pending-recovery-${{ env.TIER }}-${{ github.run_id }}
+          path: pending_${{ env.TIER }}.json
+          retention-days: 1
+          if-no-files-found: ignore

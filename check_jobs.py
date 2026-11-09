@@ -30,10 +30,13 @@ import json
 import os
 import re
 import sys
+import time
+from html import escape
 from pathlib import Path
 from typing import Any, Callable
 
 import requests
+from description_delivery import enqueue, load as load_pending, save as save_pending, send_plain
 from ats_scrapers.scrapers import (
     AmazonScraper,
     AppleScraper,
@@ -279,7 +282,7 @@ def canonical_url(platform: str, job: Any) -> str:
     this dict if other platforms show the same issue.
     """
     overrides = {
-        "amazon": lambda j: f"https://www.amazon.jobs/en/jobs/{j.ats_id}",
+        "amazon": lambda j: f"https://www.amazon.jobs/en/jobs/{str(getattr(j, 'requisition_id', None) or j.ats_id).split('@')[0]}",
     }
     fix = overrides.get(platform)
     return fix(job) if fix else job.url
@@ -297,6 +300,10 @@ def main() -> None:
 
     state_path = Path(f"state_{args.tier}.json")
     state = load_state(state_path)
+    descriptions_enabled = os.environ.get("SEARCH57_DESCRIPTIONS_ENABLED") == "true"
+    pending_path = Path(f"pending_{args.tier}.json")
+    pending = load_pending(pending_path) if descriptions_enabled else {}
+    listing_cache = {}
     companies = [c for c in COMPANIES if c["tier"] == args.tier]
 
     total_new = 0
@@ -321,17 +328,38 @@ def main() -> None:
             if job.ats_id in new_ids:
                 total_new += 1
                 url = canonical_url(company["platform"], job)
-                msg = f"\U0001f195 <b>{name}</b>: {job.title}\n{job.location or ''}\n{url}"
-                send_telegram(token, chat_id, msg)
+                if descriptions_enabled:
+                    # Persist an alert retry BEFORE the request. Descriptions
+                    # are never retrieved in this lightweight company loop.
+                    key = enqueue(pending, company, job, url, listing_cache)
+                    save_pending(pending_path, pending)
+                    save_pending(f".runtime/listings_{args.tier}.json", listing_cache)
+                    if not pending[key]["alert_sent"]:
+                        try:
+                            send_plain(token, chat_id,
+                                       f"🆕 {name}: {job.title}\n{job.location or ''}\n{url}",
+                                       deadline=time.monotonic()+15)
+                            pending[key]["alert_sent"] = True
+                            save_pending(pending_path, pending)
+                        except Exception:
+                            print(f"  [{name}] alert unconfirmed; queued for follow-up", file=sys.stderr)
+                else:
+                    msg = f"\U0001f195 <b>{escape(name)}</b>: {escape(job.title)}\n{escape(job.location or '')}\n{escape(str(url))}"
+                    send_telegram(token, chat_id, msg)
 
         state[name] = sorted(current_ids)
+        save_state(state_path, state)
         print(
             f"  [{name}] {len(jobs)} total postings company-wide, "
             f"{len(relevant)} intern/co-op+US, {len(new_ids)} new"
         )
 
     save_state(state_path, state)
-    print(f"Done. {total_new} new postings sent to Telegram.")
+    if descriptions_enabled:
+        unconfirmed = sum(not entry["alert_sent"] for entry in pending.values())
+        print(f"Done. {total_new} new postings selected; {unconfirmed} alerts unconfirmed; {len(pending)} description follow-ups pending.")
+    else:
+        print(f"Done. {total_new} new postings sent to Telegram.")
 
 
 if __name__ == "__main__":

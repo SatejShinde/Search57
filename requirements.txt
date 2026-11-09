@@ -1,2 +1,2 @@
-ats-scrapers[scrapers]
+ats-scrapers[scrapers]==0.3.0
 requests

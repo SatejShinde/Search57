@@ -89,11 +89,26 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SEND_DIGEST: ${{ inputs.send == true }}
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
         run: |
           set -euo pipefail
           args=(--config config.json --state .runtime/state.json --output .runtime/output)
           if [[ "$SEND_DIGEST" == 'true' ]]; then args+=(--send); fi
           node run.mjs "${args[@]}"
+
+      - uses: actions/setup-python@v5
+        if: vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
+        with:
+          python-version: '3.12'
+      - name: Bounded startup description follow-up
+        if: always() && steps.restore.outputs.ready == 'true' && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
+        env:
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          pip install -r ../requirements.txt
+          python ../description_delivery.py --wrapper-state .runtime/state.json --send
 
       - name: Persist delivery checkpoints, including partial sends
         if: always() && steps.restore.outputs.ready == 'true'

@@ -3,21 +3,34 @@
 on:
   schedule:
     - cron: "*/10 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      canary:
+        description: Isolated one-job CANARY TEST (no company scan or production state writes)
+        type: boolean
+        default: false
+      send:
+        description: Explicitly permit the canary Telegram send
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: watch-jobs-fast
+  group: ${{ github.event_name == 'workflow_dispatch' && inputs.canary == true && 'search57-live-canary' || 'watch-jobs-fast' }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   check:
+    if: inputs.canary != true && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -29,13 +42,59 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
         run: python check_jobs.py --tier fast
 
+      - name: Hand off transient listing descriptions
+        if: always() && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: description-listings-fast
+          path: .runtime/listings_fast.json
+          include-hidden-files: true
+          retention-days: 1
+          if-no-files-found: ignore
+
       - name: Commit updated state
-        run: |
-          git config user.name "job-watcher-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add state_fast.json
-          git diff --staged --quiet || git commit -m "state: fast tier update"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
+        if: always()
+        run: python persist_watcher_state.py --tier fast
+      - name: Retain pending metadata for failed-push recovery
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pending-recovery-fast-${{ github.run_id }}
+          path: pending_fast.json
+          retention-days: 1
+          if-no-files-found: ignore
+
+  canary:
+    if: github.event_name == 'workflow_dispatch' && inputs.canary == true && inputs.send == true && github.run_attempt == 1 && github.ref == 'refs/heads/codex/telegram-job-descriptions'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Run full mocked Python suite before live send
+        run: python -m unittest discover -s tests -v
+      - name: Send exactly one pinned real internship canary
+        env:
+          SEARCH57_CANARY_SEND: ${{ inputs.send == true }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python canary_delivery.py --send
+      - name: Retain temporary canary delivery receipts and checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canary-receipts-${{ github.run_id }}
+          path: .runtime/canary/${{ github.run_id }}/
+          include-hidden-files: true
+          if-no-files-found: ignore
+          retention-days: 1
