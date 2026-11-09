@@ -1,1 +1,31 @@
-{}
+{
+  "s57_12cd92fe680aca46be10f6b7a437dbaa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning AISW Internship - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098303",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721636765"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning AISW Internship - Canada (4 Months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098303",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721636765",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
