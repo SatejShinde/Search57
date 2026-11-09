@@ -6,7 +6,7 @@ updates, workflow dispatches, schedule changes, or resume generation occurred.
 
 | Check | Result |
 | --- | --- |
-| Python regression/integration suite | 29/29 passed |
+| Python regression/integration suite | 30/30 passed |
 | Startup Node suite, including existing regressions | 22/22 passed |
 | Python syntax compilation | Passed |
 | Edited/new workflow YAML parsing | 5/5 passed |

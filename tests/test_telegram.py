@@ -83,6 +83,10 @@ class ProtocolTests(unittest.TestCase):
         self.assertEqual(rows[0]["ats_id"], "12345")
         self.assertEqual(rows[0]["description_status"], "legacy_unavailable")
 
+    def test_legacy_funding_prospect_is_not_a_job(self):
+        rows, _ = self.export(["Hardware internship watch · Summer 2027\nFUNDING OUTREACH PROSPECT — Fixture\nhttps://example.com/funding"])
+        self.assertFalse(rows)
+
     def test_location_variants_same_key_and_distinct_company(self):
         self.assertEqual(job_key(RECORD), job_key({**RECORD, "location":"Austin, TX", "ats_id":"R123@Austin"}))
         self.assertNotEqual(job_key(RECORD), job_key({**RECORD, "company":"Different Co"}))

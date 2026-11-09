@@ -143,6 +143,10 @@ def url_identity(url):
 
 
 def legacy_record(text):
+    # Funding outreach prospects are not job postings. Their existing digest
+    # delivery is untouched; only the export index distinguishes the item type.
+    if "FUNDING OUTREACH PROSPECT —" in text and "OPEN INTERNSHIP —" not in text:
+        return None
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     simple_title_url = (2 <= len(lines) <= 3 and not lines[0].startswith("http")
                         and any(line.startswith("http") for line in lines[1:]))
