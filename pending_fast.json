@@ -1,1 +1,60 @@
-{}
+{
+  "s57_fa53cc12ad558ddeeada5f43b255b673": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025907",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828680"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025907",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828680",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_acf982005bd1c0c43e7a9b25213e6f96": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098824",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862430"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098824",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862430",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
