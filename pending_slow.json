@@ -1,1 +1,34 @@
-{}
+{
+  "s57_ec4498616414949f82ad7de96411bc5f": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Data Science: PhD Internship Opportunities - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200052449",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Data Science: PhD Internship Opportunities - Redmond",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200052449",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
