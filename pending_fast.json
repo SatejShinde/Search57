@@ -1,1 +1,89 @@
-{}
+{
+  "s57_f74cc62fcfc79735cfe58a39aa19f973": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099088",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099088",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_45cf80a452e791b9e3152e575267f060": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Hardware Engineering",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000160975864",
+      "requisition_id": "REF34107R",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000160975864"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Hardware Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000160975864",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000160975864",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF34107R"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_fb75eec808817511c6370eb4daf1af99": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Summer 2027 Intern - Software Engineering",
+      "location": "San Jose, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000160975819",
+      "requisition_id": "REF33901P",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000160975819"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Summer 2027 Intern - Software Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000160975819",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000160975819",
+      "location": "San Jose, CA, us",
+      "requisition_id": "REF33901P"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
