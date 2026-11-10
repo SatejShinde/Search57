@@ -1,1 +1,147 @@
-{}
+{
+  "s57_6f7a0e41694605bb5b0b6225eb4084f5": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098898",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098898",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_0764e79a205407c7d5f3a7dedb5e0559": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098919",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913672"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098919",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913672",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_8b7099b816aee7700ccac2fe9d9b1ae9": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098920",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913769"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098920",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913769",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_657f2ea8c668324131766bbd46ece085": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098926",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721914045"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098926",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721914045",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_25302055ad2c432ed07c4a00b0b08070": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Design Automation & Quality Assurance Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3097368",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721349404"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Design Automation & Quality Assurance Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097368",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721349404",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
