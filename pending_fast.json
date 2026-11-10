@@ -1,1 +1,89 @@
-{}
+{
+  "s57_260d896281d4150eb444cf46685745b8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099180",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_2daf543b6575be3686065cfbfbc37f7e": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam",
+      "location": "Amsterdam, NH, NL",
+      "platform": "eightfold",
+      "ats_id": "3098970",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721932621"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098970",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721932621",
+      "location": "Amsterdam, NH, NL",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_22829cd84edad8692abf571991f72f0f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+      "location": "Ottawa, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098828",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862542"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098828",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862542",
+      "location": "Ottawa, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
