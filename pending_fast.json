@@ -27,5 +27,34 @@
     "alert_sent": true,
     "acks": {},
     "attempts": 0
+  },
+  "s57_bc1ff0c77e66e409c2911a6885254670": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3097052",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721229661"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097052",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721229661",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
   }
 }
