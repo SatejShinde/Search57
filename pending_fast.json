@@ -1,1 +1,60 @@
-{}
+{
+  "s57_950650a816800d3e3c7a51f77638f316": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management MBA Intern, Laptop - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025905",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725881"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Management MBA Intern, Laptop - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025905",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725881",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_4875cb91cbe6094b1c53f6cbe5cb6b3c": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026004",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397756942"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026004",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397756942",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
