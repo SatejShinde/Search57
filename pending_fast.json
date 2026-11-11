@@ -1,1 +1,89 @@
-{}
+{
+  "s57_2df07d86749477d45df78d10456fec80": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Math Libraries Intern, cuEST - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028449",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398351853"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Math Libraries Intern, cuEST - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2028449",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398351853",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_28f2ffc8cb9b5dff43adf3f57fc481a8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3099074",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721979476"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099074",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721979476",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_39702c9efe2a39859c9d4b7370c7a51c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095747",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095747",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
