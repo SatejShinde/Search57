@@ -1,1 +1,89 @@
-{}
+{
+  "s57_260d896281d4150eb444cf46685745b8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099180",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b5042abe963a5bdfbdeb6e717422c358": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095749",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740636"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095749",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740636",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_08884106a81516c198f12449bd8fb6e6": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Product Management Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095762",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741706"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Product Management Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095762",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741706",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
