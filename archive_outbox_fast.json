@@ -1,1 +1,31 @@
-{}
+{
+  "7ecc7452357eae56072192a3e2ba2820fe47bcd1f3531bd33e262096e80d7102": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+      "location": "CO",
+      "platform": "eightfold",
+      "ats_id": "3093241",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719378698"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3093241",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446719378698",
+        "location": "CO",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T21:53:34.764388Z"
+  }
+}
