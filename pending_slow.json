@@ -1,1 +1,34 @@
-{}
+{
+  "s57_701fa854e42300a5005042d87895c1d3": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062675",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062675",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
