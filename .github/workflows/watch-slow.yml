@@ -36,12 +36,18 @@ jobs:
           SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
         run: python check_jobs.py --tier slow
 
+      - name: Encrypt transient listing payload before artifact upload
+        if: always() && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true'
+        continue-on-error: true
+        env:
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+        run: node artifact_cipher.js seal .runtime/listings_slow.json
       - name: Hand off transient listing descriptions
         if: always() && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: description-listings-slow
-          path: .runtime/listings_slow.json
+          path: .runtime/listings_slow.json.enc
           include-hidden-files: true
           retention-days: 1
           if-no-files-found: ignore

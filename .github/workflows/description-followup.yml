@@ -50,6 +50,11 @@ jobs:
           path: .runtime
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ github.token }}
+      - name: Decrypt private transient listing cache
+        continue-on-error: true
+        env:
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+        run: node artifact_cipher.js open ".runtime/listings_${TIER}.json.enc"
       - name: Bounded delivery
         env:
           SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
