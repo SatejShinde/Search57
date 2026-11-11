@@ -1,1 +1,205 @@
-{}
+{
+  "s57_84ed0446af1ae2562423a4cef61f9c7f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Research Intern, Spatial Intelligence - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027305",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398051498"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Research Intern, Spatial Intelligence - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2027305",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398051498",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_ea8a63324f4bf786aa0ec7cffe96e273": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Differentiable Simulation Research Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027561",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398123994"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Differentiable Simulation Research Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2027561",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398123994",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_203d48c76279641b07b17ac85026db21": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027429",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398124010"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2027429",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398124010",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_4875cb91cbe6094b1c53f6cbe5cb6b3c": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026004",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397756942"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026004",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397756942",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_952bbb7b139df1fab380569540c172ac": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026471",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026471",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_f63ba495af4fae7402897d9462a4bfe5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026584",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026584",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_9efb98978be1bc84f5ba57026dc7661d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Circuits - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2024174",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397488381"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Circuits - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2024174",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397488381",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
