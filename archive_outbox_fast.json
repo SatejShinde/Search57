@@ -1,1 +1,31 @@
-{}
+{
+  "e24a2dc527c6001348d9606c408ab38a6091f31fd1c59279c4fab95da757a41e": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Finance & Accounting Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3096864",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721159170"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Finance & Accounting Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096864",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721159170",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T21:43:38.500364Z"
+  }
+}
