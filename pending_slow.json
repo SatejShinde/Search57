@@ -1,1 +1,34 @@
-{}
+{
+  "s57_af26a3d9affa81c4491d59372168b9df": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Product Design INTERN",
+      "location": "IN",
+      "platform": "eightfold",
+      "ats_id": "200054934",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556992502"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Product Design INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200054934",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556992502",
+      "location": "IN",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
