@@ -1,1 +1,31 @@
-{}
+{
+  "59162984bc1e995cfbd3c9402d220923acec6ef04680b6c830f479e2f067f93d": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098926",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721914045"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098926",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721914045",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T18:33:42.715372Z"
+  }
+}
