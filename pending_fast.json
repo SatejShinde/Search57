@@ -1,1 +1,60 @@
-{}
+{
+  "s57_39702c9efe2a39859c9d4b7370c7a51c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095747",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095747",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_0c4a1173f5f8f0d8be22b56202bcafbf": {
+    "record": {
+      "company": "Emerson Electric",
+      "title": "RF Engineering Co-op (Jul - Dec 2027)",
+      "location": "Santa Rosa, CA, United States",
+      "platform": "oracle",
+      "ats_id": "hdjq.fa.us2.oraclecloud.com:26013238",
+      "requisition_id": "",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26013238"
+    },
+    "company": {
+      "name": "Emerson Electric",
+      "tier": "fast",
+      "platform": "oracle",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    },
+    "job": {
+      "title": "RF Engineering Co-op (Jul - Dec 2027)",
+      "company": "Emerson Electric",
+      "ats_type": "oracle",
+      "ats_id": "hdjq.fa.us2.oraclecloud.com:26013238",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26013238",
+      "location": "Santa Rosa, CA, United States",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
