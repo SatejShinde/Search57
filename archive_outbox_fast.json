@@ -1,1 +1,31 @@
-{}
+{
+  "a365788cebe74c0a72c808bb30e8b5d4ad7dd76c7fae9291461a87702bb01a36": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Design Automation & Quality Assurance Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3097368",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721349404"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Design Automation & Quality Assurance Engineering Intern - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3097368",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721349404",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T09:13:20.093035Z"
+  }
+}
