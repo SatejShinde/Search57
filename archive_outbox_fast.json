@@ -1,1 +1,89 @@
-{}
+{
+  "0474d7ed9b2e5282ae13cd1f5f3e1c3d65cfc3ea141470d7db3a4b2b1848ef5f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Go-to-Market Strategy Intern",
+      "location": "Courbevoie, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "JR2029657",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398667682"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Go-to-Market Strategy Intern",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029657",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398667682",
+        "location": "Courbevoie, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T09:33:49.613384Z"
+  },
+  "63adee7f0ecd5e827b216d862f97e3e8eff578bbdadfb32d492bd81dd1e73b43": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096815",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721143274"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096815",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721143274",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T09:34:05.509840Z"
+  },
+  "0d119b93fbb3ce71db5e69c53f8088e7364632bb4b2cc293b88f890d73cd19bf": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096817",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721143440"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096817",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721143440",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T09:34:24.543465Z"
+  }
+}
