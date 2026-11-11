@@ -1,1 +1,66 @@
-{}
+{
+  "s57_71fa272dc37d10013d07ffbe1cee3e53": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Security Research INTERN",
+      "location": "IN",
+      "platform": "eightfold",
+      "ats_id": "200062560",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043380"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Security Research INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062560",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043380",
+      "location": "IN",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_52eedf400f5c510a9a59889aaa41fd33": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Gray Systems Lab (GSL)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200063363",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557045445"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Gray Systems Lab (GSL)",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200063363",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557045445",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
