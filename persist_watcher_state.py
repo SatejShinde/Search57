@@ -26,7 +26,7 @@ def authorize_action(env):
 def publish(tier, *, followup=False, run=git, sleep=time.sleep):
     if tier not in {"fast", "slow"}:
         raise ValueError("Invalid tier")
-    paths = ([f"state_{tier}.json"] if not followup else []) + [f"pending_{tier}.json"]
+    paths = ([f"state_{tier}.json"] if not followup else []) + [f"pending_{tier}.json", f"archive_outbox_{tier}.json"]
     paths = [p for p in paths if Path(p).is_file()]
     for path in paths:
         json.loads(Path(path).read_text(encoding="utf-8"))

@@ -224,6 +224,8 @@ def deliver(queue, cache, checkpoint, send, retrieve_fn=bounded_retrieve, *, sec
                 entry["alert_sent"] = True
                 checkpoint(queue)
             detail = retrieve_fn(entry, cache.get(key, ""), min(25, deadline-time.monotonic()-10))
+            from archive_bridge import capture_detail
+            capture_detail(entry, detail)
             entry["retrieval_status"] = detail["status"]
             wires = messages(entry["record"], detail["text"], detail["status"], detail["note"])
             sha = digest(detail["text"])

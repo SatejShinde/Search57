@@ -36,7 +36,8 @@ from pathlib import Path
 from typing import Any, Callable
 
 import requests
-from description_delivery import enqueue, load as load_pending, save as save_pending, send_plain
+from description_delivery import enqueue, make_record, load as load_pending, save as save_pending, send_plain
+from archive_bridge import enqueue_source
 from ats_scrapers.scrapers import (
     AmazonScraper,
     AppleScraper,
@@ -328,6 +329,8 @@ def main() -> None:
             if job.ats_id in new_ids:
                 total_new += 1
                 url = canonical_url(company["platform"], job)
+                record = make_record(company, job, url)
+                enqueue_source(record, {"company": company, "job": {"title": job.title, "company": name, "ats_type": company["platform"], "ats_id": job.ats_id, "url": url, "location": job.location, "requisition_id": record["requisition_id"] or None}})
                 if descriptions_enabled:
                     # Persist an alert retry BEFORE the request. Descriptions
                     # are never retrieved in this lightweight company loop.
