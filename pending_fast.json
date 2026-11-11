@@ -1,1 +1,31 @@
-{}
+{
+  "s57_35f8fe877dba16de8f0cf4f99bf6835a": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Software Developer/Engineering",
+      "location": "Mequon, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-8666",
+      "requisition_id": "R26-8666",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1"
+    },
+    "company": {
+      "name": "Rockwell Automation",
+      "tier": "fast",
+      "platform": "workday",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+    },
+    "job": {
+      "title": "Intern, Software Developer/Engineering",
+      "company": "Rockwell Automation",
+      "ats_type": "workday",
+      "ats_id": "R26-8666",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1",
+      "location": "Mequon, Wisconsin, United States",
+      "requisition_id": "R26-8666"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
