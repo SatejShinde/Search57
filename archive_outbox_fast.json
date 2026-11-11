@@ -1,1 +1,31 @@
-{}
+{
+  "e559534a2be2aafc2a2521b7d4957ee34e8fa48c5c7de4dea9001982713095ae": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Research Intern, Spatial Intelligence - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027305",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398051498"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Research Intern, Spatial Intelligence - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027305",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398051498",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-11T14:13:20.566949Z"
+  }
+}
