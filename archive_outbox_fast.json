@@ -1,1 +1,118 @@
-{}
+{
+  "90a0f48825d5eb02ee2747b966aef2a9c41fa144b9d64bb32e969ee1d3a65f08": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098823",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862429"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098823",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721862429",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T15:04:01.317500Z"
+  },
+  "57ec58a81393576fe2af9a2468ab038cf55269e73f6050d419020b670b99d625": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098824",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862430"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098824",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721862430",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T15:04:21.468934Z"
+  },
+  "120d438a9c643d85e4292de1ab214d48cb671402fa25719ae2c4bfd4e1cad085": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096484",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096484",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721064018",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T15:04:41.511524Z"
+  },
+  "be8bdc47105ee6b4beb7ff2742be26b317f1ffaf55533741e67e9513b67539f9": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096486",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064141"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096486",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721064141",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T15:05:05.750072Z"
+  }
+}
