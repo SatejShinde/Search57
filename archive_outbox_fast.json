@@ -1,1 +1,89 @@
-{}
+{
+  "5b68e31ba372bfca09cf5781647e201b426c31e4b8ff98ffd0ac1ca103c763c2": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Performance Engineering Intern, Platform Performance and Power -  Spring 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029541",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398660009"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Performance Engineering Intern, Platform Performance and Power -  Spring 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029541",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398660009",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T08:13:25.674078Z"
+  },
+  "90f1183634686234065289dff9fdb7e5165b9f181915d99b243c3b65a7fb1032": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095760",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095760",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741668",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T08:13:41.440832Z"
+  },
+  "a55ffbac68baeaf2b5ee52f3dcdc87980fd9674164f34539be97f1387a155cbc": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Product Management Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095762",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741706"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Product Management Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095762",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741706",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T08:14:00.493068Z"
+  }
+}
