@@ -1,1 +1,118 @@
-{}
+{
+  "ae99c64ae659f9aa3891025120217c9b2773590b2c486d7b58a79ad17e721606": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098738",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829462"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098738",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721829462",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T21:53:29.499060Z"
+  },
+  "3c6e48033cc7de75177b837834fa1cd80ab6b1d90e7dfa23067bb391163a9d2a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098799",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721858024"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098799",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T21:53:48.203578Z"
+  },
+  "a2aad7ac8946943226f3a54e005ad2b0f9aef29176df06358e581801c5fdc71f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098270",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721615591"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098270",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721615591",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T21:54:06.881999Z"
+  },
+  "c902d7e33f038d7db0fa0705cd3fe8ee1deb93fc0e3f40e1cfff1c21c97169aa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096801",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721141411"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096801",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721141411",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T21:54:29.106523Z"
+  }
+}
