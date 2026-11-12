@@ -1,1 +1,98 @@
-{}
+{
+  "s57_2ff49b20ed78ba1aa2972cfcc23c6bfb": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Gray Systems Lab (GSL)",
+      "location": "Madrid, MD, ES",
+      "platform": "eightfold",
+      "ats_id": "200064413",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050112"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Gray Systems Lab (GSL)",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200064413",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050112",
+      "location": "Madrid, MD, ES",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_65af93da415376a8d3bd8f108b211839": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Sciences INTERN",
+      "location": "IN",
+      "platform": "eightfold",
+      "ats_id": "200041777",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556917519"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Applied Sciences INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200041777",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556917519",
+      "location": "IN",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_e759e4c228fa17896ed04938d65f1c1e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Efficient AI Software Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062277",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041731"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Efficient AI Software Systems",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062277",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041731",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
