@@ -1,1 +1,130 @@
-{}
+{
+  "s57_866bd4bac425c78d6bda607280128663": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Researcher Intern, CoreAI",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060962",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027387"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Researcher Intern, CoreAI",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200060962",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027387",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_27a7b437e6f4cc5a1f2541e755752076": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Foundational Models & Agent",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200065169",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557052982"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Foundational Models & Agent",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200065169",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557052982",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_af3be4c66af84d15bf2c6bd78588e6d1": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064379",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200064379",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_7b6fbf401331924e2dd45e3648163b08": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineering Intern - CTJ - TS",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200052631",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556983221"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Software Engineering Intern - CTJ - TS",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200052631",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556983221",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
