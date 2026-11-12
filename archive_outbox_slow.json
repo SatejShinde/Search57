@@ -1,1 +1,66 @@
-{}
+{
+  "b7c8a9b8cd2168a7cac4c0ee22270eee16b5fb4d6fce01baa6f70039058d06df": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Data Science: PhD Internship Opportunities - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200052449",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Data Science: PhD Internship Opportunities - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200052449",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T06:34:09.815611Z"
+  },
+  "6c16c60723075607ecea038fb485aa80c68fb2a5d5dbea145878390ca60c514d": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061280",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061280",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T06:34:25.936836Z"
+  }
+}
