@@ -1,1 +1,31 @@
-{}
+{
+  "2f9acbe0929b93c1ac42a70dc584fb718f8dec8b3c8b10c5b69b7653b779fcb6": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026949",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397966334"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026949",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397966334",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T18:33:30.051359Z"
+  }
+}
