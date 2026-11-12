@@ -1,1 +1,130 @@
-{}
+{
+  "604100c940f307a5fa3390d1f9fd7304c6d40b73d3ba5c6a5910505a499cb293": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Researcher Intern, CoreAI",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060962",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027387"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Researcher Intern, CoreAI",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200060962",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027387",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T19:04:59.620266Z"
+  },
+  "bf2f45c371272b710112a3892b9df924c74d507390d0c38081915841c881ba5e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Foundational Models & Agent",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200065169",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557052982"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Foundational Models & Agent",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200065169",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557052982",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T19:05:15.979671Z"
+  },
+  "2437c46c94650a03f94c4df4a96ba109b4130ad86c9ec6dc049ea1c556a83c2b": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064379",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Systems Research Group - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064379",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T19:05:32.203230Z"
+  },
+  "0b43affab4b234fde1e2872dadceb975ae6e1a0d41c1baa010e5691584a39a73": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineering Intern - CTJ - TS",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200052631",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556983221"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Software Engineering Intern - CTJ - TS",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200052631",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556983221",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T19:05:48.509642Z"
+  }
+}
