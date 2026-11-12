@@ -1,1 +1,147 @@
-{}
+{
+  "49f95b6f7eec6fcac7d58c42ceefa004337773b26776cd0dbd5e00796dfe0e47": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098788",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+        "location": "Guyancourt, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T23:47:40.863077Z"
+  },
+  "99069038ed9212c310a4adf65ae6a33427ed296510b331ca6700364845b707b4": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3099074",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721979476"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099074",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721979476",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T23:47:57.043577Z"
+  },
+  "a1d34a4693724838ca9e3d1f52bbcf15751fc47b8d67621e2a50369ecc3574ab": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099088",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099088",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T23:48:12.929917Z"
+  },
+  "ce6539895ebf65c5c8b5d03ec61237ac7ee42464f6dbc345d26ec7a487f6182b": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+      "location": "Ottawa, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098828",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862542"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098828",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721862542",
+        "location": "Ottawa, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T23:48:32.661877Z"
+  },
+  "d70f6143e6c81613c4eea81e9f95b3a42becb055b93176466cc0cefbe41022a2": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Modular Engineering Internship – Summer 2027",
+      "location": "Los Altos, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097141",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721246663"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Modular Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3097141",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721246663",
+        "location": "Los Altos, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T23:48:52.332069Z"
+  }
+}
