@@ -1,1 +1,31 @@
-{}
+{
+  "s57_0273b1cc75c2908fca71b1f91333367b": {
+    "record": {
+      "company": "Analog Devices",
+      "title": "Mechanical Engineer - Advanced Robotics Intern",
+      "location": "US, MA, Wilmington",
+      "platform": "workday",
+      "ats_id": "R268505",
+      "requisition_id": "R268505",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mechanical-Engineer---Advanced-Robotics-Intern_R268505"
+    },
+    "company": {
+      "name": "Analog Devices",
+      "tier": "fast",
+      "platform": "workday",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External"
+    },
+    "job": {
+      "title": "Mechanical Engineer - Advanced Robotics Intern",
+      "company": "Analog Devices",
+      "ats_type": "workday",
+      "ats_id": "R268505",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mechanical-Engineer---Advanced-Robotics-Intern_R268505",
+      "location": "US, MA, Wilmington",
+      "requisition_id": "R268505"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
