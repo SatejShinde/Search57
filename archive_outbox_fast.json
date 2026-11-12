@@ -1,1 +1,118 @@
-{}
+{
+  "2f06eee77b5500eaed8abeaee9260695efa96911d5675c706f0d73cbea1e2ce0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Research Intern, World Models and Synthetic Data for Autonomous Driving - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026839",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398025428"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Research Intern, World Models and Synthetic Data for Autonomous Driving - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026839",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398025428",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T05:43:07.778963Z"
+  },
+  "49e342ccece875e6dc17be21f43973010f94ad3e396c1cbd910874328c6603ab": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026799",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398044668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026799",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398044668",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T05:43:23.232936Z"
+  },
+  "7318828057f3434862d3fcdfad910254bb0b23b481aa1eb5803e659f95fb5178": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Circuits - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2024174",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397488381"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Circuits - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2024174",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397488381",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T05:43:38.781453Z"
+  },
+  "eabe36c238ff82dbb05a38b943cdc4365ce1b6c93c47d551172caaecc2cccb04": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Generative AI - 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2016035",
+        "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T05:43:43.486089Z"
+  }
+}
