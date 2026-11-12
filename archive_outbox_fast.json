@@ -1,1 +1,60 @@
-{}
+{
+  "054fbd7bb341b055b89f98e9e0fc01cfe619fa3d30a010541c350bd5ce2b6fa4": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Compiler Software Engineering Intern - Summer 2027",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028607",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398311676"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Compiler Software Engineering Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028607",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398311676",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T03:23:24.094005Z"
+  },
+  "eabe36c238ff82dbb05a38b943cdc4365ce1b6c93c47d551172caaecc2cccb04": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Generative AI - 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2016035",
+        "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T03:23:39.844511Z"
+  }
+}
