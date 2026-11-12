@@ -1,1 +1,98 @@
-{}
+{
+  "s57_a1fe6c46574f38fcb7782b6de482a7fb": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Science: PhD Internship Opportunities - Multiple Locations",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200053343",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986140"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Applied Science: PhD Internship Opportunities - Multiple Locations",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200053343",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986140",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_852a55f4cb9d2a4abee2c775de8c5203": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Cloud Solution Architecture INTERN",
+      "location": "Schiphol, NH, NL",
+      "platform": "eightfold",
+      "ats_id": "200062094",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041284"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Cloud Solution Architecture INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062094",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041284",
+      "location": "Schiphol, NH, NL",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_93ec0d25fb97eb825697907733b370d8": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Office of Applied Research",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064977",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557051409"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Office of Applied Research",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200064977",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557051409",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
