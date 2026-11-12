@@ -1,1 +1,89 @@
-{}
+{
+  "s57_2daf543b6575be3686065cfbfbc37f7e": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam",
+      "location": "Amsterdam, NH, NL",
+      "platform": "eightfold",
+      "ats_id": "3098970",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721932621"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098970",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721932621",
+      "location": "Amsterdam, NH, NL",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_2e212f7842792b4ff0ca4957398f1485": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098823",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862429"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098823",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862429",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_2af158c330cfe9d8db41d3d825c80940": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097357",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097357",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
