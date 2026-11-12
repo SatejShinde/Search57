@@ -1,1 +1,60 @@
-{}
+{
+  "90a0f48825d5eb02ee2747b966aef2a9c41fa144b9d64bb32e969ee1d3a65f08": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098823",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862429"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - AI Software Engineering Co-op  - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098823",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721862429",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T08:04:18.155715Z"
+  },
+  "3c6e48033cc7de75177b837834fa1cd80ab6b1d90e7dfa23067bb391163a9d2a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098799",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721858024"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098799",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-12T08:04:37.847931Z"
+  }
+}
