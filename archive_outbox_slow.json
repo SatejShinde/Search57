@@ -1,1 +1,66 @@
-{}
+{
+  "25b024a913f6948cfd0e90796c92a441cc926fe49f669bd8e99c16cbbd9b962a": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200042199",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556922930"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200042199",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556922930",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T18:04:41.839529Z"
+  },
+  "d5a97875c8a801be8f3c84ba5e8aee765666607181a8f82eb6fc31cee0cac427": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Data Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200058258",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Data Systems",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200058258",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T18:04:58.034960Z"
+  }
+}
