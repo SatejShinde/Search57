@@ -1,1 +1,118 @@
-{}
+{
+  "6f684a931949aa537dec71b503e0e2b91382ca68ff040862f584bf08e0f210a8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095752",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740649"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095752",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740649",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T11:43:13.143694Z"
+  },
+  "ae1a2ca218f1f92bd3e9a04bbcd0bca3659805a90fdb4541e72372e049d86dac": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095754",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740912"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095754",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740912",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T11:43:36.498787Z"
+  },
+  "90f1183634686234065289dff9fdb7e5165b9f181915d99b243c3b65a7fb1032": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095760",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095760",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741668",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T11:43:55.888450Z"
+  },
+  "7cf08fd9222c1131914792a61a321383ee7e9a6b73378188cd56012688bbba9c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Mechanical Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095755",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741704"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Mechanical Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095755",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741704",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T11:44:15.443990Z"
+  }
+}
