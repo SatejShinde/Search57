@@ -1,1 +1,31 @@
-{}
+{
+  "1946904e66c16e590317d116ec08c588ee96372cbd8c1b8ed8e39b8c20e9c023": {
+    "record": {
+      "company": "Emerson Electric",
+      "title": "Life Sciences Marketing Intern",
+      "location": "Round Rock, TX, United States",
+      "platform": "oracle",
+      "ats_id": "hdjq.fa.us2.oraclecloud.com:26009264",
+      "requisition_id": "",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26009264"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Emerson Electric",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+      },
+      "job": {
+        "title": "Life Sciences Marketing Intern",
+        "company": "Emerson Electric",
+        "ats_type": "oracle",
+        "ats_id": "hdjq.fa.us2.oraclecloud.com:26009264",
+        "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26009264",
+        "location": "Round Rock, TX, United States",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T21:43:32.306494Z"
+  }
+}
