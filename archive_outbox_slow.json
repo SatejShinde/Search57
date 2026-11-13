@@ -1,1 +1,130 @@
-{}
+{
+  "e15e77337a2f3635d8925990aac54c44cf6a73d49000dedc440ddd30bec21268": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Efficient AI Software Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062277",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041731"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Efficient AI Software Systems",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062277",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041731",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T06:34:59.138362Z"
+  },
+  "f18668bfa304ddcc49b157d0e2e2c5de11e2c191385af14f55c81f5e23caf6b5": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Machine Learning and Statistics",
+      "location": "Cambridge, MA, US",
+      "platform": "eightfold",
+      "ats_id": "200061780",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040502"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Machine Learning and Statistics",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061780",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040502",
+        "location": "Cambridge, MA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T06:35:15.030699Z"
+  },
+  "e86388802c8579e8a672934d356d262d89a55cfc20d164d1a9b195d382c18153": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Agentic Graph Learning",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061531",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Agentic Graph Learning",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061531",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T06:35:30.575748Z"
+  },
+  "d5a97875c8a801be8f3c84ba5e8aee765666607181a8f82eb6fc31cee0cac427": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Data Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200058258",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Data Systems",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200058258",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T06:35:46.320955Z"
+  }
+}
