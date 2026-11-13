@@ -1,1 +1,60 @@
-{}
+{
+  "f120669c082805ba540dc774233d39fee1c3aa56d74c5ff290859a66287c2292": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Corporate Development MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029532",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640539"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Corporate Development MBA Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029532",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398640539",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:33:33.989818Z"
+  },
+  "e287fc4b2421fb530a8eb4081faff534a98318c99b999d42d3047fe2ce2e864b": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2012398",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893393261624"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2012398",
+        "url": "https://nvidia.eightfold.ai/careers/job/893393261624",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:33:50.044173Z"
+  }
+}
