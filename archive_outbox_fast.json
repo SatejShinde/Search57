@@ -1,1 +1,31 @@
-{}
+{
+  "49f95b6f7eec6fcac7d58c42ceefa004337773b26776cd0dbd5e00796dfe0e47": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098788",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+        "location": "Guyancourt, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T23:23:10.089759Z"
+  }
+}
