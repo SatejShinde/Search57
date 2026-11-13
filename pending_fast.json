@@ -1,1 +1,176 @@
-{}
+{
+  "s57_88c144daca3fab91b9b5e88411754ab8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099139",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722003454"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099139",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722003454",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_500c0afcf1b0d4189b387725402632ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099142",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_0ef6887ab6b6887188b015ef364e933c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098439",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098439",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733",
+      "location": "Vancouver, BC, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_ce1f69236bdc986a0995da090485bfe1": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098457",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721686396"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098457",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721686396",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_2af158c330cfe9d8db41d3d825c80940": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097357",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097357",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_cda264d30f298703215101fefa6bf089": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Embedded Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095732",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720737089"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Embedded Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095732",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720737089",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
