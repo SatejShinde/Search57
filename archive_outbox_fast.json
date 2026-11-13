@@ -1,1 +1,31 @@
-{}
+{
+  "3428e8be199ee545bb96e62c591147ba075f301b586bf136ef6df983a7b21f65": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098898",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098898",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721911135",
+        "location": "Issy-les-Moulineaux, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T13:33:37.155582Z"
+  }
+}
