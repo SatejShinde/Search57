@@ -1,1 +1,292 @@
-{}
+{
+  "d9073bb3d201ae68a7a274235ffc24c2ad5aac3d1f74fc2a34fe5973b1ebfa8f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027429",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398124010"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027429",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398124010",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:23:15.114713Z"
+  },
+  "eabe36c238ff82dbb05a38b943cdc4365ce1b6c93c47d551172caaecc2cccb04": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Generative AI - 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2016035",
+        "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:23:31.084656Z"
+  },
+  "723f08e69042171baa62b7b583b0807ae80411fab605500effc7365c7467f71f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PCIe Design Verification Intern - Spring 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026704",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029164"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PCIe Design Verification Intern - Spring 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026704",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398029164",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:23:35.702509Z"
+  },
+  "2677625c784a5488945aef4ec7a7414929a99c621519bfa6b05ddd7c8a8030aa": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Robotic Perception and Learning - 2027",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027089",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029720"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Robotic Perception and Learning - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027089",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398029720",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:23:40.394828Z"
+  },
+  "054fbd7bb341b055b89f98e9e0fc01cfe619fa3d30a010541c350bd5ce2b6fa4": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Compiler Software Engineering Intern - Summer 2027",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028607",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398311676"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Compiler Software Engineering Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028607",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398311676",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:23:45.090176Z"
+  },
+  "9118e17116bca2dd85d4e99c9e6427bf614a2d0233a43bec683cc3a4d76b604a": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Networking - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025098",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397623550"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Networking - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025098",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397623550",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:24:00.712682Z"
+  },
+  "1fa56fbca3b775141f78c5907f5c58965dd31b6200a91ee4b4c70bbf3b8a93bf": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025025",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562169"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025025",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397562169",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:24:16.424949Z"
+  },
+  "8908edeede009bc464b924315c2acedf0bc4fbcbf4eca31af3bf3cd87ace7163": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025103",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562560"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025103",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397562560",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:24:26.125962Z"
+  },
+  "b1562e471ef75b2a2700014f512b634c3315efc615233df4b365e0a985299d5a": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026004",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397756942"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026004",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397756942",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:24:41.724773Z"
+  },
+  "06fef59aeed347717ba7fb789398e813be98986dfda05b270d70d094195ce0ae": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026471",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Electronic Design Automation - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026471",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397828726",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T03:24:46.373238Z"
+  }
+}
