@@ -1,1 +1,60 @@
-{}
+{
+  "e287fc4b2421fb530a8eb4081faff534a98318c99b999d42d3047fe2ce2e864b": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2012398",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893393261624"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2012398",
+        "url": "https://nvidia.eightfold.ai/careers/job/893393261624",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T20:13:27.669274Z"
+  },
+  "04aeb2a667e20c9d1212f1912b786260894cf613f59a7953d40112ab8cc15d84": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097357",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Sales & Business Development Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3097357",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721346084",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T20:13:34.845098Z"
+  }
+}
