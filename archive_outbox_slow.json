@@ -1,1 +1,98 @@
-{}
+{
+  "ac0cdde0f4c51841b50f18199c4247131fa1724ba8f53bd297fb0bbcb1a0a9a9": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Algorithms Group: Generative Modeling",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062674",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043740"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Algorithms Group: Generative Modeling",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062674",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043740",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T05:33:37.412183Z"
+  },
+  "3b4002afbbdffba9d169d7595630176eee488c7fce3231bf749885cfeef5a3ff": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062675",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062675",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T05:33:53.033325Z"
+  },
+  "e86388802c8579e8a672934d356d262d89a55cfc20d164d1a9b195d382c18153": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Agentic Graph Learning",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061531",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Agentic Graph Learning",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061531",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T05:34:08.537369Z"
+  }
+}
