@@ -1,1 +1,34 @@
-{}
+{
+  "e1d64a0ce2f35c6743e35b102ed580e850fbcd50ff383e25c73395192b4e4878": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Software-Hardware Co-design",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067399",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Software-Hardware Co-design",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067399",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T22:04:12.051496Z"
+  }
+}
