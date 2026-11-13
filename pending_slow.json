@@ -1,1 +1,126 @@
-{}
+{
+  "s57_a1fe6c46574f38fcb7782b6de482a7fb": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Science: PhD Internship Opportunities - Multiple Locations",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200053343",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986140"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Applied Science: PhD Internship Opportunities - Multiple Locations",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200053343",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986140",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_c2e20388437a44a4248bab9384b3aaf0": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Commercial Sales INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062103",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Commercial Sales INTERN",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200062103",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299",
+      "location": "DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_cbd484343a698e8621d9d26df27b4311": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061280",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200061280",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_3270a0f6735885b1050cb000a34508b4": {
+    "record": {
+      "company": "Amazon",
+      "title": "Operations Intern - Région Centre - Start Date 2027",
+      "location": "Orleans, Centre-Val de Loire, FRA",
+      "platform": "amazon",
+      "ats_id": "10604240@loc1",
+      "requisition_id": "10604240",
+      "url": "https://www.amazon.jobs/en/jobs/10604240"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Operations Intern - Région Centre - Start Date 2027",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10604240@loc1",
+      "url": "https://www.amazon.jobs/en/jobs/10604240",
+      "location": "Orleans, Centre-Val de Loire, FRA",
+      "requisition_id": "10604240"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
