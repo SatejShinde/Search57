@@ -1,1 +1,31 @@
-{}
+{
+  "ae99c64ae659f9aa3891025120217c9b2773590b2c486d7b58a79ad17e721606": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098738",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829462"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098738",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721829462",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T20:33:31.639615Z"
+  }
+}
