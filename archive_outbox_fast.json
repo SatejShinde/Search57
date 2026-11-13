@@ -1,1 +1,31 @@
-{}
+{
+  "723f08e69042171baa62b7b583b0807ae80411fab605500effc7365c7467f71f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PCIe Design Verification Intern - Spring 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026704",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029164"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PCIe Design Verification Intern - Spring 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026704",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398029164",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T15:04:06.794725Z"
+  }
+}
