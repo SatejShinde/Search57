@@ -1,1 +1,60 @@
-{}
+{
+  "49f95b6f7eec6fcac7d58c42ceefa004337773b26776cd0dbd5e00796dfe0e47": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098788",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+        "location": "Guyancourt, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T16:43:29.797735Z"
+  },
+  "2375adf473ff8c26860823b9f8be4b3aec4a5fb8429e2839ed0c1f67c7ebe603": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099142",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T16:43:46.370595Z"
+  }
+}
