@@ -1,1 +1,350 @@
-{}
+{
+  "s57_59dbb75d9594220709f6303ed0b2d859": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Technical Product Marketing MBA Intern, AI Infrastructure - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028995",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398510317"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Technical Product Marketing MBA Intern, AI Infrastructure - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2028995",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398510317",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_234fa0084bad0dc1f91d4ce26f7fb09f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2024171",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397266856"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2024171",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397266856",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_1078c0fb54d1d29fa3c1643d0b817a8d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management MBA Intern, Data Center GPU - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025670",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397711858"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Management MBA Intern, Data Center GPU - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025670",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397711858",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b5828f77546879c4fcc099db50134609": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025792",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725773"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025792",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725773",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_bea9a374582d5744a846e1fcaf721c8b": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Robotics - Summer 2027",
+      "location": "Seattle, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025647",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725897"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Robotics - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025647",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725897",
+      "location": "Seattle, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_78724b06b85713011f61a4ccbc0b18cc": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing Management MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025672",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397963045"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Marketing Management MBA Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025672",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397963045",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_c505c2850bf8fffc4ac64cfd306c6f8e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Programming Systems - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025379",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633489"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Programming Systems - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025379",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633489",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_ebe2d6b4708e0bf47abd0a035af86ed0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025025",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562169"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025025",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562169",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6657b2abe4ad81965328532b9e3f0222": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025103",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562560"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025103",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562560",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_791cd89ff52419f579fb774c3bf5703d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Networking - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025098",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397623550"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Networking - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025098",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397623550",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_952bbb7b139df1fab380569540c172ac": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026471",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026471",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_f63ba495af4fae7402897d9462a4bfe5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026584",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026584",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
