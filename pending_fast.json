@@ -1,1 +1,89 @@
-{}
+{
+  "s57_61ed98cca5abd69d1763be6aaeaaa34a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Finance & Accounting Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3096864",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721159170"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Finance & Accounting Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096864",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721159170",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_eca63fa9ba9274c47dc9f6b65e05f1d6": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096484",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096484",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_c791994314fca2978bf2e630b23261bb": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096486",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064141"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096486",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064141",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
