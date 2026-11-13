@@ -1,1 +1,66 @@
-{}
+{
+  "e86388802c8579e8a672934d356d262d89a55cfc20d164d1a9b195d382c18153": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Agentic Graph Learning",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061531",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Agentic Graph Learning",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061531",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557039243",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T15:34:36.827117Z"
+  },
+  "83398cf1e5eb89c266b461081c75000aaf62b2200c371887996efacb6f8dee37": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Security Research Group, Microsoft Research Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200059346",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557022480"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Security Research Group, Microsoft Research Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200059346",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557022480",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T15:34:55.254427Z"
+  }
+}
