@@ -1,1 +1,31 @@
-{}
+{
+  "s57_d4795f6ce8fb3a8d9de66fec937ed3c5": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098413",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721661677"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098413",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721661677",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
