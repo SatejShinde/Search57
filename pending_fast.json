@@ -1,1 +1,60 @@
-{}
+{
+  "s57_10515281ceac95f88ed62c3720394816": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098788",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+      "location": "Guyancourt, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_500c0afcf1b0d4189b387725402632ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099142",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
