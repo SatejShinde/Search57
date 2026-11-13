@@ -1,1 +1,89 @@
-{}
+{
+  "2375adf473ff8c26860823b9f8be4b3aec4a5fb8429e2839ed0c1f67c7ebe603": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099142",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T18:43:25.932752Z"
+  },
+  "a1d34a4693724838ca9e3d1f52bbcf15751fc47b8d67621e2a50369ecc3574ab": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099088",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099088",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T18:43:46.066184Z"
+  },
+  "b5290f2d17e83febabd2a162ac8222e4ba2a6e3c30d4ef264aece23679ef5685": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Analog Design Eng Intern - High-Speed/RF",
+      "location": "Santa Clara, CA, United States",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25016352",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25016352"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Texas Instruments",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+      },
+      "job": {
+        "title": "Analog Design Eng Intern - High-Speed/RF",
+        "company": "Texas Instruments",
+        "ats_type": "oracle",
+        "ats_id": "edbz.fa.us2.oraclecloud.com:25016352",
+        "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25016352",
+        "location": "Santa Clara, CA, United States",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-13T18:44:06.251518Z"
+  }
+}
