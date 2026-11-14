@@ -1,1 +1,89 @@
-{}
+{
+  "s57_9b3fa86e32dc928721a1c3e46471519a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095745",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095745",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_f1b8058712e6831fd66a5bb4bc5edc37": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095746",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740525"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095746",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740525",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_39702c9efe2a39859c9d4b7370c7a51c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095747",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095747",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
