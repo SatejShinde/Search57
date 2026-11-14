@@ -1,1 +1,31 @@
-{}
+{
+  "s57_0ef6887ab6b6887188b015ef364e933c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098439",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098439",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733",
+      "location": "Vancouver, BC, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
