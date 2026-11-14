@@ -1,1 +1,147 @@
-{}
+{
+  "s57_3c8593ed9a645c82279d8bc0c0687041": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3090676",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3090676",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_500c0afcf1b0d4189b387725402632ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099142",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_8c1a3ee0054aeceff6aa37655872bdb4": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098738",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829462"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098738",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721829462",
+      "location": "Vancouver, BC, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_ba4edd91b98454ee01a6922634d97b99": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096801",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721141411"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096801",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721141411",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_92354cc57d88c8181dd82980ba6fb80d": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096817",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721143440"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096817",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721143440",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
