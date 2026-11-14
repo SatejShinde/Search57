@@ -1,1 +1,30 @@
-{}
+{
+  "ae5847aa44bd2501a869af54f68185f17568872eefffb23b5a67bde401d3095d": {
+    "record": {
+      "company": "Amazon",
+      "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast",
+      "location": "Boardman, Oregon, USA",
+      "platform": "amazon",
+      "ats_id": "10605132",
+      "requisition_id": "10605132",
+      "url": "https://www.amazon.jobs/en/jobs/10605132"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Amazon",
+        "tier": "slow",
+        "platform": "amazon"
+      },
+      "job": {
+        "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast",
+        "company": "Amazon",
+        "ats_type": "amazon",
+        "ats_id": "10605132",
+        "url": "https://www.amazon.jobs/en/jobs/10605132",
+        "location": "Boardman, Oregon, USA",
+        "requisition_id": "10605132"
+      }
+    },
+    "observed_at": "2026-11-14T01:01:50.487408Z"
+  }
+}
