@@ -1,1 +1,31 @@
-{}
+{
+  "3c6e48033cc7de75177b837834fa1cd80ab6b1d90e7dfa23067bb391163a9d2a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098799",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721858024"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098799",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T01:43:00.991163Z"
+  }
+}
