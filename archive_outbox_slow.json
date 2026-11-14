@@ -1,1 +1,98 @@
-{}
+{
+  "cba7316ce8abe73b44957984ada53708cff595344f56740da27a75c873c3f088": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Coding Agents & Post-Training Optimization",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200065202",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557053024"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Coding Agents & Post-Training Optimization",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200065202",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557053024",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T19:04:20.000666Z"
+  },
+  "36f10132789024c0d922208e6399bb6513794c76816640af0f0c25ef6be6aa36": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Stagiaire - Technicien de Centre de Données (TI) / Datacenter Technician - Intern (IT)",
+      "location": "Québec City, QC, CA",
+      "platform": "eightfold",
+      "ats_id": "200059096",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557021552"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Stagiaire - Technicien de Centre de Données (TI) / Datacenter Technician - Intern (IT)",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200059096",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557021552",
+        "location": "Québec City, QC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T19:04:35.792519Z"
+  },
+  "e639a5fba1c8b4aee76d2f68f3417df4e764a94bb1afeab47ddb49145d5667a9": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Business Program Manager, Global Intern Experience & Innovation",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062653",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043712"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Business Program Manager, Global Intern Experience & Innovation",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062653",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043712",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T19:04:58.254646Z"
+  }
+}
