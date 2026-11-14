@@ -1,1 +1,60 @@
-{}
+{
+  "a1d34a4693724838ca9e3d1f52bbcf15751fc47b8d67621e2a50369ecc3574ab": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099088",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099088",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T01:33:30.051235Z"
+  },
+  "a8f65b1b81e92c3a8bda9ebb722f6b4de56a567216aba681fc61f64c1642cc96": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098439",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098439",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721678733",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-14T01:33:49.248373Z"
+  }
+}
