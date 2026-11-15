@@ -1,1 +1,89 @@
-{}
+{
+  "6cd49f210c438a8342068f6c33ef7b88b258453dd741b3a6ef8b8b9e9f88f847": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099048",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099048",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721969461",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-15T14:23:09.796230Z"
+  },
+  "262e1656cf59810f03812a1502bc5a2914ad494f3f6b0d2564fdd4b9e21e1437": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Multimedia Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095751",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740640"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Multimedia Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095751",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740640",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-15T14:23:29.529990Z"
+  },
+  "6f684a931949aa537dec71b503e0e2b91382ca68ff040862f584bf08e0f210a8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095752",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740649"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095752",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740649",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-15T14:23:49.269848Z"
+  }
+}
