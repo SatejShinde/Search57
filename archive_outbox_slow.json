@@ -1,1 +1,130 @@
-{}
+{
+  "b7c8a9b8cd2168a7cac4c0ee22270eee16b5fb4d6fce01baa6f70039058d06df": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Data Science: PhD Internship Opportunities - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200052449",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Data Science: PhD Internship Opportunities - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200052449",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556982928",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T06:34:09.386817Z"
+  },
+  "ff40d46b62520dc8347d9bb65a9002342bc31a11d2b7cd47c77f083c02eb700c": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Brain-Computer Interfaces",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060957",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027378"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Brain-Computer Interfaces",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200060957",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027378",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T06:34:24.995660Z"
+  },
+  "79ee3d6f8a4ae392c93127b9afb37610289742bd6b7d177c57980840010f35f6": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Audio and Acoustics",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060937",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027326"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Audio and Acoustics",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200060937",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027326",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T06:34:40.470001Z"
+  },
+  "d5a97875c8a801be8f3c84ba5e8aee765666607181a8f82eb6fc31cee0cac427": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Data Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200058258",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Data Systems",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200058258",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557008574",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T06:34:56.051703Z"
+  }
+}
