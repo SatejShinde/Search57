@@ -1,1 +1,147 @@
-{}
+{
+  "s57_3c1e8b812e21185d2fa298937d93a6d5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028530",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398572752"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2028530",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398572752",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_515917a82d40b024088089eda459aaa4": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099136",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722001120"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099136",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722001120",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_500c0afcf1b0d4189b387725402632ae": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099142",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099142",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722005254",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6613af215325d6273029f9e30961bfad": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098923",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913898"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098923",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913898",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_eca63fa9ba9274c47dc9f6b65e05f1d6": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096484",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096484",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
