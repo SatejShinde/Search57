@@ -1,1 +1,62 @@
-{}
+{
+  "e2cfe132197b6a8fb11ca697987bc9f7901b79e685721bdd8a85b40e4f06dc32": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Electrical Engineering INTERN (PhD)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200053353",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Electrical Engineering INTERN (PhD)",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200053353",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:04:31.573913Z"
+  },
+  "4cbd5dcf5593828222c412e8491d98bb8644a8ec955359638ba9f24bf1653355": {
+    "record": {
+      "company": "Amazon",
+      "title": "Amazon Intern Program 2027 | Workplace Health & Safety (WHS) - Cabo de Santo Agostinho, PE",
+      "location": "Cabo de Santo Agostinho, Pernambuco, BRA",
+      "platform": "amazon",
+      "ats_id": "10606200",
+      "requisition_id": "10606200",
+      "url": "https://www.amazon.jobs/en/jobs/10606200"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Amazon",
+        "tier": "slow",
+        "platform": "amazon"
+      },
+      "job": {
+        "title": "Amazon Intern Program 2027 | Workplace Health & Safety (WHS) - Cabo de Santo Agostinho, PE",
+        "company": "Amazon",
+        "ats_type": "amazon",
+        "ats_id": "10606200",
+        "url": "https://www.amazon.jobs/en/jobs/10606200",
+        "location": "Cabo de Santo Agostinho, Pernambuco, BRA",
+        "requisition_id": "10606200"
+      }
+    },
+    "observed_at": "2026-11-16T18:04:46.831662Z"
+  }
+}
