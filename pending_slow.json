@@ -1,1 +1,62 @@
-{}
+{
+  "s57_57fdbd060fb50d1f4e496a73ce10c376": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Electrical Engineering INTERN (PhD)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200053353",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Electrical Engineering INTERN (PhD)",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200053353",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_8437d18182e42ce2d486f7ccea06203d": {
+    "record": {
+      "company": "Amazon",
+      "title": "Amazon Intern Program 2027 | Workplace Health & Safety (WHS) - Cabo de Santo Agostinho, PE",
+      "location": "Cabo de Santo Agostinho, Pernambuco, BRA",
+      "platform": "amazon",
+      "ats_id": "10606200",
+      "requisition_id": "10606200",
+      "url": "https://www.amazon.jobs/en/jobs/10606200"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Amazon Intern Program 2027 | Workplace Health & Safety (WHS) - Cabo de Santo Agostinho, PE",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10606200",
+      "url": "https://www.amazon.jobs/en/jobs/10606200",
+      "location": "Cabo de Santo Agostinho, Pernambuco, BRA",
+      "requisition_id": "10606200"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
