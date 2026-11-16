@@ -1,1 +1,118 @@
-{}
+{
+  "5278a3c92c7c0d3c8f8b6d8ada56cc46c0aaa15063fc3076c2f4523ab439615e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029307",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755089"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029307",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398755089",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:34:15.244990Z"
+  },
+  "aaa33cd8f08993a6973fe85e35b0203ec33c2504d4d6cbd7c772222c303b3fe0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Enterprise Sales Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029682",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755095"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Enterprise Sales Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029682",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398755095",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:34:31.417649Z"
+  },
+  "49f95b6f7eec6fcac7d58c42ceefa004337773b26776cd0dbd5e00796dfe0e47": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+      "location": "Guyancourt, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098788",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721854346"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern- AI-Driven Power Modeling for Evaluating Power Consumption in NoC IP Architectures -  6 months, Guyancourt",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098788",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721854346",
+        "location": "Guyancourt, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:34:47.527133Z"
+  },
+  "120d438a9c643d85e4292de1ab214d48cb671402fa25719ae2c4bfd4e1cad085": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096484",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064018"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096484",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721064018",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:35:03.616786Z"
+  }
+}
