@@ -1,1 +1,34 @@
-{}
+{
+  "28a86d1f89b87f92761ba2f8af6434dd806233b0436c2ee595a5a493f3679f28": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Solution Engineering Internship Opportunities",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "200063412",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557045545"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Solution Engineering Internship Opportunities",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200063412",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557045545",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T15:34:09.966729Z"
+  }
+}
