@@ -1,1 +1,98 @@
-{}
+{
+  "ed94d9275e0e2682d414bdbea0fcb64cb45ac0859f05970b5a67825384da421a": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Customer Success Account Mgmt INTERN",
+      "location": "Schiphol, NH, NL",
+      "platform": "eightfold",
+      "ats_id": "200062095",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041285"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Customer Success Account Mgmt INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062095",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041285",
+        "location": "Schiphol, NH, NL",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:34:15.979975Z"
+  },
+  "ff40d46b62520dc8347d9bb65a9002342bc31a11d2b7cd47c77f083c02eb700c": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Brain-Computer Interfaces",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060957",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027378"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Brain-Computer Interfaces",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200060957",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027378",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:34:31.750604Z"
+  },
+  "79ee3d6f8a4ae392c93127b9afb37610289742bd6b7d177c57980840010f35f6": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Audio and Acoustics",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200060937",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027326"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Audio and Acoustics",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200060937",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557027326",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:34:47.433781Z"
+  }
+}
