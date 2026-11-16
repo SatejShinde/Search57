@@ -1,1 +1,89 @@
-{}
+{
+  "5278a3c92c7c0d3c8f8b6d8ada56cc46c0aaa15063fc3076c2f4523ab439615e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029307",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755089"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029307",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398755089",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:23:39.255729Z"
+  },
+  "aaa33cd8f08993a6973fe85e35b0203ec33c2504d4d6cbd7c772222c303b3fe0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Enterprise Sales Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029682",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755095"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Enterprise Sales Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029682",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398755095",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:23:55.228050Z"
+  },
+  "be8bdc47105ee6b4beb7ff2742be26b317f1ffaf55533741e67e9513b67539f9": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096486",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064141"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096486",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721064141",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T22:24:11.270836Z"
+  }
+}
