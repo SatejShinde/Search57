@@ -1,1 +1,130 @@
-{}
+{
+  "e1d64a0ce2f35c6743e35b102ed580e850fbcd50ff383e25c73395192b4e4878": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Software-Hardware Co-design",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067399",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Software-Hardware Co-design",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067399",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T07:34:31.130923Z"
+  },
+  "764962484abd717f632c6792755b25a488b67d425e813d902fe6bf30adc17857": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Scientist: Internship Opportunities, Turing",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064446",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Applied Scientist: Internship Opportunities, Turing",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064446",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T07:34:50.014047Z"
+  },
+  "2437c46c94650a03f94c4df4a96ba109b4130ad86c9ec6dc049ea1c556a83c2b": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064379",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Systems Research Group - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064379",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T07:35:05.257473Z"
+  },
+  "3b4002afbbdffba9d169d7595630176eee488c7fce3231bf749885cfeef5a3ff": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200062675",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Extended Perception Interaction Cognition (EPIC)",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062675",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043754",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T07:35:20.653501Z"
+  }
+}
