@@ -1,1 +1,118 @@
-{}
+{
+  "f120669c082805ba540dc774233d39fee1c3aa56d74c5ff290859a66287c2292": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Corporate Development MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029532",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640539"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Corporate Development MBA Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029532",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398640539",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:43:55.820650Z"
+  },
+  "4af93453b2bc27501cf336e44d4633224657184b8070a0fe828bfb55d5c8fc59": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028530",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398572752"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028530",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398572752",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:44:11.128820Z"
+  },
+  "49e342ccece875e6dc17be21f43973010f94ad3e396c1cbd910874328c6603ab": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026799",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398044668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026799",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398044668",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:44:26.357537Z"
+  },
+  "4586e44c009fad3f99e917aebe097cdb664cdd7bac2340d8af161c2965d2205d": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3097052",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721229661"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3097052",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721229661",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T18:44:41.825654Z"
+  }
+}
