@@ -1,1 +1,89 @@
-{}
+{
+  "5f2ca32c91a9e4de29cbfaf69b386135997c727d6b058245d63fe489572ea835": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099180",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T20:04:57.492302Z"
+  },
+  "28bb01fb9938da5ee1283da8e93188ec839d4f5f838b325f0f6567bc5c848536": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098920",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721913769"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098920",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721913769",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T20:05:17.094765Z"
+  },
+  "04aeb2a667e20c9d1212f1912b786260894cf613f59a7953d40112ab8cc15d84": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097357",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Sales & Business Development Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3097357",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721346084",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T20:05:40.299007Z"
+  }
+}
