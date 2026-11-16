@@ -1,1 +1,60 @@
-{}
+{
+  "8ba882ad34ae9c899a854b7cee879b57950c9b2b76d13c9d15d2161c93bf9f8a": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028148",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398457077"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028148",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398457077",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T03:33:46.579170Z"
+  },
+  "e287fc4b2421fb530a8eb4081faff534a98318c99b999d42d3047fe2ce2e864b": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2012398",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893393261624"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2012398",
+        "url": "https://nvidia.eightfold.ai/careers/job/893393261624",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T03:34:02.114286Z"
+  }
+}
