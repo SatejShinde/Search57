@@ -1,1 +1,118 @@
-{}
+{
+  "s57_90ffa0508b96c4912b92880b3c7476fa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099048",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099048",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6f7a0e41694605bb5b0b6225eb4084f5": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098898",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098898",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_61ed98cca5abd69d1763be6aaeaaa34a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Finance & Accounting Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3096864",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721159170"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Finance & Accounting Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3096864",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721159170",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_5f61a8be21cd732b17fce01d9966da0f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3093026",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719176184"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3093026",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719176184",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
