@@ -1,1 +1,58 @@
-{}
+{
+  "129670ac69ad851719f9a5d99c375288e7221b5a413b28c57431ccf29cd1bbfa": {
+    "record": {
+      "company": "Amazon",
+      "title": "Area Manager Intern – Summer 2027 (MO, OH, KY)",
+      "location": "Akron, Ohio, USA",
+      "platform": "amazon",
+      "ats_id": "10493329",
+      "requisition_id": "10493329",
+      "url": "https://www.amazon.jobs/en/jobs/10493329"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Amazon",
+        "tier": "slow",
+        "platform": "amazon"
+      },
+      "job": {
+        "title": "Area Manager Intern – Summer 2027 (MO, OH, KY)",
+        "company": "Amazon",
+        "ats_type": "amazon",
+        "ats_id": "10493329",
+        "url": "https://www.amazon.jobs/en/jobs/10493329",
+        "location": "Akron, Ohio, USA",
+        "requisition_id": "10493329"
+      }
+    },
+    "observed_at": "2026-11-16T18:31:48.478072Z"
+  },
+  "9ce952be997040253e25913b3a2edb7ec02a0dd1914990c7a7ab389a27fa17b2": {
+    "record": {
+      "company": "Amazon",
+      "title": "Area Manager Intern – Summer 2027 (PA, WV, VA)",
+      "location": "Philadelphia, Pennsylvania, USA",
+      "platform": "amazon",
+      "ats_id": "10493325",
+      "requisition_id": "10493325",
+      "url": "https://www.amazon.jobs/en/jobs/10493325"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Amazon",
+        "tier": "slow",
+        "platform": "amazon"
+      },
+      "job": {
+        "title": "Area Manager Intern – Summer 2027 (PA, WV, VA)",
+        "company": "Amazon",
+        "ats_type": "amazon",
+        "ats_id": "10493325",
+        "url": "https://www.amazon.jobs/en/jobs/10493325",
+        "location": "Philadelphia, Pennsylvania, USA",
+        "requisition_id": "10493325"
+      }
+    },
+    "observed_at": "2026-11-16T18:31:49.007224Z"
+  }
+}
