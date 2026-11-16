@@ -1,1 +1,60 @@
-{}
+{
+  "d7e98e882d694dbf36f97f063989be79ad028bbfe6e8f18d0407a087bc064273": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Human Resources Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028740",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398571516"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Human Resources Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028740",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398571516",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T16:13:50.294668Z"
+  },
+  "82035031f64f4b65eee021adfb7cdbf31ce41a2dc8bf90978c2198fd17707422": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Hardware and Systems Architecture - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025893",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397726002"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Hardware and Systems Architecture - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025893",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397726002",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T16:14:06.419640Z"
+  }
+}
