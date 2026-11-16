@@ -1,1 +1,350 @@
-{}
+{
+  "f120669c082805ba540dc774233d39fee1c3aa56d74c5ff290859a66287c2292": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Corporate Development MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029532",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640539"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Corporate Development MBA Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029532",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398640539",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:24:07.149213Z"
+  },
+  "8ba882ad34ae9c899a854b7cee879b57950c9b2b76d13c9d15d2161c93bf9f8a": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028148",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398457077"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028148",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398457077",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:24:23.159078Z"
+  },
+  "be0ceb35d6b3379f92b67632b8ed82cddc8cbbd576be7df8a50239e257e5a334": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Relational Foundation Model Intern, Modern Data Stack – 2027",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "JR2027829",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398193370"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Relational Foundation Model Intern, Modern Data Stack – 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027829",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398193370",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:24:39.377761Z"
+  },
+  "1990ce8db88522e8dc9bac7c65de890257665c33390c71e006c34866dcd96068": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026499",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397893388"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026499",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397893388",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:24:43.839129Z"
+  },
+  "2f9acbe0929b93c1ac42a70dc584fb718f8dec8b3c8b10c5b69b7653b779fcb6": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026949",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397966334"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026949",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397966334",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:24:59.923316Z"
+  },
+  "fd4048669e25535ac28ce47a7614d7f7771593f0c3479e50f2fdf5bb57fbd6ba": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI-Aided Engineering – 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026940",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397975626"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, AI-Aided Engineering – 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026940",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397975626",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:25:15.736303Z"
+  },
+  "e72a53741b4d7f1498bb6077d07895cefc28fb0767731a45848278ac783a66ab": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management MBA Intern, Gaming, Content Creation, and PC AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026962",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397988300"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Management MBA Intern, Gaming, Content Creation, and PC AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026962",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397988300",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:25:20.203450Z"
+  },
+  "9ff0cf0fc5b39b36b976ac11a6608f89b18481a7fc46a5522664ec2a2e39633f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025907",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828680"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025907",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397828680",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:25:24.703100Z"
+  },
+  "47eb36689cacdcb87f1941357847ad21d7c82bc2160a21ceeb59cfac18a6f076": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095749",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740636"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095749",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740636",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:25:40.584156Z"
+  },
+  "90f1183634686234065289dff9fdb7e5165b9f181915d99b243c3b65a7fb1032": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095760",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "IT Infrastructure & Cloud Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095760",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741668",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:26:04.170827Z"
+  },
+  "015dd7d33662aaf29d30ab90de65590d712c8a075ea0f5a47864aa802597375f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Software Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095748",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740529"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Software Engineering Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095748",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740529",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:26:26.408450Z"
+  },
+  "53935102006e6f9ee7a307d3981ac0b41ad27b77161eee64b5c48996b51ae12a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Wireless Systems Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095750",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740637"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Wireless Systems Engineering Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095750",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740637",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T13:26:46.081898Z"
+  }
+}
