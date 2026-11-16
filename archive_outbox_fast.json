@@ -1,1 +1,31 @@
-{}
+{
+  "bc4bfc0f074520568d2d2a99ca213cfec01efdeda98adf500b0979b5782839fd": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3093026",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719176184"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - CPU Engineering Internship 2027 - 6 months, Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3093026",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446719176184",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T17:23:39.265831Z"
+  }
+}
