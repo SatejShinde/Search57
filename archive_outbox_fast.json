@@ -1,1 +1,89 @@
-{}
+{
+  "f56fef954d458b9c353d98b516137c483d39b590abea9c75a5fcc7ca90e26ac7": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3090676",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3090676",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446718345493",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T15:53:55.144492Z"
+  },
+  "5f2ca32c91a9e4de29cbfaf69b386135997c727d6b058245d63fe489572ea835": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099180",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T15:54:10.740523Z"
+  },
+  "72be04e986ac978169926a57ea9a401b7563207f4a3174b9643a08fe97aab503": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098415",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721661830"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098415",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721661830",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-16T15:54:29.992476Z"
+  }
+}
