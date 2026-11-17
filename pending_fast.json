@@ -1,1 +1,31 @@
-{}
+{
+  "s57_b75a84e4c4525b96522a339e7399f642": {
+    "record": {
+      "company": "STMicroelectronics",
+      "title": "Embedded Software Development Intern – Audio DSP Platform [Carmel, Indiana ONLY]",
+      "location": "Kokomo, United States",
+      "platform": "eightfold",
+      "ats_id": "9043",
+      "requisition_id": "300001481727791",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637171891598"
+    },
+    "company": {
+      "name": "STMicroelectronics",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "stmicroelectronics"
+    },
+    "job": {
+      "title": "Embedded Software Development Intern – Audio DSP Platform [Carmel, Indiana ONLY]",
+      "company": "STMicroelectronics",
+      "ats_type": "eightfold",
+      "ats_id": "9043",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637171891598",
+      "location": "Kokomo, United States",
+      "requisition_id": "300001481727791"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
