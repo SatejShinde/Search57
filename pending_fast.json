@@ -1,1 +1,31 @@
-{}
+{
+  "s57_e04a209c1cb05a2fcfa9a719220738a4": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 IT Cloud Engineering Intern - Cork 8 months",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3095681",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720699932"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 IT Cloud Engineering Intern - Cork 8 months",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095681",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720699932",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
