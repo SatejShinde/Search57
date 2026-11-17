@@ -1,1 +1,66 @@
-{}
+{
+  "e2cfe132197b6a8fb11ca697987bc9f7901b79e685721bdd8a85b40e4f06dc32": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Electrical Engineering INTERN (PhD)",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200053353",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Electrical Engineering INTERN (PhD)",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200053353",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393556986148",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T23:05:40.475963Z"
+  },
+  "764962484abd717f632c6792755b25a488b67d425e813d902fe6bf30adc17857": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Scientist: Internship Opportunities, Turing",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064446",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Applied Scientist: Internship Opportunities, Turing",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064446",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T23:05:56.461117Z"
+  }
+}
