@@ -1,1 +1,147 @@
-{}
+{
+  "s57_375ea275d53bb2264520fc922ef6a778": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Go-to-Market Strategy Intern - Summer 2027",
+      "location": "Courbevoie, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "JR2029657",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398667682"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Go-to-Market Strategy Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029657",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398667682",
+      "location": "Courbevoie, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_d20c283dc196e7c678ba8127f7db0261": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Deep Learning Scientist Intern, LLM, Multimodal and Agentic AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027548",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398119589"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Deep Learning Scientist Intern, LLM, Multimodal and Agentic AI - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2027548",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398119589",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_4d9e7c3b8fda7fcdda8171d072cd7de2": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Robotic Perception and Learning - 2027",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027089",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029720"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Robotic Perception and Learning - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2027089",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029720",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_3fdf651f4a715349f0ffeb3bf0f442ec": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026799",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398044668"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026799",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398044668",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b5828f77546879c4fcc099db50134609": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025792",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725773"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025792",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725773",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
