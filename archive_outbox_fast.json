@@ -1,1 +1,147 @@
-{}
+{
+  "e47657921197556b83ee6f951f0bfa14554bcdf965173c8d249ae8a12e493d41": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026707",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397928913"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026707",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397928913",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T01:34:02.974074Z"
+  },
+  "a86442342f7fc186ee6bbc71483b2e5735856425f84e91ad3ebeaa250cad2f38": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "ASIC Verification Intern - Summer 2027",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "JR2027982",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398235775"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "ASIC Verification Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027982",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398235775",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T01:34:18.610932Z"
+  },
+  "2f9acbe0929b93c1ac42a70dc584fb718f8dec8b3c8b10c5b69b7653b779fcb6": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026949",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397966334"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, AI for Climate and Weather Simulation - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026949",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397966334",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T01:34:23.149600Z"
+  },
+  "7ee48d8d5bda5bd75d984d9f3ef4b44abb56f67395812927360b6f67702d5cee": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025792",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725773"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Embodied and Agentic AI - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025792",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397725773",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T01:34:38.760101Z"
+  },
+  "6cd49f210c438a8342068f6c33ef7b88b258453dd741b3a6ef8b8b9e9f88f847": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099048",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099048",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721969461",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T01:34:43.365482Z"
+  }
+}
