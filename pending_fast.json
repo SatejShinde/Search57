@@ -1,1 +1,60 @@
-{}
+{
+  "s57_90499c9c5a9b7277afb7d8c6a1738980": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing Manager MBA Intern, Digital Health AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029509",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398754064"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Marketing Manager MBA Intern, Digital Health AI - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029509",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398754064",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6f7a0e41694605bb5b0b6225eb4084f5": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3098898",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098898",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721911135",
+      "location": "Issy-les-Moulineaux, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
