@@ -1,1 +1,60 @@
-{}
+{
+  "s57_952bbb7b139df1fab380569540c172ac": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026471",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Electronic Design Automation - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026471",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828726",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_f63ba495af4fae7402897d9462a4bfe5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026584",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026584",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
