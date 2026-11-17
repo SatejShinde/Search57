@@ -26,6 +26,10 @@
     },
     "alert_sent": true,
     "acks": {},
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": 1794878024.299281,
+    "retrieval_status": "available",
+    "revision": "3e2cd1c738e36b940c8064bc2fb18d2acc9c4b370d774ddb4beed677ef2958e3",
+    "last_error": "DeliveryError"
   }
 }
