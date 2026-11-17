@@ -1,1 +1,31 @@
-{}
+{
+  "s57_7f7de6f5fc4c48c23bbcc6e0d84bc646": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Analog IC Design (AI/ML) Engineering Intern",
+      "location": "Dallas, TX, United States",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25020319",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25020319"
+    },
+    "company": {
+      "name": "Texas Instruments",
+      "tier": "fast",
+      "platform": "oracle",
+      "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+    },
+    "job": {
+      "title": "Analog IC Design (AI/ML) Engineering Intern",
+      "company": "Texas Instruments",
+      "ats_type": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25020319",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25020319",
+      "location": "Dallas, TX, United States",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
