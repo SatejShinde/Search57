@@ -35,7 +35,6 @@
     "hdjq.fa.us2.oraclecloud.com:26009838",
     "hdjq.fa.us2.oraclecloud.com:26009952",
     "hdjq.fa.us2.oraclecloud.com:26009955",
-    "hdjq.fa.us2.oraclecloud.com:26010041",
     "hdjq.fa.us2.oraclecloud.com:26010043",
     "hdjq.fa.us2.oraclecloud.com:26010048",
     "hdjq.fa.us2.oraclecloud.com:26010058",
@@ -55,7 +54,8 @@
     "hdjq.fa.us2.oraclecloud.com:26012073",
     "hdjq.fa.us2.oraclecloud.com:26012074",
     "hdjq.fa.us2.oraclecloud.com:26013238",
-    "hdjq.fa.us2.oraclecloud.com:26013501"
+    "hdjq.fa.us2.oraclecloud.com:26013501",
+    "hdjq.fa.us2.oraclecloud.com:26013632"
   ],
   "Honeywell": [
     "ibqbjb.fa.ocs.oraclecloud.com:152206",
@@ -191,8 +191,6 @@
     "3095760",
     "3095762",
     "3096415",
-    "3096801",
-    "3096817",
     "3096864",
     "3097052",
     "3097141",

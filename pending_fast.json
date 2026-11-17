@@ -1,1 +1,31 @@
-{}
+{
+  "s57_9afb447e302897ced25971172117f4a9": {
+    "record": {
+      "company": "Emerson Electric",
+      "title": "Software Engineering Intern",
+      "location": "Austin, TX, United States",
+      "platform": "oracle",
+      "ats_id": "hdjq.fa.us2.oraclecloud.com:26013632",
+      "requisition_id": "",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26013632"
+    },
+    "company": {
+      "name": "Emerson Electric",
+      "tier": "fast",
+      "platform": "oracle",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+    },
+    "job": {
+      "title": "Software Engineering Intern",
+      "company": "Emerson Electric",
+      "ats_type": "oracle",
+      "ats_id": "hdjq.fa.us2.oraclecloud.com:26013632",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#26013632",
+      "location": "Austin, TX, United States",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
