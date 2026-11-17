@@ -1,1 +1,31 @@
-{}
+{
+  "8ba882ad34ae9c899a854b7cee879b57950c9b2b76d13c9d15d2161c93bf9f8a": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028148",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398457077"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Technical Learning Content Development Intern, Physical AI — Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028148",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398457077",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:23:45.186045Z"
+  }
+}
