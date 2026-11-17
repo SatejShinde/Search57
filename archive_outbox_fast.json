@@ -1,1 +1,176 @@
-{}
+{
+  "f56fef954d458b9c353d98b516137c483d39b590abea9c75a5fcc7ca90e26ac7": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3090676",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718345493"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3090676",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446718345493",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:53:47.558971Z"
+  },
+  "5f2ca32c91a9e4de29cbfaf69b386135997c727d6b058245d63fe489572ea835": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099180",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:54:03.934813Z"
+  },
+  "ae87a75f0f00b1c17e49614313d8900c8c7642b99c682db43b5f57827573ef7f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099139",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722003454"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099139",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722003454",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:54:23.463967Z"
+  },
+  "a2aad7ac8946943226f3a54e005ad2b0f9aef29176df06358e581801c5fdc71f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098270",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721615591"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098270",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721615591",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:54:43.368595Z"
+  },
+  "4e43639e9cb5d6b011c644dff74b574dd02de2c7b5c1b674e63634fc1c05c5c2": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "EDT - FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3096415",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721045034"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "EDT - FY27 Intern - Engineering Internship 2027 - 6 months, Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096415",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721045034",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:55:07.120114Z"
+  },
+  "e17b556c49e300382786035dc043b2176324a3a916d84d4cb34433a0b15e3179": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Software Intern (Data Center, Cloud-AI Engineering) - Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3092697",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718947455"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Software Intern (Data Center, Cloud-AI Engineering) - Cork",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3092697",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446718947455",
+        "location": "Cork, CO, IE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T05:55:23.144304Z"
+  }
+}
