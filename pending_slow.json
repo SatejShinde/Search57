@@ -1,1 +1,114 @@
-{}
+{
+  "s57_79d2cba554fca2eb74cbfc7fdec1143b": {
+    "record": {
+      "company": "Amazon",
+      "title": "Area Manager Intern – Summer 2027 (Texas)",
+      "location": "Fort Worth, Texas, USA",
+      "platform": "amazon",
+      "ats_id": "10493331",
+      "requisition_id": "10493331",
+      "url": "https://www.amazon.jobs/en/jobs/10493331"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Area Manager Intern – Summer 2027 (Texas)",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10493331",
+      "url": "https://www.amazon.jobs/en/jobs/10493331",
+      "location": "Fort Worth, Texas, USA",
+      "requisition_id": "10493331"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_eef6e9dfa51a80255be26db901b56b09": {
+    "record": {
+      "company": "Amazon",
+      "title": "Area Manager Intern – Summer 2027 (TN, LA, OK, MS, AR), University Recruiting ",
+      "location": "Canton, Mississippi, USA",
+      "platform": "amazon",
+      "ats_id": "10493330",
+      "requisition_id": "10493330",
+      "url": "https://www.amazon.jobs/en/jobs/10493330"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Area Manager Intern – Summer 2027 (TN, LA, OK, MS, AR), University Recruiting ",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10493330",
+      "url": "https://www.amazon.jobs/en/jobs/10493330",
+      "location": "Canton, Mississippi, USA",
+      "requisition_id": "10493330"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_72a287f489a346dd5a23e75856bf8e36": {
+    "record": {
+      "company": "Amazon",
+      "title": "Customer Solutions Manager Intern, AWSI - 2027",
+      "location": "Seattle, Washington, USA",
+      "platform": "amazon",
+      "ats_id": "10550549",
+      "requisition_id": "10550549",
+      "url": "https://www.amazon.jobs/en/jobs/10550549"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Customer Solutions Manager Intern, AWSI - 2027",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10550549",
+      "url": "https://www.amazon.jobs/en/jobs/10550549",
+      "location": "Seattle, Washington, USA",
+      "requisition_id": "10550549"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_5b20a2745b2e37b477317c0b4ec2e6f8": {
+    "record": {
+      "company": "Amazon",
+      "title": "Solutions Architect Intern, AWSI - 2027",
+      "location": "Dallas, Texas, USA",
+      "platform": "amazon",
+      "ats_id": "10550494",
+      "requisition_id": "10550494",
+      "url": "https://www.amazon.jobs/en/jobs/10550494"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Solutions Architect Intern, AWSI - 2027",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10550494",
+      "url": "https://www.amazon.jobs/en/jobs/10550494",
+      "location": "Dallas, Texas, USA",
+      "requisition_id": "10550494"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
