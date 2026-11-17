@@ -1,1 +1,31 @@
-{}
+{
+  "ba4728f98856f0934fda06a699918d6d4ab8fda5a92d85a79bfa79cf4b0b4f8a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099497",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722176432"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099497",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722176432",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T20:43:40.115201Z"
+  }
+}
