@@ -1,1 +1,31 @@
-{}
+{
+  "ee089568514590eaf49be9f29a186ca3ef40cf89de6850c42de87f205221da31": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Systems Engineering Intern - Power",
+      "location": "Dallas, TX, United States",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25016343",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25016343"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Texas Instruments",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+      },
+      "job": {
+        "title": "Systems Engineering Intern - Power",
+        "company": "Texas Instruments",
+        "ats_type": "oracle",
+        "ats_id": "edbz.fa.us2.oraclecloud.com:25016343",
+        "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25016343",
+        "location": "Dallas, TX, United States",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-17T23:23:44.410008Z"
+  }
+}
