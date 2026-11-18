@@ -1,1 +1,118 @@
-{}
+{
+  "ff95f7156ca4d65409311ce12c4cda1195baac6fa3fe9aa0ec0ffdeaa06996f1": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099058",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721972361"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099058",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721972361",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T13:53:59.607388Z"
+  },
+  "7682ec1c6062f6260f3683af310d907860f61b6539e1aef6ec69f5cd6b1ee963": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - High-Speed Electrical and Optical Systems Validation Co-Op - Canada (4 months)",
+      "location": "Ottawa, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098845",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721874877"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - High-Speed Electrical and Optical Systems Validation Co-Op - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098845",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721874877",
+        "location": "Ottawa, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T13:54:18.808132Z"
+  },
+  "e5ba8c444335815f3e6b3eea7babd3f295a0ad846ebab861c61594dc674754f2": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera Systems Internship - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098850",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721876037"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Camera Systems Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098850",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721876037",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T13:54:38.055664Z"
+  },
+  "ce6539895ebf65c5c8b5d03ec61237ac7ee42464f6dbc345d26ec7a487f6182b": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+      "location": "Ottawa, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098828",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721862542"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098828",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721862542",
+        "location": "Ottawa, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T13:54:57.217378Z"
+  }
+}
