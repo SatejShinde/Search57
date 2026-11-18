@@ -1,1 +1,263 @@
-{}
+{
+  "s57_90023dcd5546ff245ad5ec34321e56f0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Financial Analyst Intern, Hardware FP&A - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029523",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640575"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Financial Analyst Intern, Hardware FP&A - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029523",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640575",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_0e190d7dd99f45009aa679825ca43301": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2016035",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_bb0af17e6869b05628ddf8c1aabd213d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026499",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397893388"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026499",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397893388",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_9dbd2cbdd7d59781268c71a6bd5e4156": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Learning Embodied Skills from Human Data - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025405",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633492"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Learning Embodied Skills from Human Data - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025405",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633492",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_811017096361d167ec503692835b48ea": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Security and Privacy - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025096",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397683987"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Security and Privacy - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025096",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397683987",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_6657b2abe4ad81965328532b9e3f0222": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025103",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562560"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Generalist Embodied Agents Research - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025103",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562560",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_791cd89ff52419f579fb774c3bf5703d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Networking - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025098",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397623550"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Networking - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025098",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397623550",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_9b3fa86e32dc928721a1c3e46471519a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095745",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095745",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_39702c9efe2a39859c9d4b7370c7a51c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095747",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095747",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
