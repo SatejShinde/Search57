@@ -1,1 +1,66 @@
-{}
+{
+  "bcb5b7e2beaa0c24af0d7742b9deec0a6920fa129574eb3e5c6f0e98e3adf21e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Commercial Sales INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062103",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Commercial Sales INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062103",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T04:05:04.790267Z"
+  },
+  "a7c8738b9f87f928b30649f3ea203011f3f3d994d6e3a4458915559314950c24": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Machine Learning for Biology and Healthcare",
+      "location": "Cambridge, MA, US",
+      "platform": "eightfold",
+      "ats_id": "200061710",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040333"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Machine Learning for Biology and Healthcare",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061710",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040333",
+        "location": "Cambridge, MA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T04:05:20.838083Z"
+  }
+}
