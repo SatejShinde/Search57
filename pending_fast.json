@@ -1,1 +1,147 @@
-{}
+{
+  "s57_90ffa0508b96c4912b92880b3c7476fa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099048",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099048",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_12cd92fe680aca46be10f6b7a437dbaa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning AISW Internship - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098303",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721636765"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Machine Learning AISW Internship - Canada (4 Months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098303",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721636765",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_e99e0eef6dcfc31519aaae0cddeaae24": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098729",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721828828"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098729",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721828828",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_2af158c330cfe9d8db41d3d825c80940": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097357",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Sales & Business Development Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097357",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721346084",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b5042abe963a5bdfbdeb6e717422c358": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095749",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740636"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095749",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740636",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
