@@ -1,1 +1,89 @@
-{}
+{
+  "e710792f28c7eb95f0669b5568c53318e804559e4ba00ae36321b7df9eeced12": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Product Validation Engineer - 6 months, Colombes",
+      "location": "Colombes, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3099481",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722172701"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Product Validation Engineer - 6 months, Colombes",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099481",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446722172701",
+        "location": "Colombes, Île-de-France, FR",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T10:33:57.615934Z"
+  },
+  "7cf08fd9222c1131914792a61a321383ee7e9a6b73378188cd56012688bbba9c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Mechanical Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095755",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720741704"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Mechanical Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095755",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720741704",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T10:34:13.244362Z"
+  },
+  "c902d7e33f038d7db0fa0705cd3fe8ee1deb93fc0e3f40e1cfff1c21c97169aa": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096801",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721141411"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096801",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721141411",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T10:34:32.534022Z"
+  }
+}
