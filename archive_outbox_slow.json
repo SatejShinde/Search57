@@ -1,1 +1,130 @@
-{}
+{
+  "3c69c56c42ed69f81ac686e76b4836fe477ca4531e1ddef9dc9e3abb3d4aa2dd": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Self-Improving & Secure AI Agents - Microsoft Research",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067811",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075136"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Self-Improving & Secure AI Agents - Microsoft Research",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067811",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075136",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T18:05:23.858856Z"
+  },
+  "901a8d0e5377425e6f87be3148fa6b1523e6ea0c7355aa6a2444cd35fd42a0f5": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Customer Success Account Mgmt INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062105",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041301"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Customer Success Account Mgmt INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062105",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041301",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T18:05:42.628848Z"
+  },
+  "6c16c60723075607ecea038fb485aa80c68fb2a5d5dbea145878390ca60c514d": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200061280",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Software Engineer, Teamwork Experiences Internship Opportunities",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061280",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557037859",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T18:05:57.885565Z"
+  },
+  "bfe1531fffbfc6534a4205e95f1dd13c5eb86f894c27dc862c8d80bd1140dcde": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Stagiaire en opérations critiques Centre de données / Critical Environment Ops INTERN Data Center",
+      "location": "Québec City, QC, CA",
+      "platform": "eightfold",
+      "ats_id": "200059074",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557021518"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Stagiaire en opérations critiques Centre de données / Critical Environment Ops INTERN Data Center",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200059074",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557021518",
+        "location": "Québec City, QC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T18:06:13.130829Z"
+  }
+}
