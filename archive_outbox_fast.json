@@ -1,1 +1,31 @@
-{}
+{
+  "12a61698da2d93be12af62070fbe297f3044f46ddec52f89166bf857d250931e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing MBA Intern, AI Infrastructure — Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028699",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398510326"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Marketing MBA Intern, AI Infrastructure — Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028699",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398510326",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T09:04:11.567309Z"
+  }
+}
