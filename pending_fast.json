@@ -1,1 +1,89 @@
-{}
+{
+  "s57_96545fce49e04b2efec6ff674b3d4bc5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029307",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755089"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029307",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755089",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_90499c9c5a9b7277afb7d8c6a1738980": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing Manager MBA Intern, Digital Health AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029509",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398754064"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Marketing Manager MBA Intern, Digital Health AI - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029509",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398754064",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_a05a2c04f04e8c8361b4f32ad9638374": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+      "location": "CO",
+      "platform": "eightfold",
+      "ats_id": "3093241",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719378698"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3093241",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446719378698",
+      "location": "CO",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
