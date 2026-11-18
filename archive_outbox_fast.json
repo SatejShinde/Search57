@@ -1,1 +1,31 @@
-{}
+{
+  "eabe36c238ff82dbb05a38b943cdc4365ce1b6c93c47d551172caaecc2cccb04": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Generative AI - 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2016035",
+        "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T00:34:05.700502Z"
+  }
+}
