@@ -1,1 +1,62 @@
-{}
+{
+  "s57_7cf1e247aa71f1435943d66377d5d484": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Firmware Security",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067814",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075140"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - Firmware Security",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200067814",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075140",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_5c8511bf329ae8711028d6681c793312": {
+    "record": {
+      "company": "Amazon",
+      "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast",
+      "location": "Hayward, California, USA",
+      "platform": "amazon",
+      "ats_id": "10605132@loc3",
+      "requisition_id": "10605132",
+      "url": "https://www.amazon.jobs/en/jobs/10605132"
+    },
+    "company": {
+      "name": "Amazon",
+      "tier": "slow",
+      "platform": "amazon"
+    },
+    "job": {
+      "title": "Data Center Infrastructure Engineer Intern, Summer 2027 - West Coast",
+      "company": "Amazon",
+      "ats_type": "amazon",
+      "ats_id": "10605132@loc3",
+      "url": "https://www.amazon.jobs/en/jobs/10605132",
+      "location": "Hayward, California, USA",
+      "requisition_id": "10605132"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
