@@ -1,1 +1,130 @@
-{}
+{
+  "723a4670896695934659c1ef91b38010322510b9daaa581a87ef0bdee905eb9d": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Office of Applied Research",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064977",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557051409"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Office of Applied Research",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064977",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557051409",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T05:33:42.454374Z"
+  },
+  "764962484abd717f632c6792755b25a488b67d425e813d902fe6bf30adc17857": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Scientist: Internship Opportunities, Turing",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064446",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Applied Scientist: Internship Opportunities, Turing",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064446",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050150",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T05:33:47.351701Z"
+  },
+  "b20d96cd1d1c41dc923560a25237ddaf691210c6a689560bac0290f5289bffb3": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Applied Science: PhD Internship Opportunities, Turing",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064449",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050154"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Applied Science: PhD Internship Opportunities, Turing",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064449",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050154",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T05:33:52.039981Z"
+  },
+  "a7c8738b9f87f928b30649f3ea203011f3f3d994d6e3a4458915559314950c24": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Machine Learning for Biology and Healthcare",
+      "location": "Cambridge, MA, US",
+      "platform": "eightfold",
+      "ats_id": "200061710",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040333"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Machine Learning for Biology and Healthcare",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200061710",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557040333",
+        "location": "Cambridge, MA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T05:33:56.658863Z"
+  }
+}
