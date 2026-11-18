@@ -25,7 +25,15 @@
       "requisition_id": null
     },
     "alert_sent": true,
-    "acks": {},
-    "attempts": 0
+    "acks": {
+      "96717dee33dab354749fcbc70738da566185ddccd5c1fbdf7951c6e0406da219": 24209,
+      "84080b9de2b5d9ed13f94d5794a2f4823e1f33dbc40dc1ff5a0e5c24ae8ac30b": 24210,
+      "2a6bd027695ac1aaa396cb005e2ee210f5121bb7579b72bfe935463a868f4777": 24211
+    },
+    "attempts": 1,
+    "last_attempt": 1795019651.1416702,
+    "retrieval_status": "available",
+    "revision": "160879cc2d7e2fcd2219eb2df9e6268851cb5bd4573839e79467afeb32b5e02d",
+    "last_error": "DeliveryError"
   }
 }
