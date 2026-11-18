@@ -1,1 +1,62 @@
-{}
+{
+  "ca5c32305fa4f815082dda7a9337a523f37a58557d3e1d1e7bdf6b51c5343f49": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Machine Learning and Optimization - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064359",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557049981"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Machine Learning and Optimization - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064359",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557049981",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T03:34:11.730436Z"
+  },
+  "830fac15e28c85c7e117f7995523cd2c1095579f7ed197df0f015e9a5f9d98fc": {
+    "record": {
+      "company": "Amazon",
+      "title": "General Marketing Specialist Intern – Summer 2027",
+      "location": "Seattle, Washington, USA",
+      "platform": "amazon",
+      "ats_id": "10575256",
+      "requisition_id": "10575256",
+      "url": "https://www.amazon.jobs/en/jobs/10575256"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Amazon",
+        "tier": "slow",
+        "platform": "amazon"
+      },
+      "job": {
+        "title": "General Marketing Specialist Intern – Summer 2027",
+        "company": "Amazon",
+        "ats_type": "amazon",
+        "ats_id": "10575256",
+        "url": "https://www.amazon.jobs/en/jobs/10575256",
+        "location": "Seattle, Washington, USA",
+        "requisition_id": "10575256"
+      }
+    },
+    "observed_at": "2026-11-18T03:34:26.812203Z"
+  }
+}
