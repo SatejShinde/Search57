@@ -1,1 +1,60 @@
-{}
+{
+  "76c683cb73710f90abb41de4c119855413c7a4efd2b2b13c003a1eaca1ca237f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Research and Engineering Intern, Agentic Systems Intelligence – Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028260",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398426248"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Research and Engineering Intern, Agentic Systems Intelligence – Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028260",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398426248",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T19:13:49.748116Z"
+  },
+  "a561d77419e540b5fd3289563bd3618b54de91a8aa79687d74a3e58dc85458bf": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Math Libraries Intern, cuEST - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028449",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398351853"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Math Libraries Intern, cuEST - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028449",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398351853",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T19:14:07.132928Z"
+  }
+}
