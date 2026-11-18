@@ -1,1 +1,89 @@
-{}
+{
+  "6cd49f210c438a8342068f6c33ef7b88b258453dd741b3a6ef8b8b9e9f88f847": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099048",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721969461"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099048",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721969461",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T21:43:37.303059Z"
+  },
+  "ff95f7156ca4d65409311ce12c4cda1195baac6fa3fe9aa0ec0ffdeaa06996f1": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099058",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721972361"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3099058",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721972361",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T21:43:56.235635Z"
+  },
+  "015dd7d33662aaf29d30ab90de65590d712c8a075ea0f5a47864aa802597375f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Software Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095748",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740529"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "Software Engineering Internship - Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095748",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740529",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T21:44:15.321001Z"
+  }
+}
