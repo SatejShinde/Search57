@@ -1,1 +1,31 @@
-{}
+{
+  "21ef674855c8e819d7b694647f6d86354d71d6d70f56b4855742a3aa2dba84f5": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Product Marketing Engineering Intern",
+      "location": "Dallas, TX, United States",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25017582",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25017582"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Texas Instruments",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+      },
+      "job": {
+        "title": "Product Marketing Engineering Intern",
+        "company": "Texas Instruments",
+        "ats_type": "oracle",
+        "ats_id": "edbz.fa.us2.oraclecloud.com:25017582",
+        "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25017582",
+        "location": "Dallas, TX, United States",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-18T12:23:55.893490Z"
+  }
+}
