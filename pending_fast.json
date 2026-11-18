@@ -1,1 +1,89 @@
-{}
+{
+  "s57_9b3fa86e32dc928721a1c3e46471519a": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095745",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Qualcomm Government Technologies (QGOV) Engineering Internship – Summer 2027 (San Diego or Boulder) | US CITIZENSHIP REQUIRED",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095745",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740540",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_39702c9efe2a39859c9d4b7370c7a51c": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095747",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Automotive Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095747",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740553",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_3dc9a88b6590bc6d7c4b80033c7440e0": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Spring 2027 Intern - Software Engineering",
+      "location": "Irvine, CA, us",
+      "platform": "smartrecruiters",
+      "ats_id": "744000162353069",
+      "requisition_id": "REF34423J",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000162353069"
+    },
+    "company": {
+      "name": "Western Digital",
+      "tier": "fast",
+      "platform": "smartrecruiters",
+      "slug": "westerndigital"
+    },
+    "job": {
+      "title": "Spring 2027 Intern - Software Engineering",
+      "company": "Western Digital",
+      "ats_type": "smartrecruiters",
+      "ats_id": "744000162353069",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000162353069",
+      "location": "Irvine, CA, us",
+      "requisition_id": "REF34423J"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
