@@ -1,1 +1,31 @@
-{}
+{
+  "s57_8b9104e7f6a10e213a7d710fc6a69a8f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Wireless Systems Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095750",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740637"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Wireless Systems Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3095750",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740637",
+      "location": "San Diego, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
