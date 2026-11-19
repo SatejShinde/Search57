@@ -1,1 +1,98 @@
-{}
+{
+  "473e24747c10fc2f06d3205165a8617cae73f4bd1c2082854d593769c6346a71": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Computer Vision and Deep Learning",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067940",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075490"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Computer Vision and Deep Learning",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067940",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075490",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T16:35:01.709990Z"
+  },
+  "db0da2edcca46d9f38485d7928af587285ced36c0a4c62147296fc033828d526": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Security Research INTERN",
+      "location": "IN",
+      "platform": "eightfold",
+      "ats_id": "200062560",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043380"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Security Research INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062560",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557043380",
+        "location": "IN",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T16:35:18.032786Z"
+  },
+  "5342d6bf589a4b36ce7a96e0a3db82e3ccc1aac1b82849266ea5570565b1fa11": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Machine Learning at MSR NYC",
+      "location": "New York, NY, US",
+      "platform": "eightfold",
+      "ats_id": "200062418",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557042145"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Machine Learning at MSR NYC",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062418",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557042145",
+        "location": "New York, NY, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T16:35:34.302667Z"
+  }
+}
