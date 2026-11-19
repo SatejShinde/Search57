@@ -1,1 +1,89 @@
-{}
+{
+  "s57_0e190d7dd99f45009aa679825ca43301": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2016035",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Generative AI - 2026",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2016035",
+      "url": "https://nvidia.eightfold.ai/careers/job/893394590349",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_a92919db6465c73eb6618f5f9b56591d": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Product Validation Engineer - 6 months, Colombes",
+      "location": "Colombes, Île-de-France, FR",
+      "platform": "eightfold",
+      "ats_id": "3099481",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722172701"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Product Validation Engineer - 6 months, Colombes",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099481",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722172701",
+      "location": "Colombes, Île-de-France, FR",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_7ddaa81ca9a063484e8e95cd78916c4d": {
+    "record": {
+      "company": "Honeywell",
+      "title": "Intern (Master's)-Business Dev (m/f/d)",
+      "location": "Dublin, Co. Dublin, Ireland",
+      "platform": "oracle",
+      "ats_id": "ibqbjb.fa.ocs.oraclecloud.com:162562",
+      "requisition_id": "",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Honeywell#162562"
+    },
+    "company": {
+      "name": "Honeywell",
+      "tier": "fast",
+      "platform": "oracle",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell"
+    },
+    "job": {
+      "title": "Intern (Master's)-Business Dev (m/f/d)",
+      "company": "Honeywell",
+      "ats_type": "oracle",
+      "ats_id": "ibqbjb.fa.ocs.oraclecloud.com:162562",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Honeywell#162562",
+      "location": "Dublin, Co. Dublin, Ireland",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
