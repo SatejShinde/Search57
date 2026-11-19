@@ -1,1 +1,226 @@
-{}
+{
+  "6d32b1a81a6070364ac50ade23da2ad30a4addfb4531ab730d8cd9a829be1164": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - AI Safety, Alignment, and Post-Training",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200068176",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076142"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - AI Safety, Alignment, and Post-Training",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200068176",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076142",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:04:26.868614Z"
+  },
+  "752604bdd221027ff6f4fd33a3737c469122c8a24bc9124033cb9a864a78f1d1": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - AI Software Systems",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067972",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075527"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - AI Software Systems",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067972",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075527",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:04:43.161401Z"
+  },
+  "f1e45833af8f5edc753898f4f50200c9e316960ad8708d9997f40370f421aca1": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - Model Foundations for Knowledge & Reasoning - Microsoft Research",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "200067926",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075474"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - Model Foundations for Knowledge & Reasoning - Microsoft Research",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067926",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557075474",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:04:59.138950Z"
+  },
+  "becb259cb696f6fde5ff3ec44d9925ac3cff1e946c64287aae01ac4710d1a546": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Security Research: PhD Internship Opportunities",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067619",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557074642"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Security Research: PhD Internship Opportunities",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067619",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557074642",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:05:18.778795Z"
+  },
+  "e1d64a0ce2f35c6743e35b102ed580e850fbcd50ff383e25c73395192b4e4878": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Software-Hardware Co-design",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200067399",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Software-Hardware Co-design",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200067399",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557073455",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:05:34.838502Z"
+  },
+  "901a8d0e5377425e6f87be3148fa6b1523e6ea0c7355aa6a2444cd35fd42a0f5": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Customer Success Account Mgmt INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062105",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041301"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Customer Success Account Mgmt INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062105",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041301",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:05:54.825895Z"
+  },
+  "0ab4abd53b55a654db35fc75c1ed4f177f20f0ad18c280766ac84bfda755d336": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Cloud Solution Architecture INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062098",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041287"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Cloud Solution Architecture INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062098",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041287",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T21:06:10.706577Z"
+  }
+}
