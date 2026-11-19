@@ -1,1 +1,31 @@
-{}
+{
+  "s57_59c3c609626ceffcf76d28b691f658ac": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "Modular Engineering Internship – Summer 2027",
+      "location": "Los Altos, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3097141",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721246663"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "Modular Engineering Internship – Summer 2027",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3097141",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721246663",
+      "location": "Los Altos, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
