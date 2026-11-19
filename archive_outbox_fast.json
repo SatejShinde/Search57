@@ -1,1 +1,147 @@
-{}
+{
+  "cdc66cf32ed1139db0dcf95753a593b810611c7598d504cd80af6a33ea373e54": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Architecture – 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025395",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397633491"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Architecture – 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025395",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397633491",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T11:04:44.233500Z"
+  },
+  "f485da6b9450b5f430251a6eb103dfa7990117504e9a6bb998db6b031d6f5fae": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Security and Privacy - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025096",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397683987"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Security and Privacy - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025096",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397683987",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T11:04:59.186697Z"
+  },
+  "6ba5fb9057a1ba2e3204cd283e01747922744501f762e0b22fa52fcc22dd6995": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "JR2024997",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725891"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2024997",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397725891",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T11:05:14.296162Z"
+  },
+  "e287fc4b2421fb530a8eb4081faff534a98318c99b999d42d3047fe2ce2e864b": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2012398",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893393261624"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2012398",
+        "url": "https://nvidia.eightfold.ai/careers/job/893393261624",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T11:05:18.845989Z"
+  },
+  "778bbfa3c7105f5d02409d3df68dfb8ff721a294c6f3cc559b8537f74954008e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Robotics - Summer 2027",
+      "location": "Seattle, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025647",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725897"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Robotics - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025647",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397725897",
+        "location": "Seattle, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T11:05:23.086203Z"
+  }
+}
