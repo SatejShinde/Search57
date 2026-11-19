@@ -1,1 +1,34 @@
-{}
+{
+  "s57_27c255028ed34a0824177aa0ca218b36": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - AI /Machine Learning Numerics & Efficiency",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200068183",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076159"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - AI /Machine Learning Numerics & Efficiency",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200068183",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076159",
+      "location": "Redmond, WA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
