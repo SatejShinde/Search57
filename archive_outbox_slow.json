@@ -1,1 +1,66 @@
-{}
+{
+  "6d32b1a81a6070364ac50ade23da2ad30a4addfb4531ab730d8cd9a829be1164": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - AI Safety, Alignment, and Post-Training",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200068176",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076142"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - AI Safety, Alignment, and Post-Training",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200068176",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557076142",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:00:51.398992Z"
+  },
+  "bcb5b7e2beaa0c24af0d7742b9deec0a6920fa129574eb3e5c6f0e98e3adf21e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Commercial Sales INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062103",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Commercial Sales INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062103",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:01:07.019804Z"
+  }
+}
