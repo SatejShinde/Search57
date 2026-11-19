@@ -1,1 +1,350 @@
-{}
+{
+  "7318828057f3434862d3fcdfad910254bb0b23b481aa1eb5803e659f95fb5178": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Circuits - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2024174",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397488381"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Circuits - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2024174",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397488381",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:23.550094Z"
+  },
+  "b4c2841db76b9592985081bd5800fe4d3ea043b4c480b2c1855f18e9a6b90ca3": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management MBA Intern, Data Center GPU - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025670",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397711858"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Management MBA Intern, Data Center GPU - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025670",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397711858",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:28.053690Z"
+  },
+  "9ff0cf0fc5b39b36b976ac11a6608f89b18481a7fc46a5522664ec2a2e39633f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025907",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397828680"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Enterprise Platform Technical Marketing Engineer Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025907",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397828680",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:32.515193Z"
+  },
+  "a75e69acd0bbf7a6986d41ebd57b37c12f05b72fcc13856036eef9a43b2c36bd": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "VLSI Timing Methodology Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026798",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397975882"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "VLSI Timing Methodology Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026798",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397975882",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:47.795106Z"
+  },
+  "6f8947fac5fc2c265ce64bdee6c62a730a507792a04ef738b0cd85a1a35de096": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PCIe Design Verification Intern - Summer 2027",
+      "location": "Austin, TX, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026708",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398029200"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PCIe Design Verification Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026708",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398029200",
+        "location": "Austin, TX, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:52.288513Z"
+  },
+  "d9073bb3d201ae68a7a274235ffc24c2ad5aac3d1f74fc2a34fe5973b1ebfa8f": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2027429",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398124010"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Sparse Linear Algebra Libraries Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027429",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398124010",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:34:56.769122Z"
+  },
+  "49e342ccece875e6dc17be21f43973010f94ad3e396c1cbd910874328c6603ab": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026799",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398044668"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "VLSI CAD Timing Intern, Applied AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026799",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398044668",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:35:11.875748Z"
+  },
+  "1fa56fbca3b775141f78c5907f5c58965dd31b6200a91ee4b4c70bbf3b8a93bf": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025025",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397562169"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Physical AI - Foundation Models - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025025",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397562169",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:35:27.014236Z"
+  },
+  "778bbfa3c7105f5d02409d3df68dfb8ff721a294c6f3cc559b8537f74954008e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Robotics - Summer 2027",
+      "location": "Seattle, WA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025647",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397725897"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Robotics - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025647",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397725897",
+        "location": "Seattle, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:35:31.531064Z"
+  },
+  "7a5c39a5c01ef4cdfc493852a70b939ea80f3fe3382deb311c3b7fa7a9cab5ce": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Financial Analyst Intern, Hardware FP&A - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029523",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398640575"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Financial Analyst Intern, Hardware FP&A - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029523",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398640575",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:35:46.593701Z"
+  },
+  "4af93453b2bc27501cf336e44d4633224657184b8070a0fe828bfb55d5c8fc59": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2028530",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398572752"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Strategic Partnerships MBA Intern, Enterprise GTM - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2028530",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398572752",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:36:01.512399Z"
+  },
+  "a86442342f7fc186ee6bbc71483b2e5735856425f84e91ad3ebeaa250cad2f38": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "ASIC Verification Intern - Summer 2027",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "JR2027982",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398235775"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "ASIC Verification Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2027982",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398235775",
+        "location": "Toronto, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-19T23:36:16.608449Z"
+  }
+}
