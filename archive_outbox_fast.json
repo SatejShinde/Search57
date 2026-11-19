@@ -1,1 +1,31 @@
-{}
+{
+  "4de7e0679e0675db7a4dc23798917f83eb964813705a368feebb0aefbedb38d3": {
+    "record": {
+      "company": "Microchip",
+      "title": "Intern - Engineering (ASIC Verification)",
+      "location": "CA - San Jose - 3870 N. First St",
+      "platform": "workday",
+      "ats_id": "R4910-26",
+      "requisition_id": "R4910-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4910-26"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microchip",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://microchiphr.wd5.myworkdayjobs.com/external"
+      },
+      "job": {
+        "title": "Intern - Engineering (ASIC Verification)",
+        "company": "Microchip",
+        "ats_type": "workday",
+        "ats_id": "R4910-26",
+        "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4910-26",
+        "location": "CA - San Jose - 3870 N. First St",
+        "requisition_id": "R4910-26"
+      }
+    },
+    "observed_at": "2026-11-19T05:23:53.476964Z"
+  }
+}
