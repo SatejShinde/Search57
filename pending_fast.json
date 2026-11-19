@@ -1,1 +1,31 @@
-{}
+{
+  "s57_125cfec58ee41e87cb6536f2e50f9be0": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Software Engineering Internship 2027 - 6 months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3091774",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718630683"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Software Engineering Internship 2027 - 6 months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3091774",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446718630683",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
