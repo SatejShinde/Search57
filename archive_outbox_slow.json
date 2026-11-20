@@ -1,1 +1,66 @@
-{}
+{
+  "bcb5b7e2beaa0c24af0d7742b9deec0a6920fa129574eb3e5c6f0e98e3adf21e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Commercial Sales INTERN",
+      "location": "DE",
+      "platform": "eightfold",
+      "ats_id": "200062103",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Commercial Sales INTERN",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200062103",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557041299",
+        "location": "DE",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T01:04:14.842847Z"
+  },
+  "2437c46c94650a03f94c4df4a96ba109b4130ad86c9ec6dc049ea1c556a83c2b": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "location": "Redmond, WA, US",
+      "platform": "eightfold",
+      "ats_id": "200064379",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - MSR Systems Research Group - Redmond",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200064379",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557050039",
+        "location": "Redmond, WA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T01:04:30.630487Z"
+  }
+}
