@@ -32,8 +32,8 @@ jobs:
     env:
       STATE_BRANCH: startup-watch-state
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
 
@@ -86,6 +86,7 @@ jobs:
       - name: Build or send daily digest
         env:
           MIDU_API_KEY: ${{ secrets.MIDU_API_KEY }}
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SEND_DIGEST: ${{ inputs.send == true }}
@@ -96,19 +97,36 @@ jobs:
           if [[ "$SEND_DIGEST" == 'true' ]]; then args+=(--send); fi
           node run.mjs "${args[@]}"
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
         with:
           python-version: '3.12'
-      - name: Bounded startup description follow-up
+      - name: Bounded startup archive extraction
         if: always() && steps.restore.outputs.ready == 'true' && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
         env:
+          ARCHIVE_TIER: startup
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
           SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           pip install -r ../requirements.txt
-          python ../description_delivery.py --wrapper-state .runtime/state.json --send
+          python ../description_delivery.py --wrapper-state .runtime/state.json --process
+
+      - name: Checkout private archive for startup job descriptions
+        if: always() && steps.restore.outputs.ready == 'true' && inputs.send == true
+        uses: actions/checkout@v6
+        with:
+          repository: SatejShinde/Summer2027-Job-Archive
+          ref: main
+          path: startup-watch/.runtime/private-archive
+          ssh-key: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+      - name: Persist startup descriptions privately before retiring extraction work
+        if: always() && steps.restore.outputs.ready == 'true' && inputs.send == true
+        env:
+          ARCHIVE_TIER: startup
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+        run: |
+          pip install -q jsonschema==4.26.0
+          python ../archive_bridge.py --archive .runtime/private-archive --tier startup --wrapper-state .runtime/state.json
 
       - name: Persist delivery checkpoints, including partial sends
         if: always() && steps.restore.outputs.ready == 'true'
@@ -135,7 +153,7 @@ jobs:
 
       - name: Retain digest preview
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: startup-digest-${{ github.run_id }}-${{ github.run_attempt }}
           path: startup-watch/.runtime/output/

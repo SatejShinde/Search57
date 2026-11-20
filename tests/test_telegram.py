@@ -133,34 +133,41 @@ class DeliveryTests(unittest.TestCase):
     def setUp(self):
         patcher = patch.object(delivery.time,"sleep")
         patcher.start(); self.addCleanup(patcher.stop)
+        patcher=patch('archive_bridge.capture_detail',return_value=True)
+        patcher.start(); self.addCleanup(patcher.stop)
+        patcher=patch('archive_bridge.staged_detail',return_value=None)
+        patcher.start(); self.addCleanup(patcher.stop)
     def entry(self):
         return {"record":RECORD, "company":{"platform":"workday", "name":"Fixture & Co", "url":"https://fixture.wd1.myworkdayjobs.com/jobs"},
                 "job":{}, "alert_sent":True, "acks":{}, "attempts":0}
 
-    def test_partial_delivery_resume_no_false_success(self):
-        key = job_key(RECORD); queue = {key:self.entry()}; checkpoints=[]; sent=[]
-        def send(text, deadline):
-            sent.append(text)
-            if len(sent) == 3:
-                raise delivery.DeliveryError("synthetic failure")
-            return len(sent)
-        detail = lambda *args: dict(text="x"*9000,status="available",note="fixture")
-        with patch.object(delivery.time, "sleep"):
-            delivery.deliver(queue, {}, lambda q: checkpoints.append(copy.deepcopy(q)), send, detail)
-            self.assertIn(key, queue)
-            self.assertEqual(len(queue[key]["acks"]), 2)
-            first = sent[:2]; sent.clear()
-            delivery.deliver(queue, {}, lambda q: None, lambda t,d: sent.append(t) or 99, detail)
-        self.assertFalse(queue)
-        self.assertTrue(all(t not in first for t in sent))
+    def test_archive_failure_retains_pending_without_multipart_send(self):
+        key=job_key(RECORD);queue={key:self.entry()};sent=[]
+        detail=lambda *args:dict(text='x'*9000,status='available',note='fixture')
+        stage=Mock(side_effect=[False,True])
+        delivery.deliver(queue,{},lambda q:None,lambda t,d:sent.append(t),detail,archive_fn=stage)
+        self.assertIn(key,queue);self.assertEqual(sent,[])
+        delivery.deliver(queue,{},lambda q:None,lambda t,d:sent.append(t),detail,archive_fn=stage)
+        self.assertFalse(queue);self.assertEqual(sent,[])
+        self.assertEqual(stage.call_args.args[1]['text'],'x'*9000)
 
-    def test_retrieval_failure_still_sends_status(self):
-        key=job_key(RECORD); entry=self.entry(); entry["alert_sent"]=False; queue={key:entry}; sent=[]
-        detail=lambda *a: dict(text="",status="failed",note="timeout")
-        delivery.deliver(queue, {}, lambda q:None, lambda t,d:sent.append(t) or 1, detail)
-        self.assertFalse(queue)
-        self.assertTrue(sent[0].startswith("🆕"))
-        self.assertEqual(decode(sent[1])[0]["status"], "failed")
+    def test_retrieval_failure_sends_only_one_compact_alert(self):
+        key=job_key(RECORD);entry=self.entry();entry['alert_sent']=False;queue={key:entry};sent=[]
+        detail=lambda *a:dict(text='',status='failed',note='timeout')
+        delivery.deliver(queue,{},lambda q:None,lambda t,d:sent.append(t) or 1,detail)
+        self.assertFalse(queue);self.assertEqual(len(sent),1)
+        from compact_alert import alert
+        self.assertEqual(sent[0],alert(RECORD));self.assertNotIn('[Search57 v1]',sent[0])
+
+    def test_telegram_failure_does_not_block_private_description_staging(self):
+        entry=self.entry();entry['alert_sent']=False;queue={job_key(RECORD):entry};stage=Mock(return_value=True)
+        delivery.deliver(queue,{},lambda q:None,Mock(side_effect=delivery.DeliveryError('offline')),lambda *a:dict(text='Full source',status='available',note=''),archive_fn=stage)
+        stage.assert_called_once();self.assertTrue(queue);self.assertFalse(entry['alert_sent'])
+
+    def test_startup_archive_worker_never_sends_historical_alerts(self):
+        entry=self.entry();entry['alert_sent']=False;queue={job_key(RECORD):entry};send=Mock()
+        delivery.deliver(queue,{},lambda q:None,send,lambda *a:dict(text='Historical full source',status='available',note=''),retain_staged=True,allow_alerts=False)
+        send.assert_not_called();self.assertTrue(queue)
 
     def test_request_exception_does_not_block_other_jobs(self):
         a=self.entry(); b=self.entry(); b["record"]={**RECORD,"requisition_id":"R456"}
@@ -293,6 +300,15 @@ class DeliveryTests(unittest.TestCase):
                         if enabled:
                             check_jobs.main()
                             self.assertEqual(sender.call_count,3)
+                        # Follow-up has drained the queue; provider temporarily
+                        # returns an empty/partial catalog, then the same jobs.
+                        Path('pending_fast.json').write_text('{}')
+                        builder.return_value.fetch.return_value=[]
+                        check_jobs.main()
+                        builder.return_value.fetch.return_value=jobs
+                        check_jobs.main()
+                        self.assertEqual(sender.call_count,3)
+                        self.assertEqual(json.loads(Path('state_fast.json').read_text())['Fixture'],['0','1','2'])
                 finally: os.chdir(previous)
 
 

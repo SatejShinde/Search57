@@ -6,6 +6,7 @@ import { DEFAULT_KEYWORDS, emptyState, validateState, nameKey, publicLink, norma
 import { fetchMidu, discoverBoards, fetchBoard } from './sources.mjs';
 import { validateProfile, profileMatch } from './profile.mjs';
 import { descriptionEntry } from './descriptions.mjs';
+import archiveCipher from '../../artifact_cipher.js';
 
 export const DEFAULT_CONFIG = { lookbackDays: 30, maxProspectsPerDay: 10, maxNewWebsiteChecksPerDay: 5, maxRequests: 120, hardwareKeywords: DEFAULT_KEYWORDS, prospectKeywords: [...DEFAULT_KEYWORDS, 'robotics', 'chip', 'autonomy'], companies: [] };
 export function configWithDefaults(input = {}) {
@@ -90,6 +91,7 @@ export function demoState(profile = null) {
 export async function deliverChunks({ chunks, state, save, send, onDelivered = () => {} }) {
   const sent = new Set(state.sentChunks || []);
   for (const chunk of chunks) {
+    if (state.delivered.includes(chunk.itemId)) continue;
     if (!sent.has(chunk.key)) {
       await send(chunk.body); // Never automatically retry an ambiguous send timeout.
       state.sentChunks.push(chunk.key); sent.add(chunk.key);
@@ -136,7 +138,14 @@ export async function run({ config: inputConfig = {}, statePath, outputDir, demo
         const [key,entry] = descriptionEntry(item);
         state.descriptionPending[key] ||= entry;
         pendingByItem[item.id] = key;
-        if (descriptionListings[item.id]) cache[key] = descriptionListings[item.id];
+        if (descriptionListings[item.id]) {
+          cache[key] = descriptionListings[item.id];
+          if(env.JOB_ARCHIVE_SSH_KEY && !state.descriptionPending[key].archive_detail) {
+            const body=descriptionListings[item.id];
+            try {state.descriptionPending[key].archive_detail=JSON.parse(archiveCipher.seal(Buffer.from(JSON.stringify({text:body,status:body.length>=25000?'partial':'available',note:'Original startup listing body; source completeness not independently certified'})),env.JOB_ARCHIVE_SSH_KEY));}
+            catch {state.descriptionPending[key].archive_error='Encrypted handoff unavailable';}
+          }
+        }
       }
       await atomicSave(path.join(path.dirname(statePath),'description-listings.json'),cache);
     }

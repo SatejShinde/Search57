@@ -5,6 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { run } from '../lib/app.mjs';
 import { descriptionEntry } from '../lib/descriptions.mjs';
+import archiveCipher from '../../artifact_cipher.js';
 
 test('description handoff retains full body only transiently and preserves selected notifications',async()=>{
   const full='Firmware electronics responsibilities. '.repeat(200);
@@ -21,7 +22,7 @@ test('description handoff retains full body only transiently and preserves selec
     }};
     const statePath=path.join(dir,'state.json');
     const result=await run({now:'2026-11-09T00:00:00Z',config:{maxNewWebsiteChecksPerDay:0,companies:[{name:'Fixture',boards:[{type:'greenhouse',slug:'fixture'}]}]},statePath,outputDir:path.join(dir,'output'),send,
-      env:{MIDU_API_KEY:'fixture',TELEGRAM_BOT_TOKEN:'fixture',TELEGRAM_CHAT_ID:'fixture',SEARCH57_DESCRIPTIONS_ENABLED:enabled?'true':'false'},client});
+      env:{MIDU_API_KEY:'fixture',TELEGRAM_BOT_TOKEN:'fixture',TELEGRAM_CHAT_ID:'fixture',JOB_ARCHIVE_SSH_KEY:'fixture-archive-only-key',SEARCH57_DESCRIPTIONS_ENABLED:enabled?'true':'false'},client});
     return {result,dir,sent};
   };
   const before=await execute(false); const after=await execute(true);
@@ -32,6 +33,8 @@ test('description handoff retains full body only transiently and preserves selec
   assert.equal(pending.length,1); assert.equal(pending[0].record.ats_id,'42');
   assert.equal(pending[0].alert_sent,true);
   assert.ok(!JSON.stringify(pending).includes(full));
+  const recovered=JSON.parse(archiveCipher.open(pending[0].archive_detail,'fixture-archive-only-key').toString('utf8'));
+  assert.equal(recovered.text.trim(),full.trim());
   const cache=JSON.parse(await readFile(path.join(after.dir,'description-listings.json'),'utf8'));
   assert.equal(Object.values(cache)[0].trim(),full.trim());
   const preview=await execute(true,false);

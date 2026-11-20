@@ -38,6 +38,7 @@ from typing import Any, Callable
 import requests
 from description_delivery import enqueue, make_record, load as load_pending, save as save_pending, send_plain
 from archive_bridge import enqueue_source
+from compact_alert import alert as compact_alert
 from ats_scrapers.scrapers import (
     AmazonScraper,
     AppleScraper,
@@ -263,8 +264,7 @@ def send_telegram(token: str, chat_id: str, text: str) -> None:
         json={
             "chat_id": chat_id,
             "text": text,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": False,
+            "disable_web_page_preview": True,
         },
         timeout=15,
     )
@@ -340,17 +340,18 @@ def main() -> None:
                     if not pending[key]["alert_sent"]:
                         try:
                             send_plain(token, chat_id,
-                                       f"🆕 {name}: {job.title}\n{job.location or ''}\n{url}",
+                                       compact_alert(record),
                                        deadline=time.monotonic()+15)
                             pending[key]["alert_sent"] = True
                             save_pending(pending_path, pending)
                         except Exception:
                             print(f"  [{name}] alert unconfirmed; queued for follow-up", file=sys.stderr)
                 else:
-                    msg = f"\U0001f195 <b>{escape(name)}</b>: {escape(job.title)}\n{escape(job.location or '')}\n{escape(str(url))}"
-                    send_telegram(token, chat_id, msg)
+                    send_telegram(token, chat_id, compact_alert(record))
 
-        state[name] = sorted(current_ids)
+        # A partial/empty provider catalog must not forget previously seen IDs.
+        # Keep the existing state, adding observations without resetting history.
+        state[name] = sorted(seen | current_ids)
         save_state(state_path, state)
         print(
             f"  [{name}] {len(jobs)} total postings company-wide, "

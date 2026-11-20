@@ -16,7 +16,8 @@ import time
 
 import requests
 
-from telegram_jobs import digest, job_key, messages, units
+from telegram_jobs import job_key, units
+import queue_health as health
 
 
 def save(path, data):
@@ -76,10 +77,17 @@ def send_plain(token, chat_id, text, *, deadline=None, post=None, sleep=time.sle
 
 
 def make_record(company, job, url):
-    return {"company": company["name"], "title": job.title,
+    record = {"company": company["name"], "title": job.title,
             "location": job.location or "", "platform": company["platform"],
             "ats_id": str(job.ats_id or ""),
             "requisition_id": str(getattr(job, "requisition_id", None) or ""), "url": str(url)}
+    if company['platform']=='oracle' and '/job/' not in str(url):
+        from urllib.parse import urlsplit
+        site=urlsplit(company.get('url',''))
+        native=str(job.ats_id or '').split(':')[-1].split('@')[0]
+        if site.scheme=='https' and '/CandidateExperience/' in site.path and native.isdigit():
+            record['direct_url']=f'{site.scheme}://{site.netloc}{site.path.rstrip("/")}/job/{native}'
+    return record
 
 
 def enqueue(queue, company, job, url, cache):
@@ -103,6 +111,11 @@ def enqueue(queue, company, job, url, cache):
                 if isinstance(value, str) and value.strip() and value not in text:
                     text += f"\n\n{label}\n{value}"
         cache[key] = text
+        # Already-returned full text is protected before any Telegram request.
+        from archive_bridge import capture_detail
+        cached=result(text,'listing',company['platform'])
+        if company['platform'] in {'apple','oracle'}:cached['status']='partial'
+        capture_detail(queue[key],cached)
     return key
 
 
@@ -206,50 +219,39 @@ def bounded_retrieve(entry, listing, seconds):
         return {"text": "", "status": "failed", "note": "Targeted request failed/timed out"}
 
 
-def deliver(queue, cache, checkpoint, send, retrieve_fn=bounded_retrieve, *, seconds=240, max_jobs=12):
-    deadline = time.monotonic() + seconds
-    processed = 0
-    # Fair rotation: a poison entry cannot starve the rest of the backlog.
-    for key, entry in sorted(list(queue.items()), key=lambda pair: pair[1].get("last_attempt", 0)):
-        if processed >= max_jobs or deadline - time.monotonic() < 40:
-            break
-        processed += 1
-        entry["attempts"] += 1
-        entry["last_attempt"] = time.time()
-        checkpoint(queue)
+def deliver(queue, cache, checkpoint, send, retrieve_fn=bounded_retrieve, *, seconds=240, max_jobs=12, archive_fn=None, retain_staged=False, allow_alerts=True):
+    """Recover an unsent compact alert, then hand the full JD to the archive.
+
+    No description formatter or multipart Telegram sender is reachable here.
+    The encrypted outbox is durable before this extraction entry is retired.
+    """
+    from compact_alert import alert
+    from archive_bridge import capture_detail,staged_detail
+    archive_fn=archive_fn or capture_detail
+    health.validate(queue)
+    for entry in queue.values():health.track(entry)
+    checkpoint(queue)
+    deadline=time.monotonic()+seconds;processed=0
+    for key,entry in sorted(list(queue.items()),key=lambda pair:pair[1].get('last_attempt',0)):
+        if processed>=max_jobs or deadline-time.monotonic()<40:break
+        health.begin(entry)
+        processed+=1;entry['attempts']+=1;entry['last_attempt']=time.time();checkpoint(queue)
         try:
-            if not entry["alert_sent"]:
-                r = entry["record"]
-                send(f"🆕 {r['company']}: {r['title']}\n{r['location']}\n{r['url']}", deadline)
-                entry["alert_sent"] = True
-                checkpoint(queue)
-            detail = retrieve_fn(entry, cache.get(key, ""), min(25, deadline-time.monotonic()-10))
-            from archive_bridge import capture_detail
-            capture_detail(entry, detail)
-            entry["retrieval_status"] = detail["status"]
-            wires = messages(entry["record"], detail["text"], detail["status"], detail["note"])
-            sha = digest(detail["text"])
-            # A different upstream revision starts a new, independently
-            # reconstructable transfer; never combine its acks with old text.
-            if entry.get("revision") != sha:
-                entry.update(revision=sha, acks={})
-                checkpoint(queue)
-            for i, wire in enumerate(wires):
-                identity = digest(wire)
-                if identity not in entry["acks"]:
-                    if deadline - time.monotonic() < 3:
-                        raise DeliveryError("Follow-up time budget exhausted")
-                    message_id = send(wire, deadline)
-                    entry["acks"][identity] = message_id
-                    checkpoint(queue)
-                    # Pace across jobs too, below private/group rate ceilings.
-                    time.sleep(min(3.1, max(0, deadline-time.monotonic())))
-            del queue[key]  # terminal available/partial/failed record delivered
+            if not entry['alert_sent'] and allow_alerts:
+                try:
+                    send(alert(entry['record']),deadline);entry['alert_sent']=True;health.progress(entry);checkpoint(queue)
+                except Exception as exc:
+                    health.error(entry,exc,'compact_alert');checkpoint(queue)
+            staged=staged_detail(entry)
+            if retain_staged and staged and staged.get('status')=='available':continue
+            detail=staged if staged and staged.get('status')=='available' else retrieve_fn(entry,cache.get(key,''),min(25,deadline-time.monotonic()-10))
+            if not archive_fn(entry,detail):
+                health.stage_failed(entry);checkpoint(queue);continue
+            entry['retrieval_status']=detail['status']
+            if not retain_staged and entry['alert_sent']:del queue[key]
             checkpoint(queue)
         except Exception as exc:
-            # Error class only: provider/requests exceptions can contain secrets.
-            entry["last_error"] = type(exc).__name__
-            checkpoint(queue)
+            health.error(entry,exc,'description_recovery');checkpoint(queue)
     return processed
 
 
@@ -257,7 +259,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--retrieve-one", action="store_true")
     parser.add_argument("--tier", choices=["fast", "slow"])
-    parser.add_argument("--send", action="store_true")
+    parser.add_argument("--send", "--process", dest="send", action="store_true", help="Process archive work and compact unsent-alert retries; never send descriptions")
     parser.add_argument("--wrapper-state", type=Path,
                         help="Startup digest state; queue is descriptionPending property")
     args = parser.parse_args()
@@ -270,6 +272,7 @@ def main():
     if not args.tier and not args.wrapper_state:
         parser.error("--tier required")
     path = args.wrapper_state or Path(f"pending_{args.tier}.json")
+    if os.getenv('GITHUB_ACTIONS')=='true' and not path.is_file():raise health.WorkFailure('missing_pending_checkpoint')
     state = load(path)
     queue = state.setdefault("descriptionPending", {}) if args.wrapper_state else state
     def checkpoint(q):
@@ -277,15 +280,16 @@ def main():
     if not args.send:
         print(json.dumps({"mode": "no-send", "pending": len(queue)})); return
     if os.getenv("SEARCH57_DESCRIPTIONS_ENABLED") != "true":
-        sys.exit("Description sending disabled")
-    token = os.environ["TELEGRAM_BOT_TOKEN"]
-    chat = os.environ["TELEGRAM_CHAT_ID"]
+        sys.exit("Archive description collection disabled")
+    token = "" if args.wrapper_state else os.environ["TELEGRAM_BOT_TOKEN"]
+    chat = "" if args.wrapper_state else os.environ["TELEGRAM_CHAT_ID"]
     cache = path.parent/"description-listings.json" if args.wrapper_state else Path(f".runtime/listings_{args.tier}.json")
-    deliver(queue, load(cache), checkpoint,
-            lambda text, deadline: send_plain(token, chat, text, deadline=deadline))
-    print(json.dumps({"pending": len(queue), "complete": not queue}))
-    if queue:
-        sys.exit(1)
+    before=len(queue)
+    processed=deliver(queue, load(cache), checkpoint,
+            lambda text, deadline: send_plain(token, chat, text, deadline=deadline), retain_staged=bool(args.wrapper_state), allow_alerts=not bool(args.wrapper_state))
+    report=health.summary(queue,before,processed,require_alert=not bool(args.wrapper_state))
+    health.emit(report)
+    sys.exit(report['exit_code'])
 
 
 if __name__ == "__main__":
