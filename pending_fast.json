@@ -1,1 +1,31 @@
-{}
+{
+  "s57_14305478c894c5b38d6d2586014eb779": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - IT Artificial Intelligence & Automation - Up to 8 Months, Cork",
+      "location": "Cork, CO, IE",
+      "platform": "eightfold",
+      "ats_id": "3099723",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722246579"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - IT Artificial Intelligence & Automation - Up to 8 Months, Cork",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099723",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722246579",
+      "location": "Cork, CO, IE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
