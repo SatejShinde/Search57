@@ -1,1 +1,31 @@
-{}
+{
+  "s57_bf2a5d05cc9f1906395c577960488207": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Modem System Test - QCT, 6 months, Sulzbach - Germany",
+      "location": "Sulzbach, HE, DE",
+      "platform": "eightfold",
+      "ats_id": "3099718",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722243186"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Modem System Test - QCT, 6 months, Sulzbach - Germany",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099718",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722243186",
+      "location": "Sulzbach, HE, DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
