@@ -1,1 +1,60 @@
-{}
+{
+  "a8f65b1b81e92c3a8bda9ebb722f6b4de56a567216aba681fc61f64c1642cc96": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "platform": "eightfold",
+      "ats_id": "3098439",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721678733"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3098439",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721678733",
+        "location": "Vancouver, BC, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T06:34:05.256885Z"
+  },
+  "ae1a2ca218f1f92bd3e9a04bbcd0bca3659805a90fdb4541e72372e049d86dac": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+      "location": "San Diego, CA, US",
+      "platform": "eightfold",
+      "ats_id": "3095754",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446720740912"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3095754",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446720740912",
+        "location": "San Diego, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T06:34:24.188107Z"
+  }
+}
