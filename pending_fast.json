@@ -346,5 +346,237 @@
     "alert_sent": true,
     "acks": {},
     "attempts": 0
+  },
+  "s57_f63ba495af4fae7402897d9462a4bfe5": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026584",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, AI Accelerator Design and VLSI - 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026584",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397892835",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_78724b06b85713011f61a4ccbc0b18cc": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing Management MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025672",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397963045"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Marketing Management MBA Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2025672",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397963045",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_b84eda94e60d2fa5857eae2c5478c401": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026707",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397928913"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026707",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397928913",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_bb0af17e6869b05628ddf8c1aabd213d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026499",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397893388"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2026499",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397893388",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_260d896281d4150eb444cf46685745b8": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099180",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099180",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722038614",
+      "location": "Toronto, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_f74cc62fcfc79735cfe58a39aa19f973": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3099088",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099088",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721989047",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_657f2ea8c668324131766bbd46ece085": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098926",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721914045"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098926",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721914045",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_31b8c1d5e63f3a63bd0df5bbee43778f": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3098799",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721858024"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3098799",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721858024",
+      "location": "Markham, ON, CA",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
   }
 }
