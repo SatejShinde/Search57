@@ -286,7 +286,21 @@ def canonical_url(platform: str, job: Any) -> str:
         "amazon": lambda j: f"https://www.amazon.jobs/en/jobs/{str(getattr(j, 'requisition_id', None) or j.ats_id).split('@')[0]}",
     }
     fix = overrides.get(platform)
-    return fix(job) if fix else job.url
+    return str(fix(job) if fix else job.url)
+
+
+def recovered_seen(company):
+    """Restore only proven successful alerts forgotten by legacy cache replacement.
+
+    Existing unconfirmed pending entries are never removed or acknowledged here.
+    Provider matching prevents applying native IDs after a company changes ATS.
+    """
+    recovery=json.loads(Path(__file__).with_name('confirmed_seen_recovery.json').read_text(encoding='utf-8'))
+    if recovery.get('version')!=1:raise ValueError('Invalid confirmed-alert recovery format')
+    if recovery['providers'].get(company['name'])!=company['platform']:return set()
+    ids=recovery['companies'].get(company['name'],[])
+    if not isinstance(ids,list) or any(not isinstance(k,str) or not k for k in ids):raise ValueError('Invalid confirmed-alert identities')
+    return set(ids)
 
 
 def main() -> None:
@@ -311,7 +325,7 @@ def main() -> None:
     for company in companies:
         name = company["name"]
         builder = PLATFORM_BUILDERS[company["platform"]]
-        seen = set(state.get(name, []))
+        seen = set(state.get(name, [])) | recovered_seen(company)
         try:
             jobs = builder(company).fetch()
         except Exception as exc:  # one bad tenant should never kill the whole run

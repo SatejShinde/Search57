@@ -43,3 +43,11 @@ No exception text containing private bodies or credentials is logged.
 Actions use Node 24-compatible checkout/setup-python/setup-node v6, github-script
 v8, upload-artifact v6 and download-artifact v7 where used. Schedules, concurrency
 locks, recipients, source coverage and selection filters are unchanged.
+
+The fixed, versioned `confirmed_seen_recovery.json` restores 285 native IDs
+proved by historical `alert_sent=true` checkpoints at the recorded source head.
+Company and ATS must both match. It repairs IDs forgotten by the legacy cache;
+it never removes, acknowledges or suppresses processing of an unsent pending
+alert. Current state remains additive. No archive-only presence is treated as
+proof of notification. Scraper URL objects are normalized to strings before
+the immediate JSON metadata handoff.
