@@ -1,1 +1,130 @@
-{}
+{
+  "438a75b7a32a9ba6f5d231d8c793aa26a39b62ac00b9de9d1990b73fda55421b": {
+    "record": {
+      "company": "STMicroelectronics",
+      "title": "Hardware and Software Design Intern",
+      "location": "Santa Clara, United States",
+      "platform": "eightfold",
+      "ats_id": "15276",
+      "requisition_id": "300002814702170",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723228"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "STMicroelectronics",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "stmicroelectronics"
+      },
+      "job": {
+        "title": "Hardware and Software Design Intern",
+        "company": "STMicroelectronics",
+        "ats_type": "eightfold",
+        "ats_id": "15276",
+        "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723228",
+        "location": "Santa Clara, United States",
+        "requisition_id": "300002814702170"
+      }
+    },
+    "observed_at": "2026-11-20T18:01:54.285240Z",
+    "first_pending_at": 1795197714.2852545,
+    "last_progress_at": 1795197714.2852545,
+    "attempts_without_progress": 0
+  },
+  "3d7574e164a244beb23d8fcf989ca9f8989fe60d30052d041ec1283fa70bee27": {
+    "record": {
+      "company": "STMicroelectronics",
+      "title": "Embedded Software Sensor Algorithm Intern",
+      "location": "Santa Clara, United States",
+      "platform": "eightfold",
+      "ats_id": "15074",
+      "requisition_id": "300002783255905",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723240"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "STMicroelectronics",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "stmicroelectronics"
+      },
+      "job": {
+        "title": "Embedded Software Sensor Algorithm Intern",
+        "company": "STMicroelectronics",
+        "ats_type": "eightfold",
+        "ats_id": "15074",
+        "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723240",
+        "location": "Santa Clara, United States",
+        "requisition_id": "300002783255905"
+      }
+    },
+    "observed_at": "2026-11-20T18:01:54.930986Z",
+    "first_pending_at": 1795197714.9310057,
+    "last_progress_at": 1795197714.9310057,
+    "attempts_without_progress": 0
+  },
+  "32afbabb7ab6e87252d88dc610877f45928c9443e9050b6662515b230fa179ee": {
+    "record": {
+      "company": "STMicroelectronics",
+      "title": "Software Algorithm Embedded Intern",
+      "location": "Santa Clara, United States",
+      "platform": "eightfold",
+      "ats_id": "15073",
+      "requisition_id": "300002783255839",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723239"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "STMicroelectronics",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "stmicroelectronics"
+      },
+      "job": {
+        "title": "Software Algorithm Embedded Intern",
+        "company": "STMicroelectronics",
+        "ats_type": "eightfold",
+        "ats_id": "15073",
+        "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723239",
+        "location": "Santa Clara, United States",
+        "requisition_id": "300002783255839"
+      }
+    },
+    "observed_at": "2026-11-20T18:01:55.471219Z",
+    "first_pending_at": 1795197715.4712372,
+    "last_progress_at": 1795197715.4712372,
+    "attempts_without_progress": 0
+  },
+  "d82acac844255b59dae4836ab94aea4e2ccd7b8f26ae9387faca31ad27925390": {
+    "record": {
+      "company": "STMicroelectronics",
+      "title": "Software Algorithm Embedded Intern",
+      "location": "Santa Clara, United States",
+      "platform": "eightfold",
+      "ats_id": "14454",
+      "requisition_id": "300002706818439",
+      "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723238"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "STMicroelectronics",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "stmicroelectronics"
+      },
+      "job": {
+        "title": "Software Algorithm Embedded Intern",
+        "company": "STMicroelectronics",
+        "ats_type": "eightfold",
+        "ats_id": "14454",
+        "url": "https://stmicroelectronics.eightfold.ai/careers/job/563637173723238",
+        "location": "Santa Clara, United States",
+        "requisition_id": "300002706818439"
+      }
+    },
+    "observed_at": "2026-11-20T18:01:56.022929Z",
+    "first_pending_at": 1795197716.0229468,
+    "last_progress_at": 1795197716.0229468,
+    "attempts_without_progress": 0
+  }
+}
