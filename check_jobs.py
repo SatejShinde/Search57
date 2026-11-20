@@ -349,7 +349,9 @@ def main() -> None:
                 else:
                     send_telegram(token, chat_id, compact_alert(record))
 
-        state[name] = sorted(current_ids)
+        # A partial/empty provider catalog must not forget previously seen IDs.
+        # Keep the existing state, adding observations without resetting history.
+        state[name] = sorted(seen | current_ids)
         save_state(state_path, state)
         print(
             f"  [{name}] {len(jobs)} total postings company-wide, "

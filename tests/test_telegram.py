@@ -300,6 +300,15 @@ class DeliveryTests(unittest.TestCase):
                         if enabled:
                             check_jobs.main()
                             self.assertEqual(sender.call_count,3)
+                        # Follow-up has drained the queue; provider temporarily
+                        # returns an empty/partial catalog, then the same jobs.
+                        Path('pending_fast.json').write_text('{}')
+                        builder.return_value.fetch.return_value=[]
+                        check_jobs.main()
+                        builder.return_value.fetch.return_value=jobs
+                        check_jobs.main()
+                        self.assertEqual(sender.call_count,3)
+                        self.assertEqual(json.loads(Path('state_fast.json').read_text())['Fixture'],['0','1','2'])
                 finally: os.chdir(previous)
 
 

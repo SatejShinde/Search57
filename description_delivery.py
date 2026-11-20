@@ -17,6 +17,7 @@ import time
 import requests
 
 from telegram_jobs import job_key, units
+import queue_health as health
 
 
 def save(path, data):
@@ -227,25 +228,30 @@ def deliver(queue, cache, checkpoint, send, retrieve_fn=bounded_retrieve, *, sec
     from compact_alert import alert
     from archive_bridge import capture_detail,staged_detail
     archive_fn=archive_fn or capture_detail
+    health.validate(queue)
+    for entry in queue.values():health.track(entry)
+    checkpoint(queue)
     deadline=time.monotonic()+seconds;processed=0
     for key,entry in sorted(list(queue.items()),key=lambda pair:pair[1].get('last_attempt',0)):
         if processed>=max_jobs or deadline-time.monotonic()<40:break
+        health.begin(entry)
         processed+=1;entry['attempts']+=1;entry['last_attempt']=time.time();checkpoint(queue)
         try:
             if not entry['alert_sent'] and allow_alerts:
                 try:
-                    send(alert(entry['record']),deadline);entry['alert_sent']=True;checkpoint(queue)
+                    send(alert(entry['record']),deadline);entry['alert_sent']=True;health.progress(entry);checkpoint(queue)
                 except Exception as exc:
-                    entry['alert_error']=type(exc).__name__;checkpoint(queue)
+                    health.error(entry,exc,'compact_alert');checkpoint(queue)
             staged=staged_detail(entry)
             if retain_staged and staged and staged.get('status')=='available':continue
             detail=staged if staged and staged.get('status')=='available' else retrieve_fn(entry,cache.get(key,''),min(25,deadline-time.monotonic()-10))
-            if not archive_fn(entry,detail):raise DeliveryError('Archive staging unconfirmed; pending retained')
+            if not archive_fn(entry,detail):
+                health.stage_failed(entry);checkpoint(queue);continue
             entry['retrieval_status']=detail['status']
             if not retain_staged and entry['alert_sent']:del queue[key]
             checkpoint(queue)
         except Exception as exc:
-            entry['last_error']=type(exc).__name__;checkpoint(queue)
+            health.error(entry,exc,'description_recovery');checkpoint(queue)
     return processed
 
 
@@ -266,6 +272,7 @@ def main():
     if not args.tier and not args.wrapper_state:
         parser.error("--tier required")
     path = args.wrapper_state or Path(f"pending_{args.tier}.json")
+    if os.getenv('GITHUB_ACTIONS')=='true' and not path.is_file():raise health.WorkFailure('missing_pending_checkpoint')
     state = load(path)
     queue = state.setdefault("descriptionPending", {}) if args.wrapper_state else state
     def checkpoint(q):
@@ -277,11 +284,12 @@ def main():
     token = "" if args.wrapper_state else os.environ["TELEGRAM_BOT_TOKEN"]
     chat = "" if args.wrapper_state else os.environ["TELEGRAM_CHAT_ID"]
     cache = path.parent/"description-listings.json" if args.wrapper_state else Path(f".runtime/listings_{args.tier}.json")
-    deliver(queue, load(cache), checkpoint,
+    before=len(queue)
+    processed=deliver(queue, load(cache), checkpoint,
             lambda text, deadline: send_plain(token, chat, text, deadline=deadline), retain_staged=bool(args.wrapper_state), allow_alerts=not bool(args.wrapper_state))
-    print(json.dumps({"pending": len(queue), "complete": not queue}))
-    if any(not e.get("archive_detail") or (not args.wrapper_state and not e['alert_sent']) for e in queue.values()):
-        sys.exit(1)
+    report=health.summary(queue,before,processed,require_alert=not bool(args.wrapper_state))
+    health.emit(report)
+    sys.exit(report['exit_code'])
 
 
 if __name__ == "__main__":
