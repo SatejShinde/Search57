@@ -1,1 +1,194 @@
-{}
+{
+  "88d641e6348edcb028270f8262e5191a2f08f361fe4990b0ff8b4f2fc2e8987f": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern - ISM, Cyber Security and AI",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5040",
+      "requisition_id": "R26-5040",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern - ISM, Cyber Security and AI",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5040",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5040"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:44.618410Z",
+    "first_pending_at": 1795204304.6184256,
+    "last_progress_at": 1795204304.6184256,
+    "attempts_without_progress": 0
+  },
+  "62b290ac99416f5d2a63de2c1c529a744278fb69c827366f5696f6185dfae15e": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Market Access Strategy (LCS)",
+      "location": "Milwaukee, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-5069",
+      "requisition_id": "R26-5069",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Market Access Strategy (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5069",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-1",
+        "location": "Milwaukee, Wisconsin, United States",
+        "requisition_id": "R26-5069"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:45.245868Z",
+    "first_pending_at": 1795204305.245887,
+    "last_progress_at": 1795204305.245887,
+    "attempts_without_progress": 0
+  },
+  "c96b5717e1ebfc31838f0cadfd8e624c0068e581975c8f0c532653f675f5965e": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Market Intelligence (LCS)",
+      "location": "Milwaukee, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-5032",
+      "requisition_id": "R26-5032",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-2"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Market Intelligence (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5032",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-2",
+        "location": "Milwaukee, Wisconsin, United States",
+        "requisition_id": "R26-5032"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:45.828705Z",
+    "first_pending_at": 1795204305.8287208,
+    "last_progress_at": 1795204305.8287208,
+    "attempts_without_progress": 0
+  },
+  "1e35d4f3d87836c4fe4ba02ed6fcbc9e8352d2e17592af32aa2be7eb8dc72dd7": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern - Embedded Controls Engineering",
+      "location": "Orlando, Florida, United States",
+      "platform": "workday",
+      "ats_id": "R26-5043",
+      "requisition_id": "R26-5043",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern - Embedded Controls Engineering",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5043",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1",
+        "location": "Orlando, Florida, United States",
+        "requisition_id": "R26-5043"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:46.392688Z",
+    "first_pending_at": 1795204306.3927062,
+    "last_progress_at": 1795204306.3927062,
+    "attempts_without_progress": 0
+  },
+  "fb277843e597909da45bee9f83e49db5c4e6eb1e185810fd8a0d9990b1142c40": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Cyber Professional Services (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5042",
+      "requisition_id": "R26-5042",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Cyber Professional Services (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5042",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5042"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:46.966596Z",
+    "first_pending_at": 1795204306.9666142,
+    "last_progress_at": 1795204306.9666142,
+    "attempts_without_progress": 0
+  },
+  "394086da9e7646c713f41b6bebaa6e4317edbfdbde98b1865f24c481c05c5eff": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Content IDE Software Development (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5010",
+      "requisition_id": "R26-5010",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Content IDE Software Development (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5010",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5010"
+      }
+    },
+    "observed_at": "2026-11-20T19:51:47.545103Z",
+    "first_pending_at": 1795204307.545122,
+    "last_progress_at": 1795204307.545122,
+    "attempts_without_progress": 0
+  }
+}
