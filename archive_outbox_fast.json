@@ -1,1 +1,205 @@
-{}
+{
+  "54f82c7d10fb3548269d02cb4d8ea07ed07b22836269d4b8eea89750ef78c7d0": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management Space Compute MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029628",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398605263"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Management Space Compute MBA Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029628",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398605263",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:53:52.647557Z"
+  },
+  "5278a3c92c7c0d3c8f8b6d8ada56cc46c0aaa15063fc3076c2f4523ab439615e": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029307",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398755089"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Applied Research Scientist Intern, Agentic Biology - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029307",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398755089",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:54:08.073704Z"
+  },
+  "69ccc07ac7629193bc01f6240273bb67c494b50f67f14fe4788f3f34ff6a6415": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2024171",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397266856"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2024171",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397266856",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:54:23.675564Z"
+  },
+  "e47657921197556b83ee6f951f0bfa14554bcdf965173c8d249ae8a12e493d41": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2026707",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397928913"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2026707",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397928913",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:54:38.999835Z"
+  },
+  "c4ffd7b9b416df01de795682c3c5382a2836cca6739c94c0375d147756af75fe": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Management MBA Intern, GenAI Data Strategy - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029639",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398826603"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Product Management MBA Intern, GenAI Data Strategy - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2029639",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398826603",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:54:55.707741Z"
+  },
+  "f485da6b9450b5f430251a6eb103dfa7990117504e9a6bb998db6b031d6f5fae": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "PhD Research Intern, Security and Privacy - 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2025096",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893397683987"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "PhD Research Intern, Security and Privacy - 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2025096",
+        "url": "https://nvidia.eightfold.ai/careers/job/893397683987",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:55:00.198276Z"
+  },
+  "be8bdc47105ee6b4beb7ff2742be26b317f1ffaf55533741e67e9513b67539f9": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "platform": "eightfold",
+      "ats_id": "3096486",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446721064141"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Qualcomm",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "qualcomm"
+      },
+      "job": {
+        "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+        "company": "Qualcomm",
+        "ats_type": "eightfold",
+        "ats_id": "3096486",
+        "url": "https://qualcomm.eightfold.ai/careers/job/446721064141",
+        "location": "Markham, ON, CA",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-20T00:55:16.987826Z"
+  }
+}
