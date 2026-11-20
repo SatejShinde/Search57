@@ -257,6 +257,40 @@ class DeliveryTests(unittest.TestCase):
             self.assertTrue(type(scraper).get_description is not BaseScraper.get_description or
                             company["platform"] in {"amazon","apple","greenhouse"})
 
+    def test_real_scraper_url_is_json_safe_for_immediate_archive_handoff(self):
+        from ats_scrapers.models import Job
+        from archive_bridge import _enqueue_source,load
+        job=Job(title='Fixture Intern',company='Fixture',ats_type='eightfold',ats_id='R1',url='https://example.com/jobs/R1',location='CA')
+        url=check_jobs.canonical_url('eightfold',job)
+        self.assertIsInstance(url,str)
+        with tempfile.TemporaryDirectory() as directory:
+            old=os.getcwd()
+            try:
+                os.chdir(directory)
+                with patch.dict(os.environ,{'JOB_ARCHIVE_LOCAL_TEST':'true','ARCHIVE_TIER':'fast'}),patch.object(sys,'argv',['check_jobs.py']):
+                    _enqueue_source(delivery.make_record({'name':'Fixture','platform':'eightfold'},job,url),{'job':{'url':url}})
+                    self.assertEqual(len(load('archive_outbox_fast.json')),1)
+            finally:os.chdir(old)
+    def test_confirmed_history_is_provider_scoped_and_does_not_consume_unsent_queue(self):
+        recovered=check_jobs.recovered_seen({'name':'NVIDIA','platform':'eightfold'})
+        self.assertIn('JR2028449',recovered)
+        self.assertFalse(check_jobs.recovered_seen({'name':'NVIDIA','platform':'different-ATS'}))
+        from types import SimpleNamespace
+        company={'name':'Fixture','platform':'workday','tier':'fast'}
+        job=SimpleNamespace(title='Firmware Intern',location='CA',ats_id='old',url='https://example.com/old',description=None)
+        with tempfile.TemporaryDirectory() as directory:
+            old=os.getcwd()
+            try:
+                os.chdir(directory)
+                queue={'unsent':{**self.entry(),'alert_sent':False}}
+                Path('pending_fast.json').write_text(json.dumps(queue))
+                with patch.dict(os.environ,{'TELEGRAM_BOT_TOKEN':'fixture','TELEGRAM_CHAT_ID':'fixture','SEARCH57_DESCRIPTIONS_ENABLED':'true'}),patch.object(sys,'argv',['check_jobs.py','--tier','fast']),patch.object(check_jobs,'COMPANIES',[company]),patch.dict(check_jobs.PLATFORM_BUILDERS,{'workday':lambda c:SimpleNamespace(fetch=lambda:[job])}),patch.object(check_jobs,'recovered_seen',return_value={'old'}),patch.object(check_jobs,'send_plain') as sender:
+                    check_jobs.main()
+                    sender.assert_not_called()
+                self.assertEqual(json.loads(Path('state_fast.json').read_text())['Fixture'],['old'])
+                self.assertFalse(json.loads(Path('pending_fast.json').read_text())['unsent']['alert_sent'])
+            finally:os.chdir(old)
+
     def test_amazon_location_url_uses_requisition(self):
         from types import SimpleNamespace
         self.assertEqual(check_jobs.canonical_url("amazon",SimpleNamespace(ats_id="123@loc2",requisition_id="123")),
