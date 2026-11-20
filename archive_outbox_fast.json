@@ -1,1 +1,230 @@
-{}
+{
+  "88d641e6348edcb028270f8262e5191a2f08f361fe4990b0ff8b4f2fc2e8987f": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern - ISM, Cyber Security and AI",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5040",
+      "requisition_id": "R26-5040",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern - ISM, Cyber Security and AI",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5040",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5040"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:00.302723Z",
+    "first_pending_at": 1795204440.302744,
+    "last_progress_at": 1795204440.3313262,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "HLqhf0C8phSHM/9F",
+      "tag": "/w03YRk+sKPtw52n6Ap48g==",
+      "ciphertext": "zXqEGzIAkVxHqjJRrHL+A+/WRk5VixNvyA66VECiMqOagLuJDXJ7RzQJeDKAe46CuDeaFS12LFwP2N05v3Pi54MCsR/pp0wiAR5ak/cdtipsAg0C4Oo4fF8Y"
+    }
+  },
+  "62b290ac99416f5d2a63de2c1c529a744278fb69c827366f5696f6185dfae15e": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Market Access Strategy (LCS)",
+      "location": "Milwaukee, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-5069",
+      "requisition_id": "R26-5069",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Market Access Strategy (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5069",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Access-Strategy--LCS-_R26-5069-1",
+        "location": "Milwaukee, Wisconsin, United States",
+        "requisition_id": "R26-5069"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:00.969556Z",
+    "first_pending_at": 1795204440.9695745,
+    "last_progress_at": 1795204440.9982686,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "an2c4R1yOSd3Xgxk",
+      "tag": "f0C1YahpQ1MwAR89epzO0A==",
+      "ciphertext": "ex+o2U5+UC6JtD3IQTmBqUTAJpXq0wKaLm5LVP4Jy1nzgCJC+KiK0+qgiZZFhRuBV4ByJupBqQxKrUvNzy8mVG3RwIDFfQsAY13npKBg7cz9nNmy+NDRRz66"
+    }
+  },
+  "c96b5717e1ebfc31838f0cadfd8e624c0068e581975c8f0c532653f675f5965e": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Market Intelligence (LCS)",
+      "location": "Milwaukee, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-5032",
+      "requisition_id": "R26-5032",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-2"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Market Intelligence (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5032",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-2",
+        "location": "Milwaukee, Wisconsin, United States",
+        "requisition_id": "R26-5032"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:01.623346Z",
+    "first_pending_at": 1795204441.623363,
+    "last_progress_at": 1795204441.6504655,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "8ckSOpXQhYHXQrtz",
+      "tag": "yc6vmStqPyg8VANVSE7n2Q==",
+      "ciphertext": "MGHTCg/tBNP1uzRCyVNNavgdxW66ivedaIro7uXIcZo0xvKDxdvBQfRLZN0SD7Tc5W5goqbdG5w9wHBktJzT4ZN/zCgvvQ6aE0E/9E92LmagzKZAD7EhRnOp"
+    }
+  },
+  "1e35d4f3d87836c4fe4ba02ed6fcbc9e8352d2e17592af32aa2be7eb8dc72dd7": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern - Embedded Controls Engineering",
+      "location": "Orlando, Florida, United States",
+      "platform": "workday",
+      "ats_id": "R26-5043",
+      "requisition_id": "R26-5043",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern - Embedded Controls Engineering",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5043",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Orlando-Florida-United-States/Intern---Embedded-Controls-Engineering_R26-5043-1",
+        "location": "Orlando, Florida, United States",
+        "requisition_id": "R26-5043"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:02.265598Z",
+    "first_pending_at": 1795204442.265615,
+    "last_progress_at": 1795204442.293588,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "Z7i62Du94y6ymLLd",
+      "tag": "JETPjA1pwYA327xVTJtZzg==",
+      "ciphertext": "73C9Ga1//18l3c8uieEYn+oagrwFmSa96T4WQIDrAwztmLP7qXnHm+ki+0yKn7pPBGr4hxvzHj3jghINqi1PRgGq9TD+op0IcL/PgOTHf4uiwm/D47rViL5v"
+    }
+  },
+  "fb277843e597909da45bee9f83e49db5c4e6eb1e185810fd8a0d9990b1142c40": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Cyber Professional Services (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5042",
+      "requisition_id": "R26-5042",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Cyber Professional Services (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5042",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5042"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:02.941022Z",
+    "first_pending_at": 1795204442.94104,
+    "last_progress_at": 1795204442.9674268,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "GdqImmm9g2enHak+",
+      "tag": "Fe2/3rsa92Hab+fJH6W9Jg==",
+      "ciphertext": "h3cygEZ/nBDhXPuUVJCc2hViZgbYqanRU/XctgK7njkVqgDNvjq1GqTF/LRdNdeN3lDw3oOr1i9T3SR0Qsex6lPpNM+C48i+wnm01wYbSUx6Ki5Ywre4HmHK"
+    }
+  },
+  "394086da9e7646c713f41b6bebaa6e4317edbfdbde98b1865f24c481c05c5eff": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Content IDE Software Development (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "platform": "workday",
+      "ats_id": "R26-5010",
+      "requisition_id": "R26-5010",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Content IDE Software Development (LCS)",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5010",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--Content-IDE-Software-Development--LCS-_R26-5010-1",
+        "location": "Mayfield Heights, Ohio, United States",
+        "requisition_id": "R26-5010"
+      }
+    },
+    "observed_at": "2026-11-20T19:54:03.578715Z",
+    "first_pending_at": 1795204443.578733,
+    "last_progress_at": 1795204443.6056945,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "VOx4g7zHp001wS9R",
+      "tag": "hkVDllhm8WCuyM7pLw0NcA==",
+      "ciphertext": "SbUDduWd8WLzLP9u53IeaIZPGJICtgUgDZJG/39dfFWTib4hyQODazYxWFIEyhzkshn1d6W5nWqQl0IRy7PaWz3GitkHq3fwNYudP1f+Pc12BtaU6AGmluW1"
+    }
+  }
+}
