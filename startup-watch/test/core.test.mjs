@@ -174,14 +174,14 @@ test('resume technical priorities rank firmware and sensor roles above explorato
     ['rtl','RTL Design Verification Intern — Summer 2027','FPGA, SystemVerilog and UVM verification.'],
     ['firmware','Firmware Intern — Summer 2027','Program ESP32 sensors in C++; I2C and UART integration.'],
     ['sensors','Sensors Hardware Test Intern — Summer 2027','PCB electronics debugging and calibration.']
-  ]) state.jobs[id]={...classifyJob(job({id,title,description}),undefined,technicalProfile),id,active:true,firstSeenAt:'2026-10-31T00:00:00Z'};
+  ]) state.jobs[id]={...classifyJob(job({id,title,description,url:`https://example.com/job/${id}`,companyName:'Fixture'}),undefined,technicalProfile),id,active:true,firstSeenAt:'2026-10-31T00:00:00Z'};
   const selected=chooseItems(state,3);
   assert.deepEqual(new Set(selected.slice(0,2).map(j=>j.id)),new Set(['firmware','sensors']));
   assert.equal(selected[2].id,'rtl'); assert.equal(selected[2].resumeMatch.score,0);
   assert.deepEqual(selected[2].resumeMatch.matched,[]);
   assert.match(selected[2].resumeMatch.exploratory[0].missingEvidence,/does not demonstrate FPGA\/HDL/);
-  assert.match(renderItem(selected[2]),/Exploratory \/ missing evidence/);
-  assert.match(renderItem(selected[0]),/Resume evidence:/);
+  assert.equal(renderItem(selected[2]).split('\n').length,3);
+  assert.doesNotMatch(renderItem(selected[0]),/Resume evidence:|missing evidence/);
   assert.ok(!selected[2].resumeMatch.matched.some(c=>/HDL|UVM|RTL/.test(c.evidence)));
 });
 

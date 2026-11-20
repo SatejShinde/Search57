@@ -40,6 +40,8 @@ def authorize(env):
 
 
 def run_canary(*, send=False, env=None, retrieve_fn=bounded_retrieve, transport=send_plain):
+    if send:
+        raise DeliveryError('Legacy Telegram description canary retired; production sends compact alerts only')
     env = env or os.environ
     if send:
         authorize(env)

@@ -14,7 +14,7 @@ on:
       send:
         type: boolean
         default: false
-        description: Send pending descriptions (requires feature variable)
+        description: Process archive descriptions and retry unsent compact alerts
 
 permissions:
   contents: write
@@ -55,12 +55,13 @@ jobs:
         env:
           JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
         run: node artifact_cipher.js open ".runtime/listings_${TIER}.json.enc"
-      - name: Bounded delivery
+      - name: Bounded archive extraction and compact-alert recovery
         env:
           SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python description_delivery.py --tier "$TIER" --send
+        run: python description_delivery.py --tier "$TIER" --process
       - name: Persist partial delivery checkpoints
         if: always()
         run: python persist_watcher_state.py --tier "$TIER" --followup
@@ -80,6 +81,7 @@ jobs:
         timeout-minutes: 2
         env:
           ARCHIVE_TIER: ${{ env.TIER }}
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
         run: |
           pip install -q jsonschema==4.26.0
           python archive_bridge.py --archive .runtime/private-archive --tier "${{ env.TIER }}"

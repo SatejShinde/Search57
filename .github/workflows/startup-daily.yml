@@ -86,6 +86,7 @@ jobs:
       - name: Build or send daily digest
         env:
           MIDU_API_KEY: ${{ secrets.MIDU_API_KEY }}
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SEND_DIGEST: ${{ inputs.send == true }}
@@ -100,15 +101,34 @@ jobs:
         if: vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
         with:
           python-version: '3.12'
-      - name: Bounded startup description follow-up
+      - name: Bounded startup archive extraction
         if: always() && steps.restore.outputs.ready == 'true' && vars.SEARCH57_DESCRIPTIONS_ENABLED == 'true' && inputs.send == true
         env:
+          ARCHIVE_TIER: startup
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
           SEARCH57_DESCRIPTIONS_ENABLED: ${{ vars.SEARCH57_DESCRIPTIONS_ENABLED }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           pip install -r ../requirements.txt
-          python ../description_delivery.py --wrapper-state .runtime/state.json --send
+          python ../description_delivery.py --wrapper-state .runtime/state.json --process
+
+      - name: Checkout private archive for startup job descriptions
+        if: always() && steps.restore.outputs.ready == 'true' && inputs.send == true
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          repository: SatejShinde/Summer2027-Job-Archive
+          ref: main
+          path: startup-watch/.runtime/private-archive
+          ssh-key: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+      - name: Persist startup descriptions privately before retiring extraction work
+        if: always() && steps.restore.outputs.ready == 'true' && inputs.send == true
+        continue-on-error: true
+        env:
+          ARCHIVE_TIER: startup
+          JOB_ARCHIVE_SSH_KEY: ${{ secrets.JOB_ARCHIVE_SSH_KEY }}
+        run: |
+          pip install -q jsonschema==4.26.0
+          python ../archive_bridge.py --archive .runtime/private-archive --tier startup --wrapper-state .runtime/state.json
 
       - name: Persist delivery checkpoints, including partial sends
         if: always() && steps.restore.outputs.ready == 'true'

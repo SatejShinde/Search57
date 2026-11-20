@@ -97,7 +97,14 @@ export function chooseItems(state, max = 10) {
   return [...jobs.map(item => ({ ...item, kind: 'open internship' })), ...prospects.map(item => ({ ...item, kind: 'funding outreach prospect' }))].slice(0,max);
 }
 export function renderItem(item) {
-  if (item.kind === 'open internship') return `OPEN INTERNSHIP — ${item.companyName}\n${item.title}\n${item.roleFit || 'Hardware fit needs review'}\n${item.timing}; ${item.location || 'Location unknown'} (${item.locationStatus})\nHardware: ${item.hardwareMatches.join(', ')}${renderProfileMatch(item.resumeMatch)}\n${item.url}\nEligibility: ${item.eligibility}${item.requirementSnippet ? `\nListing requirement: “${item.requirementSnippet}”` : ''}`;
+  if (item.kind === 'open internship') {
+    const line=value=>String(value || '').replace(/[\s\u0000-\u001f\u007f]+/g,' ').trim();
+    let location=line(item.location);
+    if(!location || /^(unknown|not specified|location unknown|nan|none|not stated|n\/a|null|undefined|unspecified|not available|not provided)$/i.test(location))location='Location not specified';
+    const url=new URL(item.url);
+    if(!['https:','http:'].includes(url.protocol) || url.username || url.password)throw Error('Posting URL unavailable or invalid');
+    return `${line(item.companyName)} \u2014 ${line(item.title)}\n${location}\n${url.href}`;
+  }
   return `FUNDING OUTREACH PROSPECT — ${item.name}\n${item.fundingStatus}; ${item.providerDate || 'date unknown — review recency'} (${item.dateLabel})${item.stage ? `; ${item.stage}` : ''}${item.amount ? `; amount as reported: ${item.amount}` : ''}\nHardware: ${item.hardwareMatches.join(', ')}\n${item.summary || item.sector || 'Check the linked source.'}${renderProfileMatch(item.resumeMatch,true)}\nFunding source: ${item.sourceUrl}${item.website ? `\nWebsite: ${item.website}` : ''}\nFunding signal; check the open-role section or official careers page. Eligibility/CPT unverified. Data: Midu (https://midu.si).`;
 }
 export function splitText(value, limit = 3500) {
@@ -106,5 +113,9 @@ export function splitText(value, limit = 3500) {
   if (rest) chunks.push(rest); return chunks;
 }
 export function buildChunks(items, demo = false) {
-  return items.flatMap(item => splitText(`${demo ? 'SYNTHETIC DEMO — fictional company and listing\n' : ''}Hardware internship watch · Summer 2027\n\n${renderItem(item)}`).map((body,index,all) => ({ body, key: key(`${item.id}|${index}|${body}`), itemId: item.id, final: index === all.length - 1 })));
+  return items.flatMap(item => {
+    const text=item.kind==='open internship'?`${demo?'SYNTHETIC DEMO — fictional company and listing\n':''}${renderItem(item)}`:`${demo?'SYNTHETIC DEMO — fictional company and listing\n':''}Hardware internship watch · Summer 2027\n\n${renderItem(item)}`;
+    if(item.kind==='open internship' && text.length>4096)throw Error('Compact job notification exceeds Telegram limit; pending retained');
+    return (item.kind==='open internship'?[text]:splitText(text)).map((body,index,all)=>({body,key:key(`${item.id}|${index}|${body}`),itemId:item.id,final:index===all.length-1}));
+  });
 }

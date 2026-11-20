@@ -10,5 +10,5 @@ export function descriptionEntry(item) {
   const key = `s57_${hash(`${company}|${platform}|${identity}`).slice(0,32)}`;
   return [key,{record,company:{name:record.company,platform,slug,...(region?{region}:{})},
     job:{title:record.title,company:record.company,ats_type:platform,ats_id:record.ats_id,
-      requisition_id:null,url:record.url,location:record.location},alert_sent:false,acks:{},attempts:0}];
+      requisition_id:null,url:record.url,location:record.location},observed_at:item.firstSeenAt,alert_sent:false,acks:{},attempts:0}];
 }
