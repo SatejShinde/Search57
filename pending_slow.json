@@ -1,1 +1,34 @@
-{}
+{
+  "s57_51ac7b9da7d4bb357e16f4f942c629a7": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - AI System Architecture Modeling and Performance",
+      "location": "Hillsboro, OR, US",
+      "platform": "eightfold",
+      "ats_id": "200068350",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557077583"
+    },
+    "company": {
+      "name": "Microsoft",
+      "tier": "slow",
+      "platform": "eightfold",
+      "slug": "microsoft",
+      "base_url": "https://apply.careers.microsoft.com",
+      "domain": "microsoft.com",
+      "job_url_host": "https://jobs.careers.microsoft.com"
+    },
+    "job": {
+      "title": "Research Intern - AI System Architecture Modeling and Performance",
+      "company": "Microsoft",
+      "ats_type": "eightfold",
+      "ats_id": "200068350",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557077583",
+      "location": "Hillsboro, OR, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
