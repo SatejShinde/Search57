@@ -1,1 +1,40 @@
-{}
+{
+  "35eb3df21fa4ad967cdbfdd3dec69f21fc50a280e5b07cf06421e49a703809b1": {
+    "record": {
+      "company": "Microchip",
+      "title": "Intern - Engineering (ASIC Verification)",
+      "location": "CA - San Jose - 3870 N. First St",
+      "platform": "workday",
+      "ats_id": "R4973-26",
+      "requisition_id": "R4973-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4973-26"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microchip",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://microchiphr.wd5.myworkdayjobs.com/external"
+      },
+      "job": {
+        "title": "Intern - Engineering (ASIC Verification)",
+        "company": "Microchip",
+        "ats_type": "workday",
+        "ats_id": "R4973-26",
+        "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4973-26",
+        "location": "CA - San Jose - 3870 N. First St",
+        "requisition_id": "R4973-26"
+      }
+    },
+    "observed_at": "2026-11-21T23:13:51.630020Z",
+    "first_pending_at": 1795302831.630039,
+    "last_progress_at": 1795302831.6577733,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "VHDjS7BmKmahJtFl",
+      "tag": "c4e9Xyydln1vqLEZeXa6OQ==",
+      "ciphertext": "ubsZBccG4dw2QazYlCwvtgJjShTQt7hm2nzsYHj8bW6tH1SGH8brAWi/jbbMph07BGyt60ew/Q1pAmt6q6bvPo/xRPrBuYgj66adSZ3v1CWzowmGxXlBfhde"
+    }
+  }
+}
