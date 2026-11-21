@@ -1,1 +1,89 @@
-{}
+{
+  "s57_8bf9cfdd2311917548ebc32ce8b22dba": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Technical Marketing Engineering Intern, Digital Biology and Scientific Computing - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029793",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398854182"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Technical Marketing Engineering Intern, Digital Biology and Scientific Computing - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029793",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398854182",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_0bd7eb2e628d781cb1aff314a277b505": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Product Marketing Intern, DGX Products - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029456",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398660006"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Product Marketing Intern, DGX Products - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029456",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398660006",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  },
+  "s57_75bef3b030493ccbf90d367268e6dba4": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Accounting AI Solution Engineer Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029155",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398717967"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Accounting AI Solution Engineer Intern - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029155",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398717967",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
