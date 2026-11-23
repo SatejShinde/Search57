@@ -1,1 +1,34 @@
-{}
+{
+  "fa0fa607b3414566d25b6cefd72bb3a3821fbf960633503e208b0f05653b470c": {
+    "record": {
+      "company": "Rockwell Automation",
+      "title": "Intern, Software Engineer",
+      "location": "Milwaukee, Wisconsin, United States",
+      "platform": "workday",
+      "ats_id": "R26-5303",
+      "requisition_id": "R26-5303",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Software-Engineer_R26-5303-1"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Rockwell Automation",
+        "tier": "fast",
+        "platform": "workday",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers"
+      },
+      "job": {
+        "title": "Intern, Software Engineer",
+        "company": "Rockwell Automation",
+        "ats_type": "workday",
+        "ats_id": "R26-5303",
+        "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Software-Engineer_R26-5303-1",
+        "location": "Milwaukee, Wisconsin, United States",
+        "requisition_id": "R26-5303"
+      }
+    },
+    "observed_at": "2026-11-23T17:41:39.999222Z",
+    "first_pending_at": 1795455699.9992332,
+    "last_progress_at": 1795455699.9992332,
+    "attempts_without_progress": 0
+  }
+}
