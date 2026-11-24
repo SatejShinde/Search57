@@ -1,1 +1,31 @@
-{}
+{
+  "s57_591a41903e973063b9e922a667ab602d": {
+    "record": {
+      "company": "Qualcomm",
+      "title": "FY27 Intern – Automated Driving Functions - 6 months, Munich, Germany",
+      "location": "Unterschleißheim, BY, DE",
+      "platform": "eightfold",
+      "ats_id": "3099911",
+      "requisition_id": "",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722334540"
+    },
+    "company": {
+      "name": "Qualcomm",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "qualcomm"
+    },
+    "job": {
+      "title": "FY27 Intern – Automated Driving Functions - 6 months, Munich, Germany",
+      "company": "Qualcomm",
+      "ats_type": "eightfold",
+      "ats_id": "3099911",
+      "url": "https://qualcomm.eightfold.ai/careers/job/446722334540",
+      "location": "Unterschleißheim, BY, DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
