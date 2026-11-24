@@ -1,1 +1,34 @@
-{}
+{
+  "76f70bb96c871266ca415240522827e4f56e6d91b70a977cd552e2ad19b4dd8d": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Influencer Marketing MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2030055",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398919713"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "NVIDIA",
+        "tier": "fast",
+        "platform": "eightfold",
+        "slug": "nvidia"
+      },
+      "job": {
+        "title": "Influencer Marketing MBA Intern - Summer 2027",
+        "company": "NVIDIA",
+        "ats_type": "eightfold",
+        "ats_id": "JR2030055",
+        "url": "https://nvidia.eightfold.ai/careers/job/893398919713",
+        "location": "Santa Clara, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-24T22:21:07.539429Z",
+    "first_pending_at": 1795558867.5394418,
+    "last_progress_at": 1795558867.5394418,
+    "attempts_without_progress": 0
+  }
+}
