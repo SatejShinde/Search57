@@ -1,1 +1,34 @@
-{}
+{
+  "ad98d11d70a757c009803ab8995c0e9163fb4699835366d69c96bee88f2787c1": {
+    "record": {
+      "company": "Western Digital",
+      "title": "Intern - Manufacturing & Logistics Engineering (Studying Master's Degree)",
+      "location": "Phra Nakhon Si Ayutthaya,, BangPa-in, th",
+      "platform": "smartrecruiters",
+      "ats_id": "744000163411285",
+      "requisition_id": "REF34920J",
+      "url": "https://jobs.smartrecruiters.com/westerndigital/744000163411285"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Western Digital",
+        "tier": "fast",
+        "platform": "smartrecruiters",
+        "slug": "westerndigital"
+      },
+      "job": {
+        "title": "Intern - Manufacturing & Logistics Engineering (Studying Master's Degree)",
+        "company": "Western Digital",
+        "ats_type": "smartrecruiters",
+        "ats_id": "744000163411285",
+        "url": "https://jobs.smartrecruiters.com/westerndigital/744000163411285",
+        "location": "Phra Nakhon Si Ayutthaya,, BangPa-in, th",
+        "requisition_id": "REF34920J"
+      }
+    },
+    "observed_at": "2026-11-24T09:13:04.038524Z",
+    "first_pending_at": 1795511584.0385447,
+    "last_progress_at": 1795511584.0385447,
+    "attempts_without_progress": 0
+  }
+}
