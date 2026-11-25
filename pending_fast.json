@@ -1,1 +1,31 @@
-{}
+{
+  "s57_fa76d5122bcbd7562e2932c2e65a9d30": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Developer Technology Intern - Video",
+      "location": "Würselen, NRW, DE",
+      "platform": "eightfold",
+      "ats_id": "JR2029859",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398947714"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Developer Technology Intern - Video",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029859",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398947714",
+      "location": "Würselen, NRW, DE",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
