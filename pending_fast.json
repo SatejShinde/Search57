@@ -1,1 +1,31 @@
-{}
+{
+  "s57_d4cf1c1010b3209615e45081d3d970a8": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, Simulation Technology - Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2029531",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398660005"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "Software Engineering Intern, Simulation Technology - Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2029531",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398660005",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
