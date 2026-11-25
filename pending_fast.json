@@ -1,1 +1,31 @@
-{}
+{
+  "s57_57c42ee73bb01c3ec199076e5aedb1ff": {
+    "record": {
+      "company": "NVIDIA",
+      "title": "AI and Quant DevTech Engineering Intern – Summer 2027",
+      "location": "Santa Clara, CA, US",
+      "platform": "eightfold",
+      "ats_id": "JR2030517",
+      "requisition_id": "",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398919649"
+    },
+    "company": {
+      "name": "NVIDIA",
+      "tier": "fast",
+      "platform": "eightfold",
+      "slug": "nvidia"
+    },
+    "job": {
+      "title": "AI and Quant DevTech Engineering Intern – Summer 2027",
+      "company": "NVIDIA",
+      "ats_type": "eightfold",
+      "ats_id": "JR2030517",
+      "url": "https://nvidia.eightfold.ai/careers/job/893398919649",
+      "location": "Santa Clara, CA, US",
+      "requisition_id": null
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
