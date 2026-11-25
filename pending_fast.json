@@ -1,1 +1,31 @@
-{}
+{
+  "s57_1f42dcdf9851bdee22cd60594dc3cc2f": {
+    "record": {
+      "company": "Microchip",
+      "title": "Intern-Equipment Technician",
+      "location": "OR - Gresham",
+      "platform": "workday",
+      "ats_id": "R4577-26",
+      "requisition_id": "R4577-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/OR---Gresham/Intern-Equipment-Technician_R4577-26"
+    },
+    "company": {
+      "name": "Microchip",
+      "tier": "fast",
+      "platform": "workday",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external"
+    },
+    "job": {
+      "title": "Intern-Equipment Technician",
+      "company": "Microchip",
+      "ats_type": "workday",
+      "ats_id": "R4577-26",
+      "url": "https://microchiphr.wd5.myworkdayjobs.com/external/job/OR---Gresham/Intern-Equipment-Technician_R4577-26",
+      "location": "OR - Gresham",
+      "requisition_id": "R4577-26"
+    },
+    "alert_sent": true,
+    "acks": {},
+    "attempts": 0
+  }
+}
