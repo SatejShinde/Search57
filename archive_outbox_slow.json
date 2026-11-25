@@ -1,1 +1,37 @@
-{}
+{
+  "fb4f1dbf5a9f910e45c9094f708eefd98d2da4fe95388f3ec5165cebe1200f1e": {
+    "record": {
+      "company": "Microsoft",
+      "title": "Research Intern - CXL Memory",
+      "location": "Mountain View, CA, US",
+      "platform": "eightfold",
+      "ats_id": "200068734",
+      "requisition_id": "",
+      "url": "https://jobs.careers.microsoft.com/careers/job/1970393557079445"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Microsoft",
+        "tier": "slow",
+        "platform": "eightfold",
+        "slug": "microsoft",
+        "base_url": "https://apply.careers.microsoft.com",
+        "domain": "microsoft.com",
+        "job_url_host": "https://jobs.careers.microsoft.com"
+      },
+      "job": {
+        "title": "Research Intern - CXL Memory",
+        "company": "Microsoft",
+        "ats_type": "eightfold",
+        "ats_id": "200068734",
+        "url": "https://jobs.careers.microsoft.com/careers/job/1970393557079445",
+        "location": "Mountain View, CA, US",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-25T01:01:33.864543Z",
+    "first_pending_at": 1795568493.864556,
+    "last_progress_at": 1795568493.864556,
+    "attempts_without_progress": 0
+  }
+}
