@@ -1,1 +1,35 @@
-{}
+{
+  "0c1d6639fb9f7c16439815f15265dbfae56f7443ca2ef110c29a5843eb2f1b0b": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Web Marketing Intern - Digital Experience Analytics",
+      "location": "Dallas, TX, United States",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25020507",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25020507",
+      "direct_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020507"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Texas Instruments",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+      },
+      "job": {
+        "title": "Web Marketing Intern - Digital Experience Analytics",
+        "company": "Texas Instruments",
+        "ats_type": "oracle",
+        "ats_id": "edbz.fa.us2.oraclecloud.com:25020507",
+        "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25020507",
+        "location": "Dallas, TX, United States",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-25T21:32:22.923903Z",
+    "first_pending_at": 1795642342.9239156,
+    "last_progress_at": 1795642342.9239156,
+    "attempts_without_progress": 0
+  }
+}
