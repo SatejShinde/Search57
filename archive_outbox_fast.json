@@ -1,1 +1,41 @@
-{}
+{
+  "4991a67b2a6a3753ea16618afa7c15a0a95ea9af28496b547bbb8b2585a0e838": {
+    "record": {
+      "company": "Texas Instruments",
+      "title": "Product/Test Eng Intern",
+      "location": "HIPODROMO DE LA CONDESA, Mexico",
+      "platform": "oracle",
+      "ats_id": "edbz.fa.us2.oraclecloud.com:25014837",
+      "requisition_id": "",
+      "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25014837",
+      "direct_url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25014837"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Texas Instruments",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+      },
+      "job": {
+        "title": "Product/Test Eng Intern",
+        "company": "Texas Instruments",
+        "ats_type": "oracle",
+        "ats_id": "edbz.fa.us2.oraclecloud.com:25014837",
+        "url": "https://edbz.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#25014837",
+        "location": "HIPODROMO DE LA CONDESA, Mexico",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-25T19:44:03.277166Z",
+    "first_pending_at": 1795635843.2771873,
+    "last_progress_at": 1795635843.3136666,
+    "attempts_without_progress": 0,
+    "encrypted_detail": {
+      "v": 1,
+      "iv": "fWT4GovctxSJBspV",
+      "tag": "+Bkf23vLrXErps27no/UiA==",
+      "ciphertext": "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"
+    }
+  }
+}
