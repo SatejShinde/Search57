@@ -1,1 +1,35 @@
-{}
+{
+  "02b85ccc46fffe9e30ff8c48c8ab4d20d9d4bc49cb3a64c5356871f55b9575e6": {
+    "record": {
+      "company": "Honeywell",
+      "title": "Intern Masters Eng Pgm Mgt",
+      "location": "Dublin, Co. Dublin, Ireland",
+      "platform": "oracle",
+      "ats_id": "ibqbjb.fa.ocs.oraclecloud.com:162563",
+      "requisition_id": "",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Honeywell#162563",
+      "direct_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/162563"
+    },
+    "retrieval_payload": {
+      "company": {
+        "name": "Honeywell",
+        "tier": "fast",
+        "platform": "oracle",
+        "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell"
+      },
+      "job": {
+        "title": "Intern Masters Eng Pgm Mgt",
+        "company": "Honeywell",
+        "ats_type": "oracle",
+        "ats_id": "ibqbjb.fa.ocs.oraclecloud.com:162563",
+        "url": "https://ibqbjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Honeywell#162563",
+        "location": "Dublin, Co. Dublin, Ireland",
+        "requisition_id": null
+      }
+    },
+    "observed_at": "2026-11-26T14:32:53.297757Z",
+    "first_pending_at": 1795703573.2977712,
+    "last_progress_at": 1795703573.2977712,
+    "attempts_without_progress": 0
+  }
+}
